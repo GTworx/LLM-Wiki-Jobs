@@ -1,4 +1,4 @@
-# LLM Wiki for Job Searches & Career Tracking
+# LLM Wiki for Job Searches & Career Tracking by Sooezy.Academy
 
 A personal knowledge base and automated job market intelligence system maintained by AI, built according to **Andrej Karpathy's LLM Wiki pattern**. Adapted for tracking tech job postings, skills, tools, companies, and interview preparation across targeted geographic regions.
 
