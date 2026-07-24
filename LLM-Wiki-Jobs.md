@@ -24,99 +24,139 @@ The scope includes, but is not limited to, the following IT & tech focus areas:
 \*   **\*\*Management & Strategy\*\***: IT Consultancy, Project Management (Agile, Scrum, SAFe), Product Management, Enterprise Architecture  
 \*   **\*\*Creative Tech\*\***: Digital Marketing Engineering, Marketing Analytics, Tech SEO, Video Production Engine, UI/UX Design Engine
 
-\---
+---
 
-\#\# Folder Structure
+## **Geographic Scope & Target Locations**
+
+All job fetching, scrapers, and ingestion protocols are strictly filtered for **Sweden** and **Turkey** (including Remote roles based in or eligible for Sweden/Turkey).
+
+---
+
+## Folder Structure
 
 \`\`\`text  
 raw/                 \-- Source documents & scraped job payloads (Immutable)  
-  ├─ postings/       \-- Raw job announcements (JSON/HTML/MD scraped from LinkedIn, Glassdoor, etc.)  
+  ├─ postings/       \-- Raw job announcements in Sweden & Turkey (JSON/HTML/MD scraped)  
   └─ resume\_assets/  \-- Personal resumes, cover letters, certifications, transcripts  
 wiki/                \-- Markdown pages maintained by the AI  
   ├─ index.md        \-- Global Table of Contents  
   ├─ log.md          \-- Append-only record of all ingest operations & modifications  
-  ├─ jobs/           \-- Individual parsed job postings (e.g., \`job-2026-sap-consultant-deloitte.md\`)  
+  ├─ jobs/           \-- Individual parsed job postings (e.g., \`job-2026-spotify-ios-engineer.md\`)  
   ├─ skills/         \-- Atomic skill & framework pages (e.g., \`langchain.md\`, \`sap-s4hana.md\`)  
-  ├─ companies/      \-- Target employer pages (e.g., \`accenture.md\`, \`openai.md\`)  
-  └─ domains/        \-- Broad vertical pages (e.g., \`agentic-ai.md\`, \`cyber-security.md\`)
+  ├─ companies/      \-- Target employer pages (e.g., \`spotify.md\`, \`getir.md\`)  
+  ├─ domains/        \-- Broad vertical pages (e.g., \`agentic-ai.md\`, \`cyber-security.md\`)  
+  └─ countries/      \-- Country entity pages (\`sweden.md\`, \`turkey.md\`)  
+\`\`\`
+
+## **Obsidian Graph View Node Color Scheme**
+
+To visually separate entities in the Obsidian knowledge graph, node color groups are configured as follows:
+
+* 🟠 **Country Nodes (\`wiki/countries/\`)**: **Orange** (\`#FF9800\`)
+* 🔵 **Job Nodes (\`wiki/jobs/\`)**: **Blue** (\`#2196F3\`)
+* 🟡 **Skill & Tool Nodes (\`wiki/skills/\`)**: **Yellow** (\`#FFEB3B\`)
+
+---
 
 ## **Job Fetching & Scraping Protocol**
 
 To fetch job postings from external sites (LinkedIn, Indeed, company career pages) using Boolean queries or web automation:
 
-### **1\. Execute Domain-Specific Search Strings**
+### **1. Execute Location & Domain Search Strings**
 
-Construct boolean query parameters per targeted domain. For example:
+Construct boolean query parameters per targeted domain filtered strictly for **Sweden** and **Turkey**:
 
-* **Agentic AI**: ("Agentic AI" OR "Autonomous Agents" OR "LangChain" OR "AutoGPT") AND ("Python" OR "LLM")  
-* **SAP Consultancy**: ("SAP" OR "S/4HANA") AND ("Consultant" OR "Architect") AND NOT "Intern"  
-* **Cyber Security**: ("Cyber Security" OR "InfoSec") AND ("Penetration Testing" OR "SOC") NOT "Junior"
+* **Agentic AI (Sweden/Turkey)**: ("Agentic AI" OR "Autonomous Agents" OR "LangChain" OR "LLM") AND ("Sweden" OR "Turkey" OR "Stockholm" OR "Istanbul")  
+* **SAP Consultancy (Sweden/Turkey)**: ("SAP" OR "S/4HANA") AND ("Consultant" OR "Architect") AND ("Sweden" OR "Turkey")  
+* **Cyber Security (Sweden/Turkey)**: ("Cyber Security" OR "SecOps") AND ("Penetration Testing" OR "SOC") AND ("Sweden" OR "Turkey")
 
-### **2\. Save Raw Output**
+### **2. Save Raw Output**
 
-Store raw HTML, JSON-LD API output, or text markdown under raw/postings/YYYY-MM-DD\_\[source\]\_\[company\]\_\[title\].md. **Never edit these files after initial write.**
+Store raw HTML, JSON-LD API output, or text markdown under \`raw/postings/YYYY-MM-DD\_[source]\_[company]\_[title].md\`. **Never edit these files after initial write.**
 
 ## **Ingest & Entity Extraction Workflow**
 
 When ingesting job postings into the Wiki:
 
-> 1. **Parse & Standardize**: Read the target payload in raw/postings/.  
+> 1. **Parse & Standardize**: Read the target payload in \`raw/postings/\`.  
 > 2. **Extract Entities**: Pull mandatory attributes into standardized tagging fields:  
    * **Required Skills**: Technologies, languages, frameworks (e.g., Python, React, ABAP)  
    * **Required Tools**: Platforms, databases, CI/CD tools (e.g., Docker, Kubernetes, SAP Fiori, Jira)  
-   * **Certifications**: Formal credentials required/preferred (e.g., AWS-SAA, CISSP, PMP, SAP Certified)  
+   * **Certifications**: Formal credentials required/preferred (e.g., AWS-SAA, CISSP, PMP)  
    * **Experience Level**: Entry, Mid-Level, Senior, Lead, Principal, Executive  
-   * **Employment Details**: Work setup (Remote, Hybrid, On-site), Compensation Range, Location, Visa Requirement  
-> 3. **Create Job Page**: Build a detailed record under wiki/jobs/.  
-> 4. **Update Atomic Entity Pages**: Create or edit pages under wiki/skills/, wiki/companies/, and wiki/domains/. Link back to the new job page using \[\[wiki-links\]\].  
-> 5. **Update Index & Log**: Update wiki/index.md with new entries and append the action to wiki/log.md.
+   * **Location & Country**: City, Country ([[sweden]] or [[turkey]])  
+   * **Employment Details**: Work setup (Remote, Hybrid, On-site), Compensation Range, Visa Requirement  
+> 3. **Create Job Page**: Build a detailed record under \`wiki/jobs/\`.  
+> 4. **Update Atomic Entity Pages**: Create or edit pages under \`wiki/skills/\`, \`wiki/companies/\`, \`wiki/domains/\`, and \`wiki/countries/\`. Link back to the new job page using \`[[wiki-links]]\`.  
+> 5. **Update Index & Log**: Update \`wiki/index.md\` with new entries and append the action to \`wiki/log.md\`.
 
 ## **Standardized Page Structures**
 
-### **1\. Job Posting Page (wiki/jobs/job-\[id\].md)**
+### **1. Job Posting Page (wiki/jobs/job-[id].md)**
 
 Markdown  
-\# \[Job Title\] at \[Company Name\]
+# [Job Title] at [Company Name]
 
-**\*\*Summary\*\***: One to two sentences summarizing the primary purpose of this role.
+**Summary**: One to two sentences summarizing the primary purpose of this role.
 
-**\*\*Metadata\*\***:  
-\- **\*\*Company\*\***: \[\[company-name\]\]  
-\- **\*\*Domain\*\***: \[\[domain-name\]\]  
-\- **\*\*Experience Level\*\***: Senior / Mid / Lead  
-\- **\*\*Location / Setup\*\***: City, Country (Hybrid / Remote)  
-\- **\*\*Source File\*\***: (source: postings/2026-07-24*\_linkedin\_*deloitte.md)  
-\- **\*\*Posting Date\*\***: YYYY-MM-DD  
-\- **\*\*Application Status\*\***: Interested / Applied / Interviewing / Rejected / Offered
+**Metadata**:  
+- **Company**: [[company-name]]  
+- **Domain**: [[domain-name]]  
+- **Country**: [[sweden]] or [[turkey]]  
+- **Experience Level**: Senior / Mid / Lead  
+- **Location / Setup**: City, Country (Hybrid / Remote)  
+- **Source File**: (source: postings/2026-07-24_linkedin_spotify.md)  
+- **Posting Date**: YYYY-MM-DD  
+- **Application Status**: Interested / Applied / Interviewing / Rejected / Offered
 
-\---
+---
 
-\#\# Key Requirements & Extracted Tags
+## Key Requirements & Extracted Tags
 
-\* **\*\*Required Skills\*\***: \[\[skill-1\]\], \[\[skill-2\]\], \[\[skill-3\]\]  
-\* **\*\*Tools & Platforms\*\***: \[\[tool-1\]\], \[\[tool-2\]\]  
-\* **\*\*Certifications\*\***: \[\[certification-1\]\]  
-\* **\*\*Domain Focus\*\***: \[\[domain-1\]\], \[\[domain-2\]\]
+* **Required Skills**: [[skill-1]], [[skill-2]], [[skill-3]]  
+* **Tools & Platforms**: [[tool-1]], [[tool-2]]  
+* **Certifications**: [[certification-1]]  
+* **Domain Focus**: [[domain-1]], [[domain-2]]  
 
-\#\# Key Responsibilities  
-\- Core responsibility item 1  
-\- Core responsibility item 2
+## Key Responsibilities  
+- Core responsibility item 1  
+- Core responsibility item 2
 
-\#\# Compensation & Benefits  
-\- Salary range, bonus, options, or noted as "Unlisted".
+## Compensation & Benefits  
+- Salary range, bonus, options, or noted as "Unlisted".
 
-\#\# Strategic Match Analysis  
-\> Quick note on how well this job matches current personal skills in the wiki and what gaps exist.
+## Strategic Match Analysis  
+> Quick note on how well this job matches current personal skills in the wiki and what gaps exist.
 
-\#\# Related Pages  
-\- \[\[company-name\]\]  
-\- \[\[domain-name\]\]  
-\- \[\[skill-1\]\]
+## Related Pages  
+- [[company-name]]  
+- [[domain-name]]  
+- [[sweden]] / [[turkey]]  
+- [[skill-1]]
 
-### **2\. Skill & Tool Page Format (wiki/skills/\[skill-name\].md)**
+### **2. Country Page Format (wiki/countries/[country-name].md)**
 
 Markdown  
-\# \[Skill / Tool Name\]
+# [Country Name]
+
+**Code**: SE / TR  
+**Active Wiki Roles**: Count  
+
+---
+
+## Overview  
+Geographic market breakdown for tech roles based in [Country Name].
+
+## Active Job Listings  
+- [[job-id]] - [Role Title] at [[company-name]]
+
+## Top Companies in [Country Name]  
+- [[company-name]]
+
+### **3. Skill & Tool Page Format (wiki/skills/[skill-name].md)**
+
+Markdown  
+\# [Skill / Tool Name]
 
 **\*\*Category\*\***: Programming Language / Framework / Platform / Methodology / Certification  
 **\*\*Demand Score\*\***: High / Medium / Low (Based on total wiki occurrences)

@@ -1,0 +1,16 @@
+/* Node styling for LLM Wiki Jobs */
+
+/* Country nodes: Orange */
+.tag-country, [data-path*="wiki/countries"] {
+  color: #ff9800 !important;
+}
+
+/* Job nodes: Blue */
+.tag-job, [data-path*="wiki/jobs"] {
+  color: #2196f3 !important;
+}
+
+/* Skill nodes: Yellow */
+.tag-skill, [data-path*="wiki/skills"] {
+  color: #ffeb3b !important;
+}

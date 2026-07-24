@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "c45dd6bd635e14ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "b032028d459f019b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57330f05d4d03b8d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "10dd2d16756e50d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb5d356a790e5594",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a18e8e26c9cfa2e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "bcb9b1303d901024",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bc1af8362aeba764",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "040869a7e4b648d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "c28bdee77763147c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe14e8187736399e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "66031ee4bf7c587c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "74cd76c0e6c403ad",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a7ba7429c01d6312",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ad720b0eb2c85d7b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "57330f05d4d03b8d",
+  "lastOpenFiles": [
+    "wiki/countries/turkey.md",
+    "wiki/countries/sweden.md",
+    "wiki/jobs/job-2026-crowdstrike-senior-secops-engineer.md",
+    "wiki/log.md",
+    "wiki/index.md",
+    "wiki/domains/creative-tech.md",
+    "wiki/domains/management-strategy.md",
+    "wiki/domains/web-mobile.md",
+    "wiki/domains/cyber-security.md",
+    "wiki/domains/cloud-infrastructure.md",
+    "wiki/domains/software-development.md",
+    "wiki/domains/enterprise-systems.md",
+    "wiki/domains/agentic-ai.md",
+    "wiki/companies/spotify.md",
+    "wiki/companies/klarna.md",
+    "wiki/companies/insider.md",
+    "wiki/companies/getir.md",
+    "wiki/companies/ericsson.md",
+    "wiki/companies/deloitte-turkey.md",
+    "wiki/companies/trendyol.md",
+    "wiki/companies/tele2.md",
+    "wiki/skills/swiftui.md",
+    "wiki/skills/swift.md",
+    "wiki/skills/react-native.md",
+    "wiki/countries",
+    "raw/postings/2026-07-24_linkedin_insider_creative-tech-seo-engineer.md",
+    "raw/postings/2026-07-24_glassdoor_trendyol_principal-enterprise-it-consultant.md",
+    "scripts/build_wiki.py",
+    "scripts",
+    "raw/resume_assets"
+  ]
+}
