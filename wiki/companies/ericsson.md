@@ -13,7 +13,7 @@ Ericsson is a featured employer tracked in [[sweden]].
 
 ## Primary Tech Stack  
 - **Skills**: [[python]]  
-- **Tools & Platforms**: [[docker]], [[grafana]], [[aws]], [[cicd]], [[github-actions]], [[datadog]]  
+- **Tools & Platforms**: [[terraform]], [[docker]], [[aws]], [[cicd]], [[grafana]], [[github-actions]]  
 
 ## Related Domains  
 - [[cloud-infrastructure]]

@@ -10,6 +10,9 @@
 ## Overview  
 Identity and Access Management framework ensuring appropriate access to enterprise resources across cloud environments.
 
+## Candidates Possessing This Skill  
+- [[mehmet-eyyup-gulgun]] - Mehmet Eyyüp Gülgün
+
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  
 - [[job-2026-tele2-cloud-secops-security-engineer]] - Mentions: Key requirement in Senior Cloud SecOps & Security Engineer at [[tele2]] ([[sweden]])

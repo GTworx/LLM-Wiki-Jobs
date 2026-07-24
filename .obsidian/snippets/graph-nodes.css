@@ -14,3 +14,8 @@
 .tag-skill, [data-path*="wiki/skills"] {
   color: #ffeb3b !important;
 }
+
+/* Candidate nodes: Pink */
+.tag-candidate, [data-path*="wiki/candidates"] {
+  color: #ff69b4 !important;
+}

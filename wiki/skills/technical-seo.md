@@ -10,6 +10,9 @@
 ## Overview  
 Field of web engineering focused on optimizing website architecture, indexing, rendering, and Core Web Vitals for search engines.
 
+## Candidates Possessing This Skill  
+- *No candidates tagged with this skill yet.*
+
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  
 - [[job-2026-insider-creative-tech-seo-engineer]] - Mentions: Key requirement in Technical SEO & Creative Tech Engineer at [[insider]] ([[turkey]])

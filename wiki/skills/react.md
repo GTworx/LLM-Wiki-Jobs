@@ -10,6 +10,9 @@
 ## Overview  
 Front-end JavaScript library for building responsive component-based user interfaces.
 
+## Candidates Possessing This Skill  
+- *No candidates tagged with this skill yet.*
+
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  
 - [[job-2026-getir-fullstack-systems-architect]] - Mentions: Key requirement in Senior Full-Stack Systems Architect at [[getir]] ([[turkey]])

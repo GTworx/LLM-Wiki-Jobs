@@ -34,7 +34,9 @@
 - SEK 850,000 - SEK 1,050,000
 
 ## Strategic Match Analysis  
-> Strong alignment with candidate profile across core skills (iam, penetration-testing, python). Target role in [[sweden]].
+> Evaluated Candidate Profiles in Wiki:  
+- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 95%** (Key overlap: [[docker]], [[aws]], [[python]])
+- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 80%** (Key overlap: [[python]], [[iam]], [[secops]])
 
 ## Related Pages  
 - [[tele2]]  

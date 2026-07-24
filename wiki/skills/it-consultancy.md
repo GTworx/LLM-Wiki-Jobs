@@ -10,6 +10,10 @@
 ## Overview  
 Strategic advisory domain focused on guiding organizations through technology selection, architecture, and modernization.
 
+## Candidates Possessing This Skill  
+- [[gokhan-tenekecioglu]] - Gökhan Tenekecioğlu
+- [[mehmet-eyyup-gulgun]] - Mehmet Eyyüp Gülgün
+
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  
 - [[job-2026-trendyol-principal-enterprise-it-consultant]] - Mentions: Key requirement in Principal Enterprise IT & Strategy Consultant at [[trendyol]] ([[turkey]])

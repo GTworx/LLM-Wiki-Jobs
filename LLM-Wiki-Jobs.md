@@ -34,27 +34,29 @@ All job fetching, scrapers, and ingestion protocols are strictly filtered for **
 
 ## Folder Structure
 
-\`\`\`text  
-raw/                 \-- Source documents & scraped job payloads (Immutable)  
-  ├─ postings/       \-- Raw job announcements in Sweden & Turkey (JSON/HTML/MD scraped)  
-  └─ resume\_assets/  \-- Personal resumes, cover letters, certifications, transcripts  
-wiki/                \-- Markdown pages maintained by the AI  
-  ├─ index.md        \-- Global Table of Contents  
-  ├─ log.md          \-- Append-only record of all ingest operations & modifications  
-  ├─ jobs/           \-- Individual parsed job postings (e.g., \`job-2026-spotify-ios-engineer.md\`)  
-  ├─ skills/         \-- Atomic skill & framework pages (e.g., \`langchain.md\`, \`sap-s4hana.md\`)  
-  ├─ companies/      \-- Target employer pages (e.g., \`spotify.md\`, \`getir.md\`)  
-  ├─ domains/        \-- Broad vertical pages (e.g., \`agentic-ai.md\`, \`cyber-security.md\`)  
-  └─ countries/      \-- Country entity pages (\`sweden.md\`, \`turkey.md\`)  
-\`\`\`
+```text  
+raw/                 -- Source documents & scraped job payloads (Immutable)  
+  ├─ postings/       -- Raw job announcements in Sweden & Turkey (JSON/HTML/MD scraped)  
+  └─ resume_assets/  -- Personal resumes, cover letters, certifications, transcripts  
+wiki/                -- Markdown pages maintained by the AI  
+  ├─ index.md        -- Global Table of Contents  
+  ├─ log.md          -- Append-only record of all ingest operations & modifications  
+  ├─ jobs/           -- Individual parsed job postings (e.g., `job-2026-spotify-ios-engineer.md`)  
+  ├─ skills/         -- Atomic skill & framework pages (e.g., `langchain.md`, `sap-s4hana.md`)  
+  ├─ companies/      -- Target employer pages (e.g., `spotify.md`, `getir.md`)  
+  ├─ domains/        -- Broad vertical pages (e.g., `agentic-ai.md`, `cyber-security.md`)  
+  ├─ countries/      -- Country entity pages (`sweden.md`, `turkey.md`)  
+  └─ candidates/     -- Candidate profile pages (`gokhan-tenekecioglu.md`, `mehmet-eyyup-gulgun.md`)  
+```
 
 ## **Obsidian Graph View Node Color Scheme**
 
 To visually separate entities in the Obsidian knowledge graph, node color groups are configured as follows:
 
-* 🟠 **Country Nodes (\`wiki/countries/\`)**: **Orange** (\`#FF9800\`)
-* 🔵 **Job Nodes (\`wiki/jobs/\`)**: **Blue** (\`#2196F3\`)
-* 🟡 **Skill & Tool Nodes (\`wiki/skills/\`)**: **Yellow** (\`#FFEB3B\`)
+* 🌸 **Candidate Nodes (`wiki/candidates/`)**: **Pink** (`#FF69B4`)
+* 🟠 **Country Nodes (`wiki/countries/`)**: **Orange** (`#FF9800`)
+* 🔵 **Job Nodes (`wiki/jobs/`)**: **Blue** (`#2196F3`)
+* 🟡 **Skill & Tool Nodes (`wiki/skills/`)**: **Yellow** (`#FFEB3B`)
 
 ---
 

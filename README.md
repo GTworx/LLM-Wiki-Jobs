@@ -32,6 +32,7 @@ The wiki tracks job opportunities across 8 key technical focus areas:
 
 To visually navigate entities in Obsidian's Graph View, nodes are color-coded as follows:
 
+* 🌸 **Candidate Nodes (`wiki/candidates/`)**: **Pink** (`#FF69B4`)
 * 🟠 **Country Nodes (`wiki/countries/`)**: **Orange** (`#FF9800`)
 * 🔵 **Job Nodes (`wiki/jobs/`)**: **Blue** (`#2196F3`)
 * 🟡 **Skill & Tool Nodes (`wiki/skills/`)**: **Yellow** (`#FFEB3B`)
@@ -43,18 +44,20 @@ To visually navigate entities in Obsidian's Graph View, nodes are color-coded as
 ```text
 raw/                 -- Source documents & scraped job payloads (Immutable)
   ├─ postings/       -- Raw job announcements in Sweden & Turkey (MD/HTML/JSON)
-  └─ resume_assets/  -- Candidate resumes, cover letters, certifications
+  └─ resume/         -- Uploaded candidate CVs (.docx, .pdf, .txt)
 wiki/                -- Interlinked markdown pages maintained by AI
   ├─ index.md        -- Global Table of Contents & Status Dashboard
   ├─ log.md          -- Append-only record of all ingest operations & modifications
+  ├─ candidates/     -- Candidate profile pages (gokhan-tenekecioglu.md, mehmet-eyyup-gulgun.md)
   ├─ jobs/           -- Individual parsed job postings (e.g., job-2026-spotify-ios-engineer.md)
   ├─ skills/         -- Atomic skill & tool pages (e.g., langchain.md, sap-s4hana.md)
   ├─ companies/      -- Target employer profile pages (e.g., spotify.md, getir.md)
   ├─ domains/        -- Vertical domain pages (e.g., agentic-ai.md, enterprise-systems.md)
   └─ countries/      -- Country entity pages (sweden.md, turkey.md)
 scripts/
-  └─ build_wiki.py   -- Automated ingestion, extraction, and wiki builder script
+  └─ build_wiki.py   -- Automated candidate & job ingestion, extraction, and wiki builder script
 ```
+
 
 ---
 

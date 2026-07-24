@@ -34,7 +34,9 @@
 - TRY 1,500,000 - TRY 2,000,000 + Stock Bonus
 
 ## Strategic Match Analysis  
-> Strong alignment with candidate profile across core skills (agile, it-consultancy, safe). Target role in [[turkey]].
+> Evaluated Candidate Profiles in Wiki:  
+- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 85%** (Key overlap: [[agile]], [[it-consultancy]])
+- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 95%** (Key overlap: [[agile]], [[scrum]], [[it-consultancy]])
 
 ## Related Pages  
 - [[trendyol]]  

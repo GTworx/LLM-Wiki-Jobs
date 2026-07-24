@@ -10,6 +10,9 @@
 ## Overview  
 Cross-platform mobile application framework created by Meta, allowing React developers to target native iOS/Android.
 
+## Candidates Possessing This Skill  
+- *No candidates tagged with this skill yet.*
+
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  
 - [[job-2026-spotify-senior-ios-mobile-engineer]] - Mentions: Key requirement in Senior iOS & Cross-Platform Mobile Engineer at [[spotify]] ([[sweden]])

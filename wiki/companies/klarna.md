@@ -12,8 +12,8 @@ Klarna is a featured employer tracked in [[sweden]].
 - [[job-2026-klarna-staff-agentic-ai-engineer]] - Staff Agentic AI Engineer (Stockholm, Sweden (Hybrid / Remote))
 
 ## Primary Tech Stack  
-- **Skills**: [[langgraph]], [[langchain]], [[python]], [[openai-api]], [[pytorch]]  
-- **Tools & Platforms**: [[docker]], [[aws]], [[cicd]], [[vector-databases]], [[kubernetes]]  
+- **Skills**: [[openai-api]], [[pytorch]], [[langgraph]], [[langchain]], [[python]]  
+- **Tools & Platforms**: [[vector-databases]], [[docker]], [[aws]], [[cicd]], [[kubernetes]]  
 
 ## Related Domains  
 - [[agentic-ai]]

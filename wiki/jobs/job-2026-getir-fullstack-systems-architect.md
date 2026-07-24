@@ -34,7 +34,9 @@
 - TRY 1,200,000 - TRY 1,600,000 + Stock Options
 
 ## Strategic Match Analysis  
-> Strong alignment with candidate profile across core skills (graphql, nextjs, nodejs). Target role in [[turkey]].
+> Evaluated Candidate Profiles in Wiki:  
+- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[docker]], [[aws]], [[rest-apis]])
+- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 85%** (Key overlap: [[rest-apis]], [[postgresql]])
 
 ## Related Pages  
 - [[getir]]  

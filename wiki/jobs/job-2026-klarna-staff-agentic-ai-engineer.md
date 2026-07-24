@@ -34,7 +34,8 @@
 - SEK 1,100,000 - SEK 1,400,000 + Equity
 
 ## Strategic Match Analysis  
-> Strong alignment with candidate profile across core skills (langchain, langgraph, openai-api). Target role in [[sweden]].
+> Evaluated Candidate Profiles in Wiki:  
+- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[openai-api]], [[vector-databases]], [[docker]])
 
 ## Related Pages  
 - [[klarna]]  

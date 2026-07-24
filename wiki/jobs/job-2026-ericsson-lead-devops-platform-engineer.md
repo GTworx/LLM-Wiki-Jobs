@@ -34,7 +34,8 @@
 - SEK 900,000 - SEK 1,150,000
 
 ## Strategic Match Analysis  
-> Strong alignment with candidate profile across core skills (python). Target role in [[sweden]].
+> Evaluated Candidate Profiles in Wiki:  
+- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[docker]], [[aws]], [[cicd]])
 
 ## Related Pages  
 - [[ericsson]]  

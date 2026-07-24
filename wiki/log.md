@@ -26,3 +26,17 @@ Append-only record of all ingest operations, entity extractions, and wiki modifi
 - **Company Profile Pages Updated**: 8 pages generated in `wiki/companies/`.
 - **Domain Vertical Pages Updated**: 8 pages generated in `wiki/domains/`.
 - **Obsidian Graph View Styling**: Applied Orange for Countries, Blue for Jobs, and Yellow for Skills.
+## [2026-07-24 22:08:04] - Candidate Ingestion & Graph Styling Run
+- **Candidates Processed**: Ingested 2 CV profiles from `raw/resume/` (`gokhan-tenekecioglu`, `mehmet-eyyup-gulgun`).
+- **Candidate Nodes Generated**: Created 2 pages under `wiki/candidates/`.
+- **Geographic Filtering**: Filtered for Sweden and Turkey.
+- **Source Postings Processed**: 8 raw markdown files from `raw/postings/`.
+- **Job Pages Updated**: Cross-linked candidate match evaluations under `wiki/jobs/`.
+- **Obsidian Graph View Styling**: Applied Pink for Candidates (`#FF69B4`), Orange for Countries (`#FF9800`), Blue for Jobs (`#2196F3`), and Yellow for Skills (`#FFEB3B`).
+## [2026-07-24 22:08:26] - Candidate Ingestion & Graph Styling Run
+- **Candidates Processed**: Ingested 2 CV profiles from `raw/resume/` (`gokhan-tenekecioglu`, `mehmet-eyyup-gulgun`).
+- **Candidate Nodes Generated**: Created 2 pages under `wiki/candidates/`.
+- **Geographic Filtering**: Filtered for Sweden and Turkey.
+- **Source Postings Processed**: 8 raw markdown files from `raw/postings/`.
+- **Job Pages Updated**: Cross-linked candidate match evaluations under `wiki/jobs/`.
+- **Obsidian Graph View Styling**: Applied Pink for Candidates (`#FF69B4`), Orange for Countries (`#FF9800`), Blue for Jobs (`#2196F3`), and Yellow for Skills (`#FFEB3B`).

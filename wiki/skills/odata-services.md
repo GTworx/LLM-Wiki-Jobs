@@ -10,6 +10,9 @@
 ## Overview  
 Standardized protocol for creating and consuming data APIs, widely used in SAP and enterprise integrations.
 
+## Candidates Possessing This Skill  
+- *No candidates tagged with this skill yet.*
+
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  
 - [[job-2026-deloitte-turkey-sap-s4hana-lead-consultant]] - Mentions: Key requirement in Senior SAP S/4HANA & Integration Consultant at [[deloitte-turkey]] ([[turkey]])

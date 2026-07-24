@@ -35,7 +35,8 @@
 - SEK 950,000 - SEK 1,200,000 + Stock Options
 
 ## Strategic Match Analysis  
-> Strong alignment with candidate profile across core skills (flutter, graphql, react). Target role in [[sweden]].
+> Evaluated Candidate Profiles in Wiki:  
+- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 85%** (Key overlap: [[rest-apis]], [[cicd]])
 
 ## Related Pages  
 - [[spotify]]  

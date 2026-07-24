@@ -10,6 +10,9 @@
 ## Overview  
 Certified Information Systems Security Professional credential demonstrating expertise in cyber security leadership.
 
+## Candidates Possessing This Skill  
+- *No candidates tagged with this skill yet.*
+
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  
 - [[job-2026-tele2-cloud-secops-security-engineer]] - Mentions: Key requirement in Senior Cloud SecOps & Security Engineer at [[tele2]] ([[sweden]])

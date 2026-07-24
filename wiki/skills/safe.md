@@ -10,6 +10,9 @@
 ## Overview  
 Scaled Agile Framework providing enterprise-level principles and practices for scaling Agile across large organizations.
 
+## Candidates Possessing This Skill  
+- *No candidates tagged with this skill yet.*
+
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  
 - [[job-2026-trendyol-principal-enterprise-it-consultant]] - Mentions: Key requirement in Principal Enterprise IT & Strategy Consultant at [[trendyol]] ([[turkey]])

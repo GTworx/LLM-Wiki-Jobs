@@ -34,7 +34,9 @@
 - TRY 1,400,000 - TRY 1,800,000 + Performance Bonus
 
 ## Strategic Match Analysis  
-> Strong alignment with candidate profile across core skills (abap, iam, it-consultancy). Target role in [[turkey]].
+> Evaluated Candidate Profiles in Wiki:  
+- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[abap]], [[sap-fiori]], [[sap-s4hana]])
+- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 98%** (Key overlap: [[abap]], [[sap-fiori]], [[secops]])
 
 ## Related Pages  
 - [[deloitte-turkey]]  

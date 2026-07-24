@@ -12,14 +12,14 @@ Focuses on native mobile clients, cross-platform app engines, real-time media st
 - [[job-2026-spotify-senior-ios-mobile-engineer]] - Senior iOS & Cross-Platform Mobile Engineer at [[spotify]] ([[sweden]])
 
 ## Key Demanded Skills & Tools  
-- [[rest-apis]]
-- [[cicd]]
-- [[github-actions]]
-- [[react-native]]
 - [[flutter]]
-- [[swift]]
 - [[react]]
+- [[swift]]
+- [[swiftui]]
+- [[cicd]]
 - [[graphql]]
+- [[rest-apis]]
+- [[github-actions]]
 
 ## Key Employers in Wiki  
 - [[spotify]]

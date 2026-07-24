@@ -12,14 +12,14 @@ Dedicated to cloud infrastructure security, Zero Trust access, vulnerability aud
 - [[job-2026-tele2-cloud-secops-security-engineer]] - Senior Cloud SecOps & Security Engineer at [[tele2]] ([[sweden]])
 
 ## Key Demanded Skills & Tools  
-- [[docker]]
-- [[penetration-testing]]
-- [[aws]]
+- [[terraform]]
 - [[secops]]
-- [[github-actions]]
+- [[docker]]
+- [[aws]]
+- [[penetration-testing]]
 - [[iam]]
 - [[python]]
-- [[terraform]]
+- [[github-actions]]
 
 ## Key Employers in Wiki  
 - [[tele2]]

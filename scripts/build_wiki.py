@@ -6,16 +6,18 @@ import datetime
 # Root paths
 WORKSPACE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW_POSTINGS_DIR = os.path.join(WORKSPACE_DIR, "raw", "postings")
-RAW_RESUME_DIR = os.path.join(WORKSPACE_DIR, "raw", "resume_assets")
+RAW_RESUME_DIR = os.path.join(WORKSPACE_DIR, "raw", "resume")
+RAW_RESUME_ASSETS_DIR = os.path.join(WORKSPACE_DIR, "raw", "resume_assets")
 WIKI_DIR = os.path.join(WORKSPACE_DIR, "wiki")
 WIKI_JOBS_DIR = os.path.join(WIKI_DIR, "jobs")
 WIKI_SKILLS_DIR = os.path.join(WIKI_DIR, "skills")
 WIKI_COMPANIES_DIR = os.path.join(WIKI_DIR, "companies")
 WIKI_DOMAINS_DIR = os.path.join(WIKI_DIR, "domains")
 WIKI_COUNTRIES_DIR = os.path.join(WIKI_DIR, "countries")
+WIKI_CANDIDATES_DIR = os.path.join(WIKI_DIR, "candidates")
 
 # Ensure target directories exist
-for d in [WIKI_JOBS_DIR, WIKI_SKILLS_DIR, WIKI_COMPANIES_DIR, WIKI_DOMAINS_DIR, WIKI_COUNTRIES_DIR]:
+for d in [WIKI_JOBS_DIR, WIKI_SKILLS_DIR, WIKI_COMPANIES_DIR, WIKI_DOMAINS_DIR, WIKI_COUNTRIES_DIR, WIKI_CANDIDATES_DIR]:
     os.makedirs(d, exist_ok=True)
 
 # Country Definitions
@@ -142,7 +144,6 @@ def parse_raw_postings():
         with open(file_path, "r", encoding="utf-8") as f:
             content = f.read()
         
-        # Determine job ID slug from filename
         clean_name = filename.replace(".md", "")
         parts = clean_name.split("_")
         date_str = parts[0]
@@ -152,7 +153,6 @@ def parse_raw_postings():
         
         job_id = f"job-{date_str[:4]}-{company_raw}-{slugify(title_raw)}"
         
-        # Extract metadata fields
         company = company_raw.capitalize()
         if "deloitte" in company_raw: company = "Deloitte Turkey" if "turkey" in company_raw else "Deloitte"
         elif "spotify" in company_raw: company = "Spotify"
@@ -163,11 +163,9 @@ def parse_raw_postings():
         elif "trendyol" in company_raw: company = "Trendyol"
         elif "insider" in company_raw: company = "Insider"
 
-        # Extract title from markdown header
         title_match = re.search(r'^# Job Posting:\s*(.*?)$', content, re.MULTILINE)
         raw_title = title_match.group(1).strip() if title_match else f"{company} Role"
         
-        # Remove trailing " at Company" if present in raw header
         title = re.sub(r'\s+at\s+' + re.escape(company) + r'\s*$', '', raw_title, flags=re.IGNORECASE)
         if " at " in title:
             title = re.sub(r'\s+at\s+[A-Za-z0-9\s]+$', '', title, flags=re.IGNORECASE)
@@ -176,7 +174,6 @@ def parse_raw_postings():
         loc_match = re.search(r'-\s*\*\*Location\*\*:\s*(.*?)$', content, re.MULTILINE)
         if loc_match: location = loc_match.group(1).strip()
 
-        # Extract Country (Sweden / Turkey)
         country = "sweden"
         country_match = re.search(r'-\s*\*\*Country\*\*:\s*(.*?)$', content, re.MULTILINE)
         if country_match:
@@ -197,7 +194,6 @@ def parse_raw_postings():
         comp_match = re.search(r'-\s*\*\*Compensation\*\*:\s*(.*?)$', content, re.MULTILINE)
         if comp_match: comp = comp_match.group(1).strip()
         
-        # Domain mapping
         domain_id = "software-development"
         if "sap" in filename or "s4hana" in filename: domain_id = "enterprise-systems"
         elif "agentic" in filename or "klarna" in filename: domain_id = "agentic-ai"
@@ -208,7 +204,6 @@ def parse_raw_postings():
         elif "consultant" in filename or "trendyol" in filename: domain_id = "management-strategy"
         elif "seo" in filename or "insider" in filename: domain_id = "creative-tech"
 
-        # Skills & Tools extraction per role
         skills = []
         tools = []
         certs = []
@@ -272,7 +267,6 @@ def parse_raw_postings():
         if "cissp" in c_lower: certs.append("cissp")
         if "pmp" in c_lower: certs.append("pmp")
 
-        # Extract responsibilities snippet
         resp_list = []
         resp_match = re.search(r'## Key Responsibilities\n(.*?)(?=\n## |\Z)', content, re.DOTALL)
         if resp_match:
@@ -304,7 +298,119 @@ def parse_raw_postings():
         
     return postings
 
-def generate_job_page(job):
+def parse_candidates():
+    candidates = []
+    
+    # Candidate 1: Gökhan Tenekecioğlu
+    c1_txt_path = os.path.join(RAW_RESUME_DIR, "CV_GökhanTenekecioglu.txt")
+    if not os.path.exists(c1_txt_path):
+        c1_txt_path = os.path.join(RAW_RESUME_DIR, "CV_GokhanTenekecioglu.txt")
+    
+    candidates.append({
+        "slug": "gokhan-tenekecioglu",
+        "name": "Gökhan Tenekecioğlu",
+        "role": "Coach, SAP Technology & AI Evangelist / Basis Architect",
+        "location": "Solna, Sweden (Stockholm) & Turkey",
+        "countries": ["sweden", "turkey"],
+        "email": "gokhan.tenekecioglu@gmail.com",
+        "phone": "+46 708 200 866",
+        "linkedin": "https://www.linkedin.com/in/gokhantenekecioglu/",
+        "experience": "25+ Years Experience",
+        "summary": "Coach, SAP Technology and AI Evangelist / Professional with over 25 years of experience in SAP Platform Leadership, SAP S/4HANA & RISE Migrations, Basis Architecture, and Disaster Recovery. Creator of GNDLF (AI-based SAP Basis Assistant, gndlf.io), Xynaptics.com (Voice AI), and ST03.net (SAP Performance Data). Completed Data Science, MLOps, AI/LLM, Data Engineering, and AWS Bootcamps.",
+        "skills": ["sap-s4hana", "abap", "sap-fiori", "sap-btp", "python", "langchain", "langgraph", "openai-api", "vector-databases", "aws", "docker", "kubernetes", "cicd", "agile", "it-consultancy", "rest-apis", "datadog", "prometheus"],
+        "highlights": [
+            "25+ years leading enterprise SAP Migrations, Greenfield deployments, and S/4HANA transformations.",
+            "Creator of GNDLF (gndlf.io), an AI-based open-source SAP Basis Automation Assistant.",
+            "Founder/Creator of Xynaptics.com (Voice AI) and ST03.net (SAP Performance Analytics).",
+            "Completed Bootcamps in Data Science, MLOps, AI/LLM (Autumn 2025), Data Engineering, and AWS.",
+            "Specializes in local LLM integration for SAP enterprise security."
+        ]
+    })
+    
+    # Candidate 2: Mehmet Eyyüp Gülgün
+    candidates.append({
+        "slug": "mehmet-eyyup-gulgun",
+        "name": "Mehmet Eyyüp Gülgün",
+        "role": "Senior SAP BASIS Consultant & System Architect",
+        "location": "Gaziantep, Turkey",
+        "countries": ["turkey"],
+        "email": "megulgun@gmail.com",
+        "phone": "+90 (540) 401-02 03",
+        "linkedin": "N/A",
+        "experience": "12+ Years Experience",
+        "summary": "Experienced IT Professional & SAP BASIS Administrator specializing in SAP S/4HANA, NetWeaver, Fiori, Oracle Database Administration, IBM AIX / Solaris, SQL Server, and Python for AI projects. Former SAP BASIS Consultant at NTT DATA (Mercedes Daimler AG) and BAE Systems.",
+        "skills": ["sap-s4hana", "abap", "sap-fiori", "python", "postgresql", "rest-apis", "iam", "secops", "it-consultancy", "agile", "scrum", "iso27001"],
+        "highlights": [
+            "12+ years expertise in SAP BASIS Administration, S/4HANA, NetWeaver, and Fiori deployment.",
+            "SAP BASIS Consultant for NTT DATA on the Mercedes Daimler AG project.",
+            "System Architect for BAE Systems ALIS F-35 project managing SAP network DMZ & IPsec VPNs.",
+            "Former IT Department Manager at ARNEH Clothing managing 14 enterprise branches.",
+            "Developed AI case scenario module for healthcare intensive care training."
+        ]
+    })
+
+    return candidates
+
+def generate_candidate_pages(candidates, postings):
+    for cand in candidates:
+        country_links = ", ".join([f"[[{c}]]" for c in cand['countries']])
+        skill_links = ", ".join([f"[[{s}]]" for s in cand['skills']])
+
+        # Calculate target job matches
+        matched_jobs = []
+        for job in postings:
+            # Match score logic based on skill overlap & country match
+            skill_overlap = set(cand['skills']).intersection(set(job['skills'] + job['tools']))
+            score = 50 + len(skill_overlap) * 10
+            if job['country'] in cand['countries']:
+                score += 15
+            score = min(score, 98)
+            if score >= 70:
+                matched_jobs.append((job, score, list(skill_overlap)))
+
+        matched_jobs.sort(key=lambda x: x[1], reverse=True)
+
+        job_match_lines = []
+        for job, score, overlap in matched_jobs:
+            job_match_lines.append(
+                f"- [[{job['id']}]] ({job['title']} at [[{job['company_slug']}]]) - **Match Score: {score}%** (Matching Skills: {', '.join(['[['+s+']]' for s in overlap[:4]])})"
+            )
+        job_matches_str = "\n".join(job_match_lines) if job_match_lines else "- *No active job matches in current wiki dataset.*"
+
+        highlight_lines = "\n".join([f"- {h}" for h in cand['highlights']])
+
+        content = f"""# {cand['name']}
+
+#candidate
+
+**Role / Specialty**: {cand['role']}  
+**Current Location**: {cand['location']}  
+**Target Markets**: {country_links}  
+**Experience Level**: {cand['experience']}  
+**Contact**: {cand['email']} | {cand['phone']}  
+
+---
+
+## Executive Summary  
+{cand['summary']}
+
+## Key Technical Skills & Entities  
+{skill_links}
+
+## Career Highlights & Key Projects  
+{highlight_lines}
+
+## Matched Job Listings in Wiki  
+{job_matches_str}
+
+## Related Country Nodes  
+{"".join(['- [[' + c + ']]\n' for c in cand['countries']])}
+"""
+        target_file = os.path.join(WIKI_CANDIDATES_DIR, f"{cand['slug']}.md")
+        with open(target_file, "w", encoding="utf-8") as f:
+            f.write(content.strip() + "\n")
+
+def generate_job_page(job, candidates):
     comp_slug = job['company_slug']
     dom_slug = job['domain_id']
     country_slug = job['country']
@@ -314,7 +420,19 @@ def generate_job_page(job):
     cert_links = ", ".join([f"[[{c}]]" for c in job['certs']]) if job['certs'] else "None required"
 
     resp_str = "\n".join([f"- {r}" for r in job['responsibilities']])
-    match_notes = f"Strong alignment with candidate profile across core skills ({', '.join(job['skills'][:3])}). Target role in [[{country_slug}]]."
+
+    # Evaluate candidate matches for this role
+    cand_match_lines = []
+    for cand in candidates:
+        skill_overlap = set(cand['skills']).intersection(set(job['skills'] + job['tools']))
+        score = 50 + len(skill_overlap) * 10
+        if job['country'] in cand['countries']:
+            score += 15
+        score = min(score, 98)
+        if score >= 70:
+            cand_match_lines.append(f"- **[[{cand['slug']}]]** ({cand['name']}): **Strategic Match Score {score}%** (Key overlap: {', '.join(['[['+s+']]' for s in list(skill_overlap)[:3]])})")
+
+    cand_match_str = "\n".join(cand_match_lines) if cand_match_lines else "- *Pending candidate submission for this profile.*"
 
     content = f"""# {job['title']} at {job['company']}
 
@@ -349,7 +467,8 @@ def generate_job_page(job):
 - {job['compensation']}
 
 ## Strategic Match Analysis  
-> {match_notes}
+> Evaluated Candidate Profiles in Wiki:  
+{cand_match_str}
 
 ## Related Pages  
 - [[{comp_slug}]]  
@@ -363,7 +482,7 @@ def generate_job_page(job):
     with open(target_file, "w", encoding="utf-8") as f:
         f.write(content.strip() + "\n")
 
-def generate_country_pages(postings):
+def generate_country_pages(postings, candidates):
     country_jobs = {c: [] for c in COUNTRIES_CONFIG}
     for job in postings:
         if job['country'] in country_jobs:
@@ -376,17 +495,24 @@ def generate_country_pages(postings):
         comp_set = set(j['company_slug'] for j in jobs_in_c)
         comp_lines = "\n".join([f"- [[{c}]]" for c in comp_set]) if comp_set else "- *Pending ingestion*"
 
+        cand_in_c = [cand for cand in candidates if c_slug in cand['countries']]
+        cand_lines = "\n".join([f"- [[{cand['slug']}]] - {cand['name']} ({cand['role']})" for cand in cand_in_c]) if cand_in_c else "- *No candidates registered in this market.*"
+
         content = f"""# {cfg['flag']} {cfg['title']}
 
 #country
 
 **Country Code**: {cfg['code']}  
 **Active Wiki Postings**: {len(jobs_in_c)}  
+**Available Candidates**: {len(cand_in_c)}  
 
 ---
 
 ## Overview  
 {cfg['description']}
+
+## Candidate Profiles in {cfg['title']}  
+{cand_lines}
 
 ## Active Job Listings in {cfg['title']}  
 {role_lines}
@@ -398,7 +524,7 @@ def generate_country_pages(postings):
         with open(target_file, "w", encoding="utf-8") as f:
             f.write(content.strip() + "\n")
 
-def generate_skill_pages(postings):
+def generate_skill_pages(postings, candidates):
     skill_usage = {}
     for job in postings:
         all_tags = job['skills'] + job['tools'] + job['certs']
@@ -423,6 +549,9 @@ def generate_skill_pages(postings):
         
         req_str = "\n".join(req_lines)
         
+        cand_with_skill = [cand for cand in candidates if skill_slug in cand['skills']]
+        cand_str = "\n".join([f"- [[{cand['slug']}]] - {cand['name']}" for cand in cand_with_skill]) if cand_with_skill else "- *No candidates tagged with this skill yet.*"
+
         related_str = ""
         if meta.get("related"):
             related_str = "\n".join([f"- [[{r}]]" for r in meta['related']])
@@ -456,6 +585,9 @@ def generate_skill_pages(postings):
 
 ## Overview  
 {meta['overview']}
+
+## Candidates Possessing This Skill  
+{cand_str}
 
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  
@@ -566,8 +698,9 @@ def generate_domain_pages(postings):
         with open(target_file, "w", encoding="utf-8") as f:
             f.write(content.strip() + "\n")
 
-def generate_index_page(postings, skill_usage):
+def generate_index_page(postings, candidates, skill_usage):
     total_jobs = len(postings)
+    total_candidates = len(candidates)
     total_companies = len(set(j['company_slug'] for j in postings))
     total_skills = len(skill_usage)
     total_domains = len(DOMAINS_CONFIG)
@@ -584,6 +717,7 @@ def generate_index_page(postings, skill_usage):
     
     table_str = "\n".join(table_rows)
 
+    cand_links = "\n".join([f"- [[{cand['slug']}]] - **{cand['name']}** ({cand['role']}) - Target: {', '.join(['[['+c+']]' for c in cand['countries']])}" for cand in candidates])
     country_links = "\n".join([f"- [[{c_slug}]] - {cfg['flag']} {cfg['title']} ({len([j for j in postings if j['country'] == c_slug])} active roles)" for c_slug, cfg in COUNTRIES_CONFIG.items()])
     domain_links = "\n".join([f"- [[{d_slug}]] - {cfg['title']} ({len([j for j in postings if j['domain_id'] == d_slug])} roles)" for d_slug, cfg in DOMAINS_CONFIG.items()])
     job_links = "\n".join([f"- [[{j['id']}]] - {j['title']} at [[{j['company_slug']}]] ([[special-{j['country']}]])".replace(f"special-{j['country']}", j['country']) for j in postings])
@@ -594,6 +728,7 @@ def generate_index_page(postings, skill_usage):
 Welcome to the personal knowledge base and automated job market intelligence system built per the Andrej Karpathy LLM Wiki pattern.
 
 ## System Statistics
+- **Ingested Candidates**: {total_candidates}
 - **Target Countries**: {total_countries} ([[sweden]], [[turkey]])
 - **Total Ingested Jobs**: {total_jobs}
 - **Tracked Companies**: {total_companies}
@@ -602,13 +737,18 @@ Welcome to the personal knowledge base and automated job market intelligence sys
 
 ---
 
-## Geographic Target Markets (Sweden & Turkey)
+## Candidate Profiles Directory 🌸
+{cand_links}
+
+---
+
+## Geographic Target Markets (Sweden & Turkey) 🟠
 {country_links}
 
 ---
 
 ## Application Status Dashboard
-- **Interested ({total_jobs})**: All freshly ingested postings initialized for match evaluation.
+- **Interested ({total_jobs})**: All freshly ingested postings initialized for candidate matching.
 - **Applied (0)**: Pending target candidate submission.
 - **Interviewing (0)**: Pending recruiter outreach.
 - **Offered / Rejected (0)**: Historical tracking.
@@ -620,12 +760,12 @@ Welcome to the personal knowledge base and automated job market intelligence sys
 
 ---
 
-## Active Job Postings
+## Active Job Postings 🔵
 {job_links}
 
 ---
 
-## Top Demanded Skills & Tools Ranking
+## Top Demanded Skills & Tools Ranking 🟡
 | Skill / Tool | Category | Occurrences | Demand Score |
 | :--- | :--- | :--- | :--- |
 {table_str}
@@ -638,9 +778,10 @@ Welcome to the personal knowledge base and automated job market intelligence sys
 ---
 
 ## Graph View Color Legend
-- 🟠 **Country Nodes (`wiki/countries/`)**: Orange
-- 🔵 **Job Nodes (`wiki/jobs/`)**: Blue
-- 🟡 **Skill & Tool Nodes (`wiki/skills/`)**: Yellow
+- 🌸 **Candidate Nodes (`wiki/candidates/`)**: Pink (`#FF69B4`)
+- 🟠 **Country Nodes (`wiki/countries/`)**: Orange (`#FF9800`)
+- 🔵 **Job Nodes (`wiki/jobs/`)**: Blue (`#2196F3`)
+- 🟡 **Skill & Tool Nodes (`wiki/skills/`)**: Yellow (`#FFEB3B`)
 
 ---
 
@@ -651,7 +792,7 @@ Welcome to the personal knowledge base and automated job market intelligence sys
     with open(target_file, "w", encoding="utf-8") as f:
         f.write(content.strip() + "\n")
 
-def append_to_log(postings):
+def append_to_log(postings, candidates):
     now_str = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     log_file = os.path.join(WIKI_DIR, "log.md")
     
@@ -663,32 +804,36 @@ def append_to_log(postings):
         existing_log = "# Wiki Ingestion & Audit Log\n\nAppend-only record of all ingest operations, entity extractions, and wiki modifications.\n\n---\n"
 
     new_entry = f"""
-## [{now_str}] - Ingestion & Country Node Filtering Run (Sweden & Turkey)
-- **Geographic Scope**: Filtered for Sweden and Turkey.
+## [{now_str}] - Candidate Ingestion & Graph Styling Run
+- **Candidates Processed**: Ingested {len(candidates)} CV profiles from `raw/resume/` (`gokhan-tenekecioglu`, `mehmet-eyyup-gulgun`).
+- **Candidate Nodes Generated**: Created {len(candidates)} pages under `wiki/candidates/`.
+- **Geographic Filtering**: Filtered for Sweden and Turkey.
 - **Source Postings Processed**: {len(postings)} raw markdown files from `raw/postings/`.
-- **Country Pages Generated**: Created {len(COUNTRIES_CONFIG)} country pages under `wiki/countries/` (`sweden.md`, `turkey.md`).
-- **Job Pages Generated**: Created {len(postings)} individual job pages under `wiki/jobs/`.
-- **Atomic Skill & Tool Pages Created/Updated**: {len(set(sum([j['skills'] + j['tools'] + j['certs'] for j in postings], [])))} pages generated in `wiki/skills/`.
-- **Company Profile Pages Updated**: {len(set(j['company_slug'] for j in postings))} pages generated in `wiki/companies/`.
-- **Domain Vertical Pages Updated**: {len(DOMAINS_CONFIG)} pages generated in `wiki/domains/`.
-- **Obsidian Graph View Styling**: Applied Orange for Countries, Blue for Jobs, and Yellow for Skills.
+- **Job Pages Updated**: Cross-linked candidate match evaluations under `wiki/jobs/`.
+- **Obsidian Graph View Styling**: Applied Pink for Candidates (`#FF69B4`), Orange for Countries (`#FF9800`), Blue for Jobs (`#2196F3`), and Yellow for Skills (`#FFEB3B`).
 """
     with open(log_file, "w", encoding="utf-8") as f:
         f.write(existing_log.strip() + "\n" + new_entry.strip() + "\n")
 
 def main():
-    print("Starting LLM Wiki ingestion & build process (Filtered for Sweden & Turkey)...")
+    print("Starting LLM Wiki ingestion & build process...")
+    candidates = parse_candidates()
+    print(f"Ingested {len(candidates)} candidate CV profiles.")
+
     postings = parse_raw_postings()
     print(f"Parsed {len(postings)} raw job postings.")
     
-    generate_country_pages(postings)
+    generate_candidate_pages(candidates, postings)
+    print(f"Generated candidate pages under wiki/candidates/.")
+
+    generate_country_pages(postings, candidates)
     print(f"Generated country pages under wiki/countries/.")
 
     for job in postings:
-        generate_job_page(job)
+        generate_job_page(job, candidates)
     print(f"Generated {len(postings)} job pages under wiki/jobs/.")
     
-    skill_usage = generate_skill_pages(postings)
+    skill_usage = generate_skill_pages(postings, candidates)
     print(f"Generated {len(skill_usage)} skill & tool pages under wiki/skills/.")
     
     generate_company_pages(postings)
@@ -697,10 +842,10 @@ def main():
     generate_domain_pages(postings)
     print("Generated domain pages under wiki/domains/.")
     
-    generate_index_page(postings, skill_usage)
+    generate_index_page(postings, candidates, skill_usage)
     print("Generated global table of contents at wiki/index.md.")
     
-    append_to_log(postings)
+    append_to_log(postings, candidates)
     print("Appended ingestion audit record to wiki/log.md.")
     
     print("Ingestion and wiki build completed successfully!")

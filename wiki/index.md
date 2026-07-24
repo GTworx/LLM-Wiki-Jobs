@@ -3,6 +3,7 @@
 Welcome to the personal knowledge base and automated job market intelligence system built per the Andrej Karpathy LLM Wiki pattern.
 
 ## System Statistics
+- **Ingested Candidates**: 2
 - **Target Countries**: 2 ([[sweden]], [[turkey]])
 - **Total Ingested Jobs**: 8
 - **Tracked Companies**: 8
@@ -11,14 +12,20 @@ Welcome to the personal knowledge base and automated job market intelligence sys
 
 ---
 
-## Geographic Target Markets (Sweden & Turkey)
+## Candidate Profiles Directory 🌸
+- [[gokhan-tenekecioglu]] - **Gökhan Tenekecioğlu** (Coach, SAP Technology & AI Evangelist / Basis Architect) - Target: [[sweden]], [[turkey]]
+- [[mehmet-eyyup-gulgun]] - **Mehmet Eyyüp Gülgün** (Senior SAP BASIS Consultant & System Architect) - Target: [[turkey]]
+
+---
+
+## Geographic Target Markets (Sweden & Turkey) 🟠
 - [[sweden]] - 🇸🇪 Sweden (4 active roles)
 - [[turkey]] - 🇹🇷 Turkey (4 active roles)
 
 ---
 
 ## Application Status Dashboard
-- **Interested (8)**: All freshly ingested postings initialized for match evaluation.
+- **Interested (8)**: All freshly ingested postings initialized for candidate matching.
 - **Applied (0)**: Pending target candidate submission.
 - **Interviewing (0)**: Pending recruiter outreach.
 - **Offered / Rejected (0)**: Historical tracking.
@@ -37,7 +44,7 @@ Welcome to the personal knowledge base and automated job market intelligence sys
 
 ---
 
-## Active Job Postings
+## Active Job Postings 🔵
 - [[job-2026-tele2-cloud-secops-security-engineer]] - Senior Cloud SecOps & Security Engineer at [[tele2]] ([[sweden]])
 - [[job-2026-trendyol-principal-enterprise-it-consultant]] - Principal Enterprise IT & Strategy Consultant at [[trendyol]] ([[turkey]])
 - [[job-2026-deloitte-turkey-sap-s4hana-lead-consultant]] - Senior SAP S/4HANA & Integration Consultant at [[deloitte-turkey]] ([[turkey]])
@@ -49,7 +56,7 @@ Welcome to the personal knowledge base and automated job market intelligence sys
 
 ---
 
-## Top Demanded Skills & Tools Ranking
+## Top Demanded Skills & Tools Ranking 🟡
 | Skill / Tool | Category | Occurrences | Demand Score |
 | :--- | :--- | :--- | :--- |
 | [[python]] | Programming Language | 4 | **High** |
@@ -115,9 +122,10 @@ Welcome to the personal knowledge base and automated job market intelligence sys
 ---
 
 ## Graph View Color Legend
-- 🟠 **Country Nodes (`wiki/countries/`)**: Orange
-- 🔵 **Job Nodes (`wiki/jobs/`)**: Blue
-- 🟡 **Skill & Tool Nodes (`wiki/skills/`)**: Yellow
+- 🌸 **Candidate Nodes (`wiki/candidates/`)**: Pink (`#FF69B4`)
+- 🟠 **Country Nodes (`wiki/countries/`)**: Orange (`#FF9800`)
+- 🔵 **Job Nodes (`wiki/jobs/`)**: Blue (`#2196F3`)
+- 🟡 **Skill & Tool Nodes (`wiki/skills/`)**: Yellow (`#FFEB3B`)
 
 ---
 

@@ -10,6 +10,9 @@
 ## Overview  
 Containerization platform enabling application isolation, deployment consistency, and microservice packaging.
 
+## Candidates Possessing This Skill  
+- [[gokhan-tenekecioglu]] - Gökhan Tenekecioğlu
+
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  
 - [[job-2026-tele2-cloud-secops-security-engineer]] - Mentions: Key requirement in Senior Cloud SecOps & Security Engineer at [[tele2]] ([[sweden]])

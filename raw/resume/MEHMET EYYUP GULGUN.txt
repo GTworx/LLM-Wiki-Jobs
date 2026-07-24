@@ -1,0 +1,137 @@
+Mehmet Eyyüp GÜLGÜN 
++90 (540) 401-02 03 | Gaziantep, TR | megulgun@gmail.com 
+SUMMARY 
+        I am an experienced IT professional specializing in SAP BASIS Administration, Oracle  Database, IBM AIX, Oracle 
+Solaris, and SQL Server management. I have participated in large -scale projects across various industries, 
+consistently implementing best practices to ensure the security, performance, and sustainability of critical systems. 
+My expertise covers system installation, management, optimization, and troubleshooting in SAP, with a strong focus 
+on enhancing business efficiency and reducing infrastructure costs through Oracle Database management.  
+        Additionally, I have developed sol utions for high availability and data integrity in IBM AIX and Oracle Solaris 
+environments, as well as optimized SQL Server database structures for improved user experience. My passion for 
+technology and strategic infrastructure management drives me to sta y current with the latest advancements in the 
+field. 
+EDUCATION 
+2024-Cont Ms.D Is. Sci. & Tech. University   Gaziantep, TR Computer Eng. (With thesis)     Cont. 
+2010-2014 Bc.S Sakarya University Sakarya, TR Computer Engineering GPA: 3.17/4 
+2003-2007 Hi.S F.N.T. Anatolian High School Gaziantep, TR Math - Science (English) GPA: 93/100 
+SKILLS 
+• SAP BASIS ADM.  
+• SAP NETWEAVER  
+• IBM AIX OS ADM.  
+• IBM VIRTUALIZATION  
+• ORACLE SOLARIS OS ADM.  
+• NEBIM V3 ERP  
+• SAP ABAP PROGRAMING  
+• IBM HMC MAN.  
+• ORACLE VIRTUALIZATION 
+• ORACLE DB ADM. 
+• C#(.NET), BASH PROG.  
+• PYTHON PROG. for AI  Projects 
+• SAP R3 / S4HANA  
+• SAP AUTHORIZATION  
+• REDHAT ENT. LINUX  
+• WINDOWS SERVERS  
+• MS SQL SERVER  
+ 
+ 
+EXPERIENCE 
+May 2025 – Aug 2025 - AI - Creating a Teacher with Artificial Intelligence Gaziantep,TURKEY 
+ 
+In my artificial intelligence project, I developed and delivered an AI module for a healthcare institution that simulates how 
+doctors and nurses in the intensive care unit should respond during a case scenario. The project details can be provided 
+upon request. 
+ 
+Oct 2024 - May 2025 - IT Department Manager – ARNEH Clothing and Textile  Gaziantep,TURKEY 
+ 
+As the IT Manager, I am responsible for the entire IT infrastructure of our company, which has 14 branches.  
+My responsibilities include: 
+• Windows Server management: Monitoring daily backups, real-time performance tracking, server security, 
+and accessibility. 
+• NEBIM V3 ERP management: Our company uses the NEBIM V3 ERP system, which enables sales tracking, 
+stock management, campaign creation, inventory control, and reporting. I am responsible for ensuring the 
+system runs smoothly, remains secure, and is properly authorized. 
+• IT operations management: I oversee all IT operations within the company, including the procurement of new 
+hardware and software, as well as the planning and implementation of IT training programs. 
+• Software development projects: Managing and developing new software solutions such as the Branch-to-
+Branch Portal, Personnel Tracking System, and Help Desk Application. 
+• Technical support: Resolving daily system-related or user-related issues. 
+ 
+Feb 2021 - Oct 2024 - Computer Engineer - General Yazılım Gaziantep,TURKEY 
+ 
+• Established and led my own IT consulting company.  
+• SAP BASIS Expertise: System installation, management, optimization, and security.  
+• Custom Software Development: Tailored solutions to meet specific customer needs. 
+• Web Development: Creating and managing attractive and functional websites.  
+• Technology Consulting: Strategic IT guidance for corporate clients.  
+• IT Support: Computer hardware repairs and network infrastructure setup. 
+ 
+Oct 2019 - Oct 2021 - Sap BASIS Consultant - NTT DATA - MERCEDES DAIMLER AG Gaziantep,TURKEY 
+ 
+• Implemented and maintained SAP CUA for centralized user administration. 
+• Installed and managed SAP (ABAP) SSO and SAP (JAVA) SSO for seamless single sign-on capabilities. 
+• Handled SAP Authorization (User Management), ensuring secure and efficient access control. 
+• Led the installation and management of SAP S/4HANA, optimizing enterprise resource planning. 
+• Conducted SAP R/3 Installation and Management, ensuring legacy system support. 
+• SAP Neptune Inst. & Conf. 
+• Deployed and managed SAP FIORI for improved user experience across devices. 
+• Managed SAP FIORI Authorization (User Management) to maintain secure and streamlined user access. 
+• Executed SAP System Migrations to new hardware platforms, enhancing system performance and scalability. 
+• Automated SAP Backup and Recovery Procedures to ensure data integrity and reduce downtime. 
+ 
+Sep 2009 - May 2017 - Sap BASIS Consultant - SAP - Dep. of Inf. Systems Ankara,TURKEY 
+• Focused on SAP User Management during the first year, handling user authorizations, resolving user issues, 
+and managing help desk activities. 
+• Performed daily SAP BASIS tasks, including system health checks, request management, and routine system 
+maintenance. 
+• Conducted System Copies and created new systems as needed. 
+• Led the upgrade of SAP R3 4.6C to ERP 6.0 EHP5 and SAP BW 3.0B to SAP BW 7.02 
+• Installed system add-ons, applied SAP Notes (SNOTES), and managed patch applications. 
+• Executed Kernel Upgrades to ensure system stability and performance. 
+• Successfully migrated SAP ERP systems from IBM Power (AIX 7.2) to Oracle SPARC (Solaris 11.2) with  
+• Oracle Real Application Cluster Database, enhancing system performance and reliability. 
+ 
+Feb 2012 - Feb 2012 - Sap BASIS Consultant - System Architect - BAE Systems Portsmouh,ENGLAND 
+• As part of the ALIS F-35 project between the UK and Turkey, I was involved in managing the SAP network 
+DMZ. This included configuring and maintaining IPsec VPN tunnels to secure data transmission, ensuring 
+encrypted communication between sites, managing firewall policies, and supporting network segmentation to 
+protect sensitive project data. 
+TRAINING & COURSES 
+ 
+SAP 
+• Change Request Management – Configuration 
+• SAP Enterprise Portal Fundamentals 
+• BW Operations and Performance 
+• SAP Fiori Introduction 
+• SAP Process Integration 
+• SAP TBT44: Mapping Business Process Management and Adapters 
+ 
+IBM 
+• AIX Security I - Host based 
+• AIX Security II – Intranet 
+• AIX Performance Management 
+• Total storage ESS implementation for open systems 
+• Tivoli Storage Manager 
+• AIX/R6000 Advanced System Administration 
+• AIX/R6000 System Administration I 
+• AIX/R6000 System Administration II 
+• Analyzing and Tuning Complex AIX 5L Performance Issues 
+ 
+ORACLE 
+• ORACLE Solaris 11 Security Administration 
+• ORACLE Solaris 11 Performance Management 
+• ORACLE Solaris 11 System Administration 
+• ORACLE Database 12C Dataguard Administration 
+• ORACLE Database 12C High availability New Features 
+• ORACLE Database 11G Performance Tuning 
+• ORACLE Database 11G Administration II 
+• ORACLE Database 11G Administration I 
+ 
+LANGUAGES 
+• Turkish - Native speaker 
+• English - Professional working proficiency 
+• German - Beginner (A2 level) 
+GIT Repository 
+https://github.com/megulgun 
+ 
+References 
+Professional references available upon request. 

@@ -10,6 +10,9 @@
 ## Overview  
 Security Operations combining cyber defense, continuous threat detection, automated incident response, and SOC auditing.
 
+## Candidates Possessing This Skill  
+- [[mehmet-eyyup-gulgun]] - Mehmet Eyyüp Gülgün
+
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  
 - [[job-2026-tele2-cloud-secops-security-engineer]] - Mentions: Key requirement in Senior Cloud SecOps & Security Engineer at [[tele2]] ([[sweden]])
