@@ -4,7 +4,7 @@
 
 **Country Code**: TR  
 **Active Wiki Postings**: 4  
-**Available Candidates**: 2  
+**Available Candidates**: 3  
 
 ---
 
@@ -14,6 +14,7 @@ Eurasian tech center specializing in E-Commerce, SAP ERP Consulting, Enterprise 
 ## Candidate Profiles in Turkey  
 - [[gokhan-tenekecioglu]] - Gökhan Tenekecioğlu (Coach, SAP Technology & AI Evangelist / Basis Architect)
 - [[mehmet-eyyup-gulgun]] - Mehmet Eyyüp Gülgün (Senior SAP BASIS Consultant & System Architect)
+- [[ilknur-nina-ulug]] - İlknur Nina Uluğ (Creative Tech & Digital Media Specialist / AI Integration Consultant)
 
 ## Active Job Listings in Turkey  
 - [[job-2026-trendyol-principal-enterprise-it-consultant]] - Principal Enterprise IT & Strategy Consultant at [[trendyol]] (Istanbul, Turkey (Hybrid))
@@ -22,7 +23,7 @@ Eurasian tech center specializing in E-Commerce, SAP ERP Consulting, Enterprise 
 - [[job-2026-insider-creative-tech-seo-engineer]] - Technical SEO & Creative Tech Engineer at [[insider]] (Istanbul, Turkey (Hybrid / Remote))
 
 ## Top Employers in Turkey  
-- [[deloitte-turkey]]
 - [[insider]]
 - [[trendyol]]
 - [[getir]]
+- [[deloitte-turkey]]

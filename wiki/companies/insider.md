@@ -12,7 +12,7 @@ Insider is a featured employer tracked in [[turkey]].
 - [[job-2026-insider-creative-tech-seo-engineer]] - Technical SEO & Creative Tech Engineer (Istanbul, Turkey (Hybrid / Remote))
 
 ## Primary Tech Stack  
-- **Skills**: [[marketing-analytics]], [[nodejs]], [[react]], [[python]], [[nextjs]], [[typescript]]  
+- **Skills**: [[react]], [[nextjs]], [[webgl]], [[typescript]], [[nodejs]], [[python]]  
 - **Tools & Platforms**:   
 
 ## Related Domains  

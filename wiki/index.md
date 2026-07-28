@@ -3,11 +3,11 @@
 Welcome to the personal knowledge base and automated job market intelligence system built per the Andrej Karpathy LLM Wiki pattern.
 
 ## System Statistics
-- **Ingested Candidates**: 2
+- **Ingested Candidates**: 3
 - **Target Countries**: 2 ([[sweden]], [[turkey]])
 - **Total Ingested Jobs**: 8
 - **Tracked Companies**: 8
-- **Tracked Skills & Tools**: 47
+- **Tracked Skills & Tools**: 60
 - **Technical Domains**: 8
 
 ---
@@ -15,6 +15,7 @@ Welcome to the personal knowledge base and automated job market intelligence sys
 ## Candidate Profiles Directory 🌸
 - [[gokhan-tenekecioglu]] - **Gökhan Tenekecioğlu** (Coach, SAP Technology & AI Evangelist / Basis Architect) - Target: [[sweden]], [[turkey]]
 - [[mehmet-eyyup-gulgun]] - **Mehmet Eyyüp Gülgün** (Senior SAP BASIS Consultant & System Architect) - Target: [[turkey]]
+- [[ilknur-nina-ulug]] - **İlknur Nina Uluğ** (Creative Tech & Digital Media Specialist / AI Integration Consultant) - Target: [[sweden]], [[turkey]]
 
 ---
 
@@ -106,6 +107,19 @@ Welcome to the personal knowledge base and automated job market intelligence sys
 | [[react-native]] | Framework | 1 | **Low** |
 | [[swift]] | Programming Language | 1 | **Low** |
 | [[swiftui]] | Framework | 1 | **Low** |
+| [[gemini]] | AI Model / Platform | 0 | **Low** |
+| [[claude]] | AI Model / Platform | 0 | **Low** |
+| [[notebooklm]] | AI Tool / Platform | 0 | **Low** |
+| [[seo]] | Domain Skill | 0 | **Low** |
+| [[digital-marketing]] | Domain Skill | 0 | **Low** |
+| [[instagram-growth]] | Domain Skill / Platform | 0 | **Low** |
+| [[adobe-creative-suite]] | Tool / Multimedia | 0 | **Low** |
+| [[final-cut-pro]] | Tool / Video Editing | 0 | **Low** |
+| [[capcut]] | Tool / Video Editing | 0 | **Low** |
+| [[ux-design]] | Domain Skill / Framework | 0 | **Low** |
+| [[prompt-engineering]] | AI Skill | 0 | **Low** |
+| [[genai]] | AI Domain | 0 | **Low** |
+| [[sap-joule]] | Platform / AI | 0 | **Low** |
 
 ---
 

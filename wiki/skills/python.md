@@ -13,6 +13,7 @@ High-level programming language used extensively in AI, Agentic workflows, web A
 ## Candidates Possessing This Skill  
 - [[gokhan-tenekecioglu]] - Gökhan Tenekecioğlu
 - [[mehmet-eyyup-gulgun]] - Mehmet Eyyüp Gülgün
+- [[ilknur-nina-ulug]] - İlknur Nina Uluğ
 
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  

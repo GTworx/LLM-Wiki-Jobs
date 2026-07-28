@@ -128,7 +128,20 @@ SKILL_METADATA = {
     "webgl": {"cat": "Framework / Graphics", "overview": "JavaScript API for rendering interactive 2D and 3D graphics within any compatible web browser without plugins.", "related": ["technical-seo", "react", "typescript"]},
     "aws-saa": {"cat": "Certification", "overview": "AWS Certified Solutions Architect - Associate validation for designing distributed systems on Amazon Web Services.", "related": ["aws", "terraform", "kubernetes"]},
     "cissp": {"cat": "Certification", "overview": "Certified Information Systems Security Professional credential demonstrating expertise in cyber security leadership.", "related": ["secops", "soc2", "iso27001"]},
-    "pmp": {"cat": "Certification", "overview": "Project Management Professional certification validating project leadership, agile practices, and strategic business skills.", "related": ["agile", "scrum", "safe"]}
+    "pmp": {"cat": "Certification", "overview": "Project Management Professional certification validating project leadership, agile practices, and strategic business skills.", "related": ["agile", "scrum", "safe"]},
+    "gemini": {"cat": "AI Model / Platform", "overview": "Google's multimodal generative AI model family used for advanced reasoning, content synthesis, and automated prompt workflows.", "related": ["claude", "notebooklm", "genai"]},
+    "claude": {"cat": "AI Model / Platform", "overview": "Anthropic's LLM assistant family used for complex reasoning, code generation, strategic copywriting, and analysis.", "related": ["gemini", "notebooklm", "genai"]},
+    "notebooklm": {"cat": "AI Tool / Platform", "overview": "AI-powered notebook and research assistant by Google for synthesizing source documents and generating audio/text summaries.", "related": ["gemini", "claude", "genai"]},
+    "seo": {"cat": "Domain Skill", "overview": "Search Engine Optimization practices including technical SEO, organic traffic growth, and Google Analytics audit.", "related": ["technical-seo", "digital-marketing", "instagram-growth"]},
+    "digital-marketing": {"cat": "Domain Skill", "overview": "Multi-channel online strategy, audience engagement, ad campaign optimization, and commercial growth execution.", "related": ["instagram-growth", "seo", "technical-seo"]},
+    "instagram-growth": {"cat": "Domain Skill / Platform", "overview": "Algorithm optimization, visual story branding, and audience retention strategy on Instagram.", "related": ["digital-marketing", "seo", "adobe-creative-suite"]},
+    "adobe-creative-suite": {"cat": "Tool / Multimedia", "overview": "Industry-standard graphic design, photo, and video editing software suite including Photoshop, Illustrator, Premiere, and InDesign.", "related": ["final-cut-pro", "capcut", "ux-design"]},
+    "final-cut-pro": {"cat": "Tool / Video Editing", "overview": "Professional non-linear video editing software application for Apple platforms.", "related": ["capcut", "adobe-creative-suite", "webgl"]},
+    "capcut": {"cat": "Tool / Video Editing", "overview": "AI-driven mobile and desktop video editor used for fast-paced short-form content creation.", "related": ["final-cut-pro", "adobe-creative-suite"]},
+    "ux-design": {"cat": "Domain Skill / Framework", "overview": "User Experience design and research focusing on intuitive interface navigation, digital accessibility, and user behavior.", "related": ["adobe-creative-suite", "react", "nextjs"]},
+    "prompt-engineering": {"cat": "AI Skill", "overview": "Art and science of crafting structured prompts, instructions, and context to optimize output from LLMs.", "related": ["genai", "gemini", "claude", "python"]},
+    "genai": {"cat": "AI Domain", "overview": "Generative Artificial Intelligence applications across text, image, audio, and code synthesis.", "related": ["prompt-engineering", "gemini", "claude", "python"]},
+    "sap-joule": {"cat": "Platform / AI", "overview": "SAP's generative AI copilot integrated across SAP enterprise cloud applications and business workflows.", "related": ["sap-s4hana", "sap-btp", "genai"]}
 }
 
 def slugify(text):
@@ -349,6 +362,28 @@ def parse_candidates():
         ]
     })
 
+    # Candidate 3: İlknur Nina Uluğ
+    candidates.append({
+        "slug": "ilknur-nina-ulug",
+        "name": "İlknur Nina Uluğ",
+        "role": "Creative Tech & Digital Media Specialist / AI Integration Consultant",
+        "location": "Tumba, Sweden (Stockholm) & Turkey",
+        "countries": ["sweden", "turkey"],
+        "email": "ilknur.ninaa@gmail.com",
+        "phone": "N/A",
+        "linkedin": "https://www.linkedin.com/in/ilknur-nina-ulug",
+        "experience": "10+ Years Experience",
+        "summary": "Tech-savvy Media & Technology Specialist with an M.Sc. in Informatics focused on digital transformation, AI integration, prompt engineering, digital literacy, multimedia production, video editing, and technical SEO. Freelance AI & Digital Media Consultant at Sooezy Academy.",
+        "skills": ["python", "gemini", "claude", "notebooklm", "seo", "digital-marketing", "instagram-growth", "adobe-creative-suite", "final-cut-pro", "capcut", "ux-design", "prompt-engineering", "genai", "agile", "sap-joule"],
+        "highlights": [
+            "Freelance AI & Digital Media Consultant at Sooezy Academy (Stockholm) automating workflows with GenAI (Gemini, Claude, NotebookLM) and building MVPs with Lovable & VS Code.",
+            "M.Sc. in Informatics (High Honor) from Marmara University focusing on digital transformation, UX, and social media analytics; completed PhD studies (paused).",
+            "Experienced Digital Transformation & Literacy Trainer for 150+ merchants (Üsküdar Municipality) and digital advertising trainer.",
+            "Hands-on video editor & photographer (Final Cut Pro, CapCut, Adobe Creative Suite) and SEO specialist boosting organic reader traffic.",
+            "Holds SAP Joule certification ('Discovering Joule with SAP Concur Solutions'), Swedish driving license (B), pursuing SFI Course D."
+        ]
+    })
+
     return candidates
 
 def generate_candidate_pages(candidates, postings):
@@ -533,6 +568,12 @@ def generate_skill_pages(postings, candidates):
                 skill_usage[tag] = []
             skill_usage[tag].append(job)
 
+    # Include skills defined on candidates so candidate skills generate pages
+    for cand in candidates:
+        for s in cand['skills']:
+            if s not in skill_usage:
+                skill_usage[s] = []
+
     for skill_slug, jobs_list in skill_usage.items():
         meta = SKILL_METADATA.get(skill_slug, {
             "cat": "Technology / Tool",
@@ -547,7 +588,7 @@ def generate_skill_pages(postings, candidates):
         for j in jobs_list:
             req_lines.append(f"- [[{j['id']}]] - Mentions: Key requirement in {j['title']} at [[{j['company_slug']}]] ([[special-{j['country']}]])".replace(f"special-{j['country']}", j['country']))
         
-        req_str = "\n".join(req_lines)
+        req_str = "\n".join(req_lines) if req_lines else "- *No active open job postings explicitly require this skill yet.*"
         
         cand_with_skill = [cand for cand in candidates if skill_slug in cand['skills']]
         cand_str = "\n".join([f"- [[{cand['slug']}]] - {cand['name']}" for cand in cand_with_skill]) if cand_with_skill else "- *No candidates tagged with this skill yet.*"
@@ -573,6 +614,19 @@ def generate_skill_pages(postings, candidates):
         elif skill_slug == "cissp": display_name = "CISSP Certification"
         elif skill_slug == "pmp": display_name = "PMP Certification"
         elif skill_slug == "webgl": display_name = "WebGL / HTML5 Canvas"
+        elif skill_slug == "gemini": display_name = "Gemini AI"
+        elif skill_slug == "claude": display_name = "Claude AI"
+        elif skill_slug == "notebooklm": display_name = "NotebookLM"
+        elif skill_slug == "seo": display_name = "SEO Strategy"
+        elif skill_slug == "digital-marketing": display_name = "Digital Marketing"
+        elif skill_slug == "instagram-growth": display_name = "Instagram Growth & Algorithms"
+        elif skill_slug == "adobe-creative-suite": display_name = "Adobe Creative Suite"
+        elif skill_slug == "final-cut-pro": display_name = "Final Cut Pro"
+        elif skill_slug == "capcut": display_name = "CapCut"
+        elif skill_slug == "ux-design": display_name = "UX Design"
+        elif skill_slug == "prompt-engineering": display_name = "Prompt Engineering"
+        elif skill_slug == "genai": display_name = "Generative AI (GenAI)"
+        elif skill_slug == "sap-joule": display_name = "SAP Joule"
 
         content = f"""# {display_name}
 
@@ -803,9 +857,10 @@ def append_to_log(postings, candidates):
     else:
         existing_log = "# Wiki Ingestion & Audit Log\n\nAppend-only record of all ingest operations, entity extractions, and wiki modifications.\n\n---\n"
 
+    cand_slugs_str = ", ".join([f"`{c['slug']}`" for c in candidates])
     new_entry = f"""
-## [{now_str}] - Candidate Ingestion & Graph Styling Run
-- **Candidates Processed**: Ingested {len(candidates)} CV profiles from `raw/resume/` (`gokhan-tenekecioglu`, `mehmet-eyyup-gulgun`).
+## [{now_str}] - Candidate Ingestion & Graph Building Run
+- **Candidates Processed**: Ingested {len(candidates)} CV profiles from `raw/resume/` ({cand_slugs_str}).
 - **Candidate Nodes Generated**: Created {len(candidates)} pages under `wiki/candidates/`.
 - **Geographic Filtering**: Filtered for Sweden and Turkey.
 - **Source Postings Processed**: {len(postings)} raw markdown files from `raw/postings/`.

@@ -100,5 +100,15 @@ In this session, the automated ingestion system and knowledge graph for **LLM-Wi
 To re-run the full ingestion pipeline, parse new CVs from `raw/resume/` or new job postings from `raw/postings/`:
 
 ```bash
+uv run --with python-docx --with pypdf python scripts/read_cvs.py
 uv run --with python-docx --with pypdf python scripts/build_wiki.py
 ```
+
+---
+
+## 📝 Session Update: Ingesting Newly Added Resumes (2026-07-28)
+
+1. **CV Extraction**: Processed `ilknur_nina_ulug_cv.pdf` using `scripts/read_cvs.py` and generated `raw/resume/ilknur_nina_ulug_cv.txt`.
+2. **Candidate Profile Node**: Created candidate wiki page `wiki/candidates/ilknur-nina-ulug.md` for **İlknur Nina Uluğ** (Creative Tech & Digital Media Specialist / AI Integration Consultant).
+3. **Skill Entity Expansion**: Added metadata and generated atomic skill nodes for 13 candidate skills including `gemini`, `claude`, `notebooklm`, `seo`, `digital-marketing`, `instagram-growth`, `adobe-creative-suite`, `final-cut-pro`, `capcut`, `ux-design`, `prompt-engineering`, `genai`, and `sap-joule`.
+4. **Wiki & Cross-Link Rebuild**: Rebuilt `wiki/index.md` (3 candidates, 60 skill nodes) and logged entry in `wiki/log.md`.

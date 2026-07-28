@@ -75,3 +75,6 @@ uv run python scripts/build_wiki.py
 3. **Generate Job Pages**: Builds structured job pages under `wiki/jobs/`.
 4. **Update Atomic Entity Pages**: Creates/updates pages under `wiki/skills/`, `wiki/companies/`, `wiki/domains/`, and `wiki/countries/`.
 5. **Rebuild Index & Append Log**: Rebuilds `wiki/index.md` demand ranking table and appends audit logs to `wiki/log.md`.
+
+Most Frequwnt Used prompts:
+ingest newly added resumes and update the wiki

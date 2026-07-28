@@ -12,8 +12,8 @@ Spotify is a featured employer tracked in [[sweden]].
 - [[job-2026-spotify-senior-ios-mobile-engineer]] - Senior iOS & Cross-Platform Mobile Engineer (Stockholm, Sweden (Hybrid))
 
 ## Primary Tech Stack  
-- **Skills**: [[flutter]], [[react]], [[swift]], [[swiftui]], [[graphql]], [[rest-apis]]  
-- **Tools & Platforms**: [[cicd]], [[github-actions]]  
+- **Skills**: [[react-native]], [[rest-apis]], [[react]], [[swiftui]], [[graphql]], [[swift]]  
+- **Tools & Platforms**: [[github-actions]], [[cicd]]  
 
 ## Related Domains  
 - [[web-mobile]]
