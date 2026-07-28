@@ -35,7 +35,7 @@
 
 ## Strategic Match Analysis  
 > Evaluated Candidate Profiles in Wiki:  
-- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[kubernetes]], [[aws]], [[docker]])
+- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[cicd]], [[vector-databases]], [[langchain]])
 - **[[ilknur-nina-ulug]]** (İlknur Nina Uluğ): **Strategic Match Score 75%** (Key overlap: [[python]])
 
 ## Related Pages  

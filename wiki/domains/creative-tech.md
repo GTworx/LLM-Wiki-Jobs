@@ -14,12 +14,12 @@ Combines web engineering, automated media rendering, Core Web Vitals optimizatio
 ## Key Demanded Skills & Tools  
 - [[react]]
 - [[nextjs]]
-- [[webgl]]
-- [[typescript]]
-- [[nodejs]]
-- [[python]]
-- [[marketing-analytics]]
 - [[technical-seo]]
+- [[nodejs]]
+- [[marketing-analytics]]
+- [[typescript]]
+- [[python]]
+- [[webgl]]
 
 ## Key Employers in Wiki  
 - [[insider]]

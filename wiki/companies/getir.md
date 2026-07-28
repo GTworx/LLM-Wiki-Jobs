@@ -12,8 +12,8 @@ Getir is a featured employer tracked in [[turkey]].
 - [[job-2026-getir-fullstack-systems-architect]] - Senior Full-Stack Systems Architect (Istanbul, Turkey (Hybrid))
 
 ## Primary Tech Stack  
-- **Skills**: [[rest-apis]], [[react]], [[nextjs]], [[graphql]], [[typescript]], [[nodejs]]  
-- **Tools & Platforms**: [[aws]], [[docker]], [[postgresql]], [[redis]], [[cicd]]  
+- **Skills**: [[react]], [[nextjs]], [[nodejs]], [[typescript]], [[graphql]], [[rest-apis]]  
+- **Tools & Platforms**: [[cicd]], [[aws]], [[postgresql]], [[docker]], [[redis]]  
 
 ## Related Domains  
 - [[software-development]]

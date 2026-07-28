@@ -78,3 +78,4 @@ uv run python scripts/build_wiki.py
 
 Most Frequwnt Used prompts:
 ingest newly added resumes and update the wiki
+ingest and build the wiki
