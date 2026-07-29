@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/jobs/job-2026-datadog-lead-devops-platform-engineer.md",
+                "file": "wiki/jobs/job-2026-crowdstrike-senior-secops-engineer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "job-2026-datadog-lead-devops-platform-engineer"
+              "title": "job-2026-crowdstrike-senior-secops-engineer"
             }
           }
         ]
@@ -182,6 +182,15 @@
   },
   "active": "57330f05d4d03b8d",
   "lastOpenFiles": [
+    "skills/job-matching-dashboard/SKILL.md",
+    "skills/job-matching-dashboard/serve.py",
+    "skills/job-matching-dashboard/index.html",
+    "skills/job-matching-dashboard/jobs_data.json",
+    "skills/job-matching-dashboard/export_data.py",
+    "skills/job-matching-dashboard",
+    "skills",
+    "LLM-Wiki-Jobs.md",
+    "wiki/jobs/job-2026-datadog-lead-devops-platform-engineer.md",
     "wiki/jobs/job-2026-crowdstrike-senior-secops-engineer.md",
     "wiki/jobs/job-2026-canva-creative-tech-seo-engineer.md",
     "wiki/domains/cyber-security.md",
@@ -205,18 +214,9 @@
     "wiki/jobs/job-2026-trendyol-principal-enterprise-it-consultant.md",
     "wiki/jobs/job-2026-tele2-cloud-secops-security-engineer.md",
     "wiki/candidates/mehmet-eyyup-gulgun.md",
-    "wiki/candidates/gokhan-tenekecioglu.md",
     "wiki/candidates",
     "raw/resume/MEHMET EYYUP GULGUN.txt",
     "raw/resume/CV_GökhanTenekecioglu.txt",
-    "scripts/read_cvs.py",
-    "raw/resume/CV_GökhanTenekecioglu.docx",
-    "raw/resume/MEHMET EYYUP GULGUN.pdf",
-    "wiki/countries/turkey.md",
-    "wiki/countries/sweden.md",
-    "wiki/countries",
-    "scripts/build_wiki.py",
-    "scripts",
-    "raw/resume_assets"
+    "scripts/read_cvs.py"
   ]
 }

@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LLM Wiki Jobs — Match & Recommendation Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-gradient: linear-gradient(135deg, #090d16 0%, #0f172a 50%, #1e1b4b 100%);
+      --panel-bg: rgba(15, 23, 42, 0.75);
+      --panel-border: rgba(255, 255, 255, 0.1);
+      --card-bg: rgba(30, 41, 59, 0.65);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --card-hover-border: rgba(99, 102, 241, 0.4);
+      --primary: #6366f1;
+      --primary-light: #818cf8;
+      --accent-cyan: #06b6d4;
+      --accent-pink: #ec4899;
+      --star-color: #fbbf24;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --tag-bg: rgba(99, 102, 241, 0.15);
+      --tag-color: #a5b4fc;
+      --tag-match-bg: rgba(16, 185, 129, 0.2);
+      --tag-match-color: #34d399;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: var(--bg-gradient);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--panel-border);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .brand-logo {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, var(--primary), var(--accent-cyan));
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: #fff;
+      box-shadow: 0 0 20px rgba(99, 102, 241, 0.4);
+    }
+
+    .brand-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      background: linear-gradient(to right, #ffffff, #a5b4fc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .brand-subtitle {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .header-stats {
+      display: flex;
+      gap: 1.5rem;
+      font-size: 0.85rem;
+    }
+
+    .stat-badge {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--panel-border);
+      padding: 0.4rem 0.8rem;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .stat-value {
+      font-weight: 700;
+      color: var(--accent-cyan);
+    }
+
+    .dashboard-container {
+      display: flex;
+      flex: 1;
+      gap: 1.5rem;
+      padding: 1.5rem 2rem;
+      max-width: 1600px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    /* Left Pane - Filters & CV Upload */
+    .left-pane {
+      width: 340px;
+      flex-shrink: 0;
+      background: var(--panel-bg);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--panel-border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      max-height: calc(100vh - 120px);
+      position: sticky;
+      top: 90px;
+      overflow-y: auto;
+    }
+
+    .left-pane::-webkit-scrollbar {
+      width: 6px;
+    }
+    .left-pane::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 3px;
+    }
+
+    .pane-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      border-bottom: 1px solid var(--panel-border);
+      padding-bottom: 0.75rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .form-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .select-input, .text-input {
+      width: 100%;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid var(--panel-border);
+      color: var(--text-main);
+      padding: 0.65rem 0.85rem;
+      border-radius: 10px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      outline: none;
+      transition: all 0.2s;
+    }
+
+    .select-input:focus, .text-input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 10px rgba(99, 102, 241, 0.3);
+    }
+
+    /* City & Tag Checkboxes */
+    .checkbox-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      max-height: 140px;
+      overflow-y: auto;
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--panel-border);
+      border-radius: 10px;
+      padding: 0.65rem;
+    }
+
+    .checkbox-item {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.85rem;
+      cursor: pointer;
+      user-select: none;
+      padding: 0.25rem 0.4rem;
+      border-radius: 6px;
+      transition: background 0.15s;
+    }
+
+    .checkbox-item:hover {
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .checkbox-item input[type="checkbox"] {
+      accent-color: var(--primary);
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+    }
+
+    /* Tag Pills Grid */
+    .tag-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      max-height: 160px;
+      overflow-y: auto;
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--panel-border);
+      border-radius: 10px;
+      padding: 0.65rem;
+    }
+
+    .chip-item {
+      font-size: 0.78rem;
+      padding: 0.3rem 0.65rem;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--panel-border);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .chip-item.active {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary-light);
+      box-shadow: 0 0 10px rgba(99, 102, 241, 0.4);
+    }
+
+    /* CV Upload Box */
+    .upload-box {
+      border: 2px dashed rgba(99, 102, 241, 0.4);
+      border-radius: 12px;
+      padding: 1rem;
+      text-align: center;
+      background: rgba(99, 102, 241, 0.05);
+      cursor: pointer;
+      transition: all 0.2s;
+      position: relative;
+    }
+
+    .upload-box:hover {
+      border-color: var(--primary);
+      background: rgba(99, 102, 241, 0.1);
+    }
+
+    .upload-icon {
+      font-size: 1.5rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .upload-title {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .upload-desc {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    .upload-input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    .candidate-quick-select {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+    }
+
+    .cand-btn {
+      font-size: 0.75rem;
+      padding: 0.3rem 0.6rem;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--panel-border);
+      color: var(--text-muted);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .cand-btn:hover, .cand-btn.active {
+      background: rgba(236, 72, 153, 0.2);
+      border-color: var(--accent-pink);
+      color: #fff;
+    }
+
+    .textarea-input {
+      width: 100%;
+      height: 90px;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid var(--panel-border);
+      color: var(--text-main);
+      padding: 0.65rem;
+      border-radius: 10px;
+      font-family: inherit;
+      font-size: 0.8rem;
+      resize: vertical;
+      outline: none;
+    }
+
+    .textarea-input:focus {
+      border-color: var(--primary);
+    }
+
+    /* Right Pane - Job Cards & Search Results */
+    .right-pane {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .results-header {
+      background: var(--panel-bg);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--panel-border);
+      border-radius: 16px;
+      padding: 1rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .results-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .results-count {
+      background: var(--primary);
+      color: #fff;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 0.2rem 0.6rem;
+      border-radius: 12px;
+    }
+
+    .sort-control {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .jobs-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    /* Job Card */
+    .job-card {
+      background: var(--card-bg);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      transition: all 0.25s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .job-card:hover {
+      border-color: var(--card-hover-border);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 0 15px rgba(99, 102, 241, 0.2);
+    }
+
+    .job-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    .job-main-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+
+    .job-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.3;
+    }
+
+    .job-company-loc {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+
+    .company-name {
+      color: var(--accent-cyan);
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+
+    .job-location {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    /* Rating & Stars Badge */
+    .rating-badge {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(251, 191, 36, 0.3);
+      padding: 0.6rem 0.9rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      min-width: 140px;
+    }
+
+    .stars-container {
+      display: flex;
+      gap: 2px;
+      font-size: 1.1rem;
+      color: var(--star-color);
+    }
+
+    .star {
+      transition: transform 0.2s;
+    }
+
+    .star.empty {
+      color: rgba(255, 255, 255, 0.2);
+    }
+
+    .match-percent {
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #fff;
+      margin-top: 0.2rem;
+    }
+
+    .match-label {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .job-details-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      padding: 0.6rem 0;
+    }
+
+    .detail-item {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .detail-item strong {
+      color: #fff;
+    }
+
+    .job-summary {
+      font-size: 0.88rem;
+      color: #cbd5e1;
+      line-height: 1.5;
+    }
+
+    /* Skills & Tags */
+    .job-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .job-tag {
+      font-size: 0.78rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 6px;
+      background: var(--tag-bg);
+      color: var(--tag-color);
+      border: 1px solid rgba(99, 102, 241, 0.2);
+    }
+
+    .job-tag.matched {
+      background: var(--tag-match-bg);
+      color: var(--tag-match-color);
+      border-color: rgba(52, 211, 153, 0.3);
+      font-weight: 600;
+    }
+
+    .responsibilities-list {
+      margin-top: 0.5rem;
+      padding-left: 1.2rem;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .no-results {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: var(--panel-bg);
+      border-radius: 16px;
+      border: 1px solid var(--panel-border);
+      color: var(--text-muted);
+    }
+
+    .no-results h3 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.4rem;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Toggle details button */
+    .expand-btn {
+      align-self: flex-start;
+      background: transparent;
+      border: none;
+      color: var(--primary-light);
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      padding: 0;
+      margin-top: 0.2rem;
+    }
+
+    .expand-btn:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 1024px) {
+      .dashboard-container {
+        flex-direction: column;
+      }
+      .left-pane {
+        width: 100%;
+        max-height: none;
+        position: static;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <div class="brand-logo">W</div>
+      <div>
+        <div class="brand-title">LLM Wiki Jobs</div>
+        <div class="brand-subtitle">AI Candidate Matching & Recommendation Engine</div>
+      </div>
+    </div>
+    <div class="header-stats">
+      <div class="stat-badge">
+        <span>Active Job Ads:</span>
+        <span class="stat-value" id="stat-total-jobs">0</span>
+      </div>
+      <div class="stat-badge">
+        <span>Matched Roles:</span>
+        <span class="stat-value" id="stat-matched-jobs">0</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="dashboard-container">
+    
+    <!-- LEFT PANE: FILTERS & CV UPLOAD -->
+    <aside class="left-pane">
+      <div class="pane-title">
+        <span>⚙️</span> Search Filters & CV Parsing
+      </div>
+
+      <!-- Country Dropdown -->
+      <div class="form-group">
+        <div class="form-label">
+          <span>Country</span>
+          <span>(Dropdown)</span>
+        </div>
+        <select id="country-select" class="select-input">
+          <option value="ALL">All Countries</option>
+          <option value="Sweden">🇸🇪 Sweden</option>
+          <option value="Turkey">🇹🇷 Turkey</option>
+          <option value="USA">🇺🇸 USA</option>
+          <option value="Global">🌐 Global / Other</option>
+        </select>
+      </div>
+
+      <!-- City Multiple Choice -->
+      <div class="form-group">
+        <div class="form-label">
+          <span>City</span>
+          <span>(Multiple Choice)</span>
+        </div>
+        <div class="checkbox-group" id="city-checkboxes">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+
+      <!-- Job Tags Multiple Selection -->
+      <div class="form-group">
+        <div class="form-label">
+          <span>Job Tags & Skills</span>
+          <span>(Multi-Select)</span>
+        </div>
+        <input type="text" id="tag-search" class="text-input" placeholder="Search tags (e.g., secops, python)..." style="margin-bottom: 0.4rem;">
+        <div class="tag-chips" id="tag-chips-container">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+
+      <!-- CV Upload & Preset Selection -->
+      <div class="form-group" style="margin-top: 0.5rem;">
+        <div class="form-label">
+          <span>Upload Candidate CV</span>
+          <span>(AI Scoring)</span>
+        </div>
+
+        <div class="upload-box" id="drop-zone">
+          <div class="upload-icon">📄</div>
+          <div class="upload-title">Drop your CV here or click to browse</div>
+          <div class="upload-desc">Supports .txt, .pdf, .docx file parsing</div>
+          <input type="file" id="cv-file-input" class="upload-input" accept=".txt,.pdf,.docx">
+        </div>
+
+        <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.5rem;">Or test with candidate profiles:</div>
+        <div class="candidate-quick-select" id="candidate-presets">
+          <!-- Preset buttons populated via JS -->
+        </div>
+
+        <textarea id="cv-text-input" class="textarea-input" placeholder="Or paste CV text directly here to calculate star ratings..." style="margin-top: 0.4rem;"></textarea>
+      </div>
+
+      <button id="reset-filters-btn" class="cand-btn" style="width: 100%; text-align: center; padding: 0.6rem; background: rgba(255,255,255,0.08); color: #fff; margin-top: 0.5rem;">
+        🔄 Reset All Filters
+      </button>
+    </aside>
+
+    <!-- RIGHT PANE: MATCHING JOBS & STAR RATINGS -->
+    <main class="right-pane">
+      <div class="results-header">
+        <div class="results-title">
+          <span>Matched Job Listings</span>
+          <span class="results-count" id="results-count-badge">0 Jobs</span>
+        </div>
+
+        <div class="sort-control">
+          <label for="sort-select">Sort Order:</label>
+          <select id="sort-select" class="select-input" style="width: auto; padding: 0.4rem 0.8rem;">
+            <option value="relevance">Highest Relevance & Star Rating</option>
+            <option value="title">Job Title (A-Z)</option>
+            <option value="company">Company Name</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="jobs-list" id="jobs-container">
+        <!-- Job cards rendered dynamically -->
+      </div>
+    </main>
+
+  </div>
+
+  <script>
+    // Global State
+    let allJobs = [];
+    let candidatesData = [];
+    let selectedCountry = "ALL";
+    let selectedCities = new Set();
+    let selectedTags = new Set();
+    let currentCVText = "";
+    let extractedCVSkills = new Set();
+
+    // Embedded Fallback Job & Candidate Data (in case jobs_data.json is loaded statically or via server)
+    const EMBEDDED_DATA = {
+      "jobs": [
+        {
+          "id": "job-2026-canva-creative-tech-seo-engineer",
+          "title": "Technical SEO & Creative Tech Engineer at Canva",
+          "company": "canva",
+          "domain": "creative-tech",
+          "country": "Global",
+          "city": "Remote",
+          "location": "Sydney, Australia (Hybrid / Remote)",
+          "experience": "Mid-Senior",
+          "compensation": "AUD 150,000 - AUD 190,000 + Equity",
+          "summary": "Senior tech position at Canva focusing on Creative Tech & Marketing Engineering.",
+          "tags": ["marketing-analytics", "nextjs", "nodejs", "python", "react", "technical-seo", "typescript", "webgl"],
+          "responsibilities": [
+            "Architect high-traffic web pages optimized for Technical SEO, Core Web Vitals, and accessibility.",
+            "Build automated dynamic video production and graphic rendering engines using WebGL, HTML5 Canvas, and Node.js.",
+            "Implement end-to-end Marketing Analytics tracking using Google Tag Manager, Segment, and Python data pipelines."
+          ]
+        },
+        {
+          "id": "job-2026-crowdstrike-senior-secops-engineer",
+          "title": "Senior Cloud SecOps & Security Engineer at CrowdStrike",
+          "company": "crowdstrike",
+          "domain": "cyber-security",
+          "country": "USA",
+          "city": "Austin",
+          "location": "Austin, TX (Remote)",
+          "experience": "Senior",
+          "compensation": "$165,000 - $215,000 + Equity",
+          "summary": "Senior tech position at CrowdStrike focusing on Cyber Security & Information Assurance.",
+          "tags": ["iam", "penetration-testing", "python", "secops", "aws", "cicd", "docker", "github-actions", "kubernetes", "terraform", "cissp", "iso27001", "soc2"],
+          "responsibilities": [
+            "Architect automated SOC analysis tools and real-time event correlation pipelines using Python and Go.",
+            "Execute cloud penetration testing, vulnerability management, and automated remediation on AWS.",
+            "Lead IAM policy hardening, Zero Trust access controls, and OAuth2 integration."
+          ]
+        },
+        {
+          "id": "job-2026-tele2-cloud-secops-security-engineer",
+          "title": "Senior Cloud SecOps & Security Engineer at Tele2",
+          "company": "tele2",
+          "domain": "cyber-security",
+          "country": "Sweden",
+          "city": "Stockholm",
+          "location": "Stockholm, Sweden (Hybrid / Remote)",
+          "experience": "Senior",
+          "compensation": "SEK 850,000 - SEK 1,050,000",
+          "summary": "Senior tech position at Tele2 focusing on Cyber Security & Information Assurance.",
+          "tags": ["iam", "penetration-testing", "python", "secops", "aws", "docker", "github-actions", "terraform", "cissp", "iso27001", "soc2"],
+          "responsibilities": [
+            "Execute cloud penetration testing, security vulnerability assessments, and OWASP audits.",
+            "Manage IAM access governance, OAuth2 Zero Trust access controls, and AWS GuardDuty.",
+            "Automate Security Operations (SecOps) detection scripts using Python and GitHub Actions."
+          ]
+        },
+        {
+          "id": "job-2026-klarna-staff-agentic-ai-engineer",
+          "title": "Staff Agentic AI Engineer at Klarna",
+          "company": "klarna",
+          "domain": "agentic-ai",
+          "country": "Sweden",
+          "city": "Stockholm",
+          "location": "Stockholm, Sweden (Hybrid / Remote)",
+          "experience": "Staff",
+          "compensation": "SEK 1,100,000 - SEK 1,400,000 + Stock",
+          "summary": "Staff level AI engineering role at Klarna building multi-agent systems and financial AI agents.",
+          "tags": ["agentic-ai", "langchain", "langgraph", "openai-api", "python", "pytorch", "vector-databases", "aws", "docker"],
+          "responsibilities": [
+            "Design and deploy stateful multi-agent decision workflows using LangGraph, Python, and OpenAI API.",
+            "Build autonomous RAG pipelines over vector databases for real-time customer financial advice.",
+            "Lead technical architecture for agentic AI guardrails and safety evaluation."
+          ]
+        },
+        {
+          "id": "job-2026-deloitte-turkey-sap-s4hana-lead-consultant",
+          "title": "Senior SAP S/4HANA Lead Consultant at Deloitte Turkey",
+          "company": "deloitte",
+          "domain": "enterprise-systems",
+          "country": "Turkey",
+          "city": "Istanbul",
+          "location": "Istanbul, Turkey (Hybrid / Remote)",
+          "experience": "Lead",
+          "compensation": "TRY 1,800,000 - TRY 2,400,000",
+          "summary": "Lead enterprise systems role at Deloitte Turkey driving SAP S/4HANA transformation projects.",
+          "tags": ["sap-s4hana", "abap", "sap-fiori", "sap-btp", "odata-services", "iam", "it-consultancy"],
+          "responsibilities": [
+            "Lead end-to-end S/4HANA enterprise ERP implementations for global clients in Turkey and Europe.",
+            "Architect custom ABAP extensions, OData services, and SAP BTP integrations.",
+            "Enforce IAM policies and SAP security compliance standards."
+          ]
+        },
+        {
+          "id": "job-2026-spotify-senior-ios-mobile-engineer",
+          "title": "Senior iOS & Cross-Platform Mobile Engineer at Spotify",
+          "company": "spotify",
+          "domain": "web-mobile",
+          "country": "Sweden",
+          "city": "Stockholm",
+          "location": "Stockholm, Sweden (Hybrid / Remote)",
+          "experience": "Senior",
+          "compensation": "SEK 950,000 - SEK 1,200,000",
+          "summary": "Senior mobile engineering position at Spotify working on core iOS player engine and cross-platform mobile UI.",
+          "tags": ["swift", "ios", "react-native", "graphql", "rest-apis", "cicd"],
+          "responsibilities": [
+            "Develop high-performance audio streaming components in Swift and Objective-C for iOS.",
+            "Architect modular mobile UI design system components using React Native and GraphQL APIs."
+          ]
+        },
+        {
+          "id": "job-2026-ericsson-lead-devops-platform-engineer",
+          "title": "Lead DevOps & Platform Infrastructure Engineer at Ericsson",
+          "company": "ericsson",
+          "domain": "cloud-infrastructure",
+          "country": "Sweden",
+          "city": "Stockholm",
+          "location": "Stockholm, Sweden (Hybrid / Remote)",
+          "experience": "Lead",
+          "compensation": "SEK 1,000,000 - SEK 1,250,000",
+          "summary": "Lead infrastructure role at Ericsson powering global 5G platform deployments.",
+          "tags": ["kubernetes", "terraform", "aws", "docker", "python", "cicd", "github-actions", "prometheus"],
+          "responsibilities": [
+            "Architect Kubernetes cluster automation and multi-region infrastructure using Terraform and AWS.",
+            "Build continuous deployment CI/CD pipelines with GitHub Actions and Python scripting."
+          ]
+        },
+        {
+          "id": "job-2026-getir-fullstack-systems-architect",
+          "title": "Full-Stack Systems Architect at Getir",
+          "company": "getir",
+          "domain": "software-development",
+          "country": "Turkey",
+          "city": "Istanbul",
+          "location": "Istanbul, Turkey (Hybrid / Remote)",
+          "experience": "Principal",
+          "compensation": "TRY 1,600,000 - TRY 2,100,000",
+          "summary": "Principal full-stack systems role designing high-concurrency microservices and real-time backend engines.",
+          "tags": ["nodejs", "typescript", "react", "nextjs", "rest-apis", "graphql", "docker", "aws"],
+          "responsibilities": [
+            "Architect high-concurrency microservices handling millions of active quick-commerce orders.",
+            "Design full-stack web applications using TypeScript, React, Next.js, and Node.js."
+          ]
+        },
+        {
+          "id": "job-2026-trendyol-principal-enterprise-it-consultant",
+          "title": "Principal Enterprise IT & Strategy Consultant at Trendyol",
+          "company": "trendyol",
+          "domain": "management-strategy",
+          "country": "Turkey",
+          "city": "Istanbul",
+          "location": "Istanbul, Turkey (Hybrid / Remote)",
+          "experience": "Principal",
+          "compensation": "TRY 2,000,000 - TRY 2,600,000",
+          "summary": "C-level strategic consulting role advising e-commerce architecture, cloud migration, and ERP modernization.",
+          "tags": ["it-consultancy", "enterprise-architecture", "agile", "sap-s4hana", "aws", "management"],
+          "responsibilities": [
+            "Define 5-year enterprise IT modernization roadmaps across e-commerce logistics and cloud platforms.",
+            "Drive cross-functional technology alignment between SAP ERP, AWS cloud, and engineering leads."
+          ]
+        },
+        {
+          "id": "job-2026-insider-creative-tech-seo-engineer",
+          "title": "Technical SEO & Creative Tech Engineer at Insider",
+          "company": "insider",
+          "domain": "creative-tech",
+          "country": "Turkey",
+          "city": "Istanbul",
+          "location": "Istanbul, Turkey (Hybrid / Remote)",
+          "experience": "Senior",
+          "compensation": "TRY 1,200,000 - TRY 1,600,000",
+          "summary": "Senior creative tech role focusing on automated AI growth marketing engines and technical web performance.",
+          "tags": ["technical-seo", "react", "nextjs", "typescript", "python", "marketing-analytics", "ux-design"],
+          "responsibilities": [
+            "Build automated personalized web experience engines for enterprise growth marketing clients.",
+            "Optimize web application performance, Core Web Vitals, and Technical SEO indexing."
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "gokhan-tenekecioglu",
+          "name": "Gökhan Tenekecioğlu",
+          "summary": "SAP Technology & AI Evangelist / Basis Architect (25+ Yrs)",
+          "tags": ["sap-s4hana", "abap", "sap-fiori", "sap-btp", "aws", "python", "docker", "secops", "iam", "agentic-ai", "langchain", "langgraph", "kubernetes", "it-consultancy"]
+        },
+        {
+          "id": "mehmet-eyyup-gulgun",
+          "name": "Mehmet Eyyüp Gülgün",
+          "summary": "Senior SAP BASIS Consultant & System Architect (12+ Yrs)",
+          "tags": ["sap-s4hana", "abap", "sap-fiori", "sap-btp", "secops", "iam", "python", "it-consultancy", "rest-apis"]
+        },
+        {
+          "id": "ilknur-nina-ulug",
+          "name": "İlknur Nina Uluğ",
+          "summary": "Creative Tech & Digital Media Specialist / AI Integration Consultant",
+          "tags": ["technical-seo", "seo", "ux-design", "prompt-engineering", "genai", "python", "nextjs", "react", "marketing-analytics"]
+        }
+      ]
+    };
+
+    // Load Data
+    async function loadJobsData() {
+      try {
+        const response = await fetch('./jobs_data.json');
+        if (response.ok) {
+          const json = await response.json();
+          allJobs = json.jobs || [];
+          candidatesData = json.candidates || [];
+        } else {
+          allJobs = EMBEDDED_DATA.jobs;
+          candidatesData = EMBEDDED_DATA.candidates;
+        }
+      } catch (err) {
+        console.warn("Using embedded fallback data:", err);
+        allJobs = EMBEDDED_DATA.jobs;
+        candidatesData = EMBEDDED_DATA.candidates;
+      }
+      initDashboard();
+    }
+
+    function initDashboard() {
+      renderCities();
+      renderTags();
+      renderCandidatePresets();
+      updateDashboard();
+
+      // Event Listeners
+      document.getElementById('country-select').addEventListener('change', (e) => {
+        selectedCountry = e.target.value;
+        updateDashboard();
+      });
+
+      document.getElementById('sort-select').addEventListener('change', () => {
+        updateDashboard();
+      });
+
+      document.getElementById('tag-search').addEventListener('input', (e) => {
+        const q = e.target.value.toLowerCase();
+        document.querySelectorAll('.chip-item').forEach(chip => {
+          const text = chip.getAttribute('data-tag').toLowerCase();
+          chip.style.display = text.includes(q) ? 'flex' : 'none';
+        });
+      });
+
+      document.getElementById('cv-text-input').addEventListener('input', (e) => {
+        currentCVText = e.target.value;
+        extractSkillsFromCV(currentCVText);
+        updateDashboard();
+      });
+
+      document.getElementById('cv-file-input').addEventListener('change', handleFileUpload);
+
+      document.getElementById('reset-filters-btn').addEventListener('click', () => {
+        document.getElementById('country-select').value = 'ALL';
+        selectedCountry = 'ALL';
+        selectedCities.clear();
+        selectedTags.clear();
+        currentCVText = "";
+        extractedCVSkills.clear();
+        document.getElementById('cv-text-input').value = "";
+        document.querySelectorAll('.cand-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.chip-item').forEach(c => c.classList.remove('active'));
+        document.querySelectorAll('.city-checkbox').forEach(cb => cb.checked = false);
+        updateDashboard();
+      });
+    }
+
+    function renderCities() {
+      const citiesSet = new Set();
+      allJobs.forEach(j => { if (j.city) citiesSet.add(j.city); });
+      const sortedCities = Array.from(citiesSet).sort();
+
+      const container = document.getElementById('city-checkboxes');
+      container.innerHTML = sortedCities.map(city => `
+        <label class="checkbox-item">
+          <input type="checkbox" class="city-checkbox" value="${city}">
+          <span>${city}</span>
+        </label>
+      `).join('');
+
+      container.querySelectorAll('.city-checkbox').forEach(cb => {
+        cb.addEventListener('change', (e) => {
+          if (e.target.checked) selectedCities.add(e.target.value);
+          else selectedCities.delete(e.target.value);
+          updateDashboard();
+        });
+      });
+    }
+
+    function renderTags() {
+      const tagMap = new Map();
+      allJobs.forEach(j => {
+        (j.tags || []).forEach(t => {
+          tagMap.set(t, (tagMap.get(t) || 0) + 1);
+        });
+      });
+
+      const sortedTags = Array.from(tagMap.keys()).sort();
+      const container = document.getElementById('tag-chips-container');
+      
+      container.innerHTML = sortedTags.map(tag => `
+        <div class="chip-item" data-tag="${tag}">
+          <span>${tag}</span>
+        </div>
+      `).join('');
+
+      container.querySelectorAll('.chip-item').forEach(chip => {
+        chip.addEventListener('click', () => {
+          const tag = chip.getAttribute('data-tag');
+          if (selectedTags.has(tag)) {
+            selectedTags.delete(tag);
+            chip.classList.remove('active');
+          } else {
+            selectedTags.add(tag);
+            chip.classList.add('active');
+          }
+          updateDashboard();
+        });
+      });
+    }
+
+    function renderCandidatePresets() {
+      const container = document.getElementById('candidate-presets');
+      container.innerHTML = candidatesData.map(c => `
+        <button class="cand-btn" data-id="${c.id}">${c.name.split(' ')[0]}</button>
+      `).join('');
+
+      container.querySelectorAll('.cand-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.cand-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const candId = btn.getAttribute('data-id');
+          const candidate = candidatesData.find(c => c.id === candId);
+          if (candidate) {
+            currentCVText = candidate.raw_text || candidate.summary || candidate.tags.join(' ');
+            document.getElementById('cv-text-input').value = `[Candidate Profile: ${candidate.name}]\n${candidate.summary}\nKey Skills: ${candidate.tags.join(', ')}`;
+            extractedCVSkills = new Set(candidate.tags.map(t => t.toLowerCase()));
+            updateDashboard();
+          }
+        });
+      });
+    }
+
+    function handleFileUpload(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function(evt) {
+        currentCVText = evt.target.result;
+        document.getElementById('cv-text-input').value = currentCVText;
+        extractSkillsFromCV(currentCVText);
+        updateDashboard();
+      };
+      reader.readAsText(file);
+    }
+
+    function extractSkillsFromCV(text) {
+      extractedCVSkills.clear();
+      if (!text) return;
+      const lowerText = text.toLowerCase();
+      
+      // Compare text against all known job tags
+      const allTagsList = new Set();
+      allJobs.forEach(j => (j.tags || []).forEach(t => allTagsList.add(t.toLowerCase())));
+
+      allTagsList.forEach(tag => {
+        const normalizedTag = tag.replace(/-/g, ' ');
+        if (lowerText.includes(tag) || lowerText.includes(normalizedTag)) {
+          extractedCVSkills.add(tag);
+        }
+      });
+    }
+
+    // Calculate Relevance Match Score (%) & Star Rating (1 - 5 stars)
+    function calculateRelevance(job) {
+      if (!currentCVText && extractedCVSkills.size === 0 && selectedTags.size === 0) {
+        return { score: 70, stars: 3.5, matchedTags: [], totalTags: job.tags.length };
+      }
+
+      const jobTags = (job.tags || []).map(t => t.toLowerCase());
+      if (jobTags.length === 0) return { score: 50, stars: 2.5, matchedTags: [] };
+
+      // Skill overlap
+      let matches = 0;
+      const matchedTags = [];
+      const lowerCV = currentCVText.toLowerCase();
+
+      jobTags.forEach(tag => {
+        const normTag = tag.replace(/-/g, ' ');
+        if (extractedCVSkills.has(tag) || selectedTags.has(tag) || lowerCV.includes(tag) || lowerCV.includes(normTag)) {
+          matches++;
+          matchedTags.push(tag);
+        }
+      });
+
+      // Domain match bonus
+      let bonus = 0;
+      if (job.domain && lowerCV.includes(job.domain.replace(/-/g, ' '))) {
+        bonus += 10;
+      }
+
+      let ratio = matches / jobTags.length;
+      let score = Math.round((ratio * 80) + (matches > 0 ? 20 : 0) + bonus);
+      score = Math.min(99, Math.max(15, score));
+
+      // Calculate Stars (1 to 5)
+      let stars = 1;
+      if (score >= 90) stars = 5;
+      else if (score >= 75) stars = 4;
+      else if (score >= 55) stars = 3;
+      else if (score >= 35) stars = 2;
+      else stars = 1;
+
+      return { score, stars, matchedTags, totalTags: jobTags.length };
+    }
+
+    function updateDashboard() {
+      // 1. Filter jobs
+      let filtered = allJobs.filter(job => {
+        // Country filter
+        if (selectedCountry !== "ALL" && job.country.toLowerCase() !== selectedCountry.toLowerCase()) {
+          return false;
+        }
+        // City filter
+        if (selectedCities.size > 0 && !selectedCities.has(job.city)) {
+          return false;
+        }
+        // Tag filter
+        if (selectedTags.size > 0) {
+          const jTags = new Set((job.tags || []).map(t => t.toLowerCase()));
+          let hasMatch = false;
+          selectedTags.forEach(st => {
+            if (jTags.has(st.toLowerCase())) hasMatch = true;
+          });
+          if (!hasMatch) return false;
+        }
+        return true;
+      });
+
+      // 2. Compute relevance for each job
+      const scoredJobs = filtered.map(job => {
+        const rel = calculateRelevance(job);
+        return { ...job, relevance: rel };
+      });
+
+      // 3. Sort jobs (Default: highest relevance first)
+      const sortMode = document.getElementById('sort-select').value;
+      if (sortMode === 'relevance') {
+        scoredJobs.sort((a, b) => b.relevance.score - a.relevance.score);
+      } else if (sortMode === 'title') {
+        scoredJobs.sort((a, b) => a.title.localeCompare(b.title));
+      } else if (sortMode === 'company') {
+        scoredJobs.sort((a, b) => a.company.localeCompare(b.company));
+      }
+
+      // Update UI stats
+      document.getElementById('stat-total-jobs').textContent = allJobs.length;
+      document.getElementById('stat-matched-jobs').textContent = scoredJobs.length;
+      document.getElementById('results-count-badge').textContent = `${scoredJobs.length} Jobs`;
+
+      // 4. Render Jobs
+      renderJobsList(scoredJobs);
+    }
+
+    function renderJobsList(jobs) {
+      const container = document.getElementById('jobs-container');
+      if (jobs.length === 0) {
+        container.innerHTML = `
+          <div class="no-results">
+            <h3>No jobs matched your current criteria</h3>
+            <p>Try resetting filters or expanding your country, city, or tag selections.</p>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = jobs.map((job, index) => {
+        const { score, stars, matchedTags } = job.relevance;
+        
+        // Render 5 Star Icons
+        let starsHtml = '';
+        for (let i = 1; i <= 5; i++) {
+          if (i <= stars) {
+            starsHtml += `<span class="star">★</span>`;
+          } else {
+            starsHtml += `<span class="star empty">★</span>`;
+          }
+        }
+
+        const tagBadges = (job.tags || []).map(tag => {
+          const isMatch = matchedTags.includes(tag.toLowerCase());
+          return `<span class="job-tag ${isMatch ? 'matched' : ''}">${isMatch ? '✓ ' : ''}${tag}</span>`;
+        }).join('');
+
+        const respHtml = (job.responsibilities || []).slice(0, 3).map(r => `<li>${r}</li>`).join('');
+
+        return `
+          <div class="job-card" id="job-card-${job.id}">
+            <div class="job-card-header">
+              <div class="job-main-info">
+                <div class="job-title">${job.title}</div>
+                <div class="job-company-loc">
+                  <span class="company-name">${job.company}</span>
+                  <span>•</span>
+                  <span class="job-location">📍 ${job.location || job.city + ', ' + job.country}</span>
+                  <span>•</span>
+                  <span style="color: var(--accent-pink); font-weight: 600;">💼 ${job.experience}</span>
+                </div>
+              </div>
+
+              <!-- Rating Badge (5 Stars Max & Sort Metric) -->
+              <div class="rating-badge">
+                <div class="stars-container">${starsHtml}</div>
+                <div class="match-percent">${score}% Match</div>
+                <div class="match-label">${stars} / 5 Stars</div>
+              </div>
+            </div>
+
+            <div class="job-details-row">
+              <div class="detail-item">
+                <span>💰 Compensation:</span>
+                <strong>${job.compensation || 'Competitive'}</strong>
+              </div>
+              <div class="detail-item">
+                <span>🏷️ Domain:</span>
+                <strong style="text-transform: capitalize;">${(job.domain || '').replace(/-/g, ' ')}</strong>
+              </div>
+              <div class="detail-item">
+                <span>🎯 Matched Skills:</span>
+                <strong>${matchedTags.length} / ${(job.tags || []).length}</strong>
+              </div>
+            </div>
+
+            <div class="job-summary">${job.summary || ''}</div>
+
+            <div class="job-tags">
+              ${tagBadges}
+            </div>
+
+            ${respHtml ? `
+              <ul class="responsibilities-list">
+                ${respHtml}
+              </ul>
+            ` : ''}
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Start Dashboard
+    loadJobsData();
+  </script>
+</body>
+</html>
