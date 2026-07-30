@@ -15,7 +15,7 @@ In this session, the automated ingestion system and knowledge graph for **LLM-Wi
 2. **Geographic Filtering (Sweden 🇸🇪 & Turkey 🇹🇷)**: Restricted job targets strictly to Sweden and Turkey. Created dedicated country nodes under `wiki/countries/` (`sweden.md`, `turkey.md`).
 3. **Candidate CV Ingestion**: Extracted and ingested raw CV files from `raw/resume/` (`CV_GökhanTenekecioglu.docx` and `MEHMET EYYUP GULGUN.pdf`). Created candidate profile nodes under `wiki/candidates/` (`gokhan-tenekecioglu.md`, `mehmet-eyyup-gulgun.md`) and calculated candidate-to-job match scores.
 4. **Obsidian Graph View Styling**: Configured Obsidian graph node color groups in `.obsidian/graph.json` and CSS snippets:
-   - 🌸 **Candidates (`wiki/candidates/`)**: **Pink** (`#FF69B4`)
+   - 🟣 **Candidates (`wiki/candidates/`)**: **Lila** (`#C084FC`)
    - 🟠 **Countries (`wiki/countries/`)**: **Orange** (`#FF9800`)
    - 🔵 **Jobs (`wiki/jobs/`)**: **Blue** (`#2196F3`)
    - 🟡 **Skills & Tools (`wiki/skills/`)**: **Yellow** (`#FFEB3B`)
@@ -25,7 +25,7 @@ In this session, the automated ingestion system and knowledge graph for **LLM-Wi
 
 ## 📊 Summary of Ingested Knowledge Entities
 
-### 🌸 Candidate Profile Nodes (`wiki/candidates/`)
+### 🟣 Candidate Profile Nodes (`wiki/candidates/`)
 
 | Candidate | Primary Specialty | Target Markets | Top Matched Roles |
 | :--- | :--- | :--- | :--- |

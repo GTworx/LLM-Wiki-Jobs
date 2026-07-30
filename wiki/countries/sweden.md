@@ -23,7 +23,7 @@ Nordic tech hub focusing on Enterprise AI, FinTech, Telecom, and Mobile Engineer
 - [[job-2026-spotify-senior-ios-mobile-engineer]] - Senior iOS & Cross-Platform Mobile Engineer at [[spotify]] (Stockholm, Sweden (Hybrid))
 
 ## Top Employers in Sweden  
-- [[tele2]]
-- [[ericsson]]
 - [[spotify]]
 - [[klarna]]
+- [[tele2]]
+- [[ericsson]]

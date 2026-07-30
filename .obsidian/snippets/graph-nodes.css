@@ -15,7 +15,7 @@
   color: #ffeb3b !important;
 }
 
-/* Candidate nodes: Pink */
+/* Candidate nodes: Lila */
 .tag-candidate, [data-path*="wiki/candidates"] {
-  color: #ff69b4 !important;
+  color: #c084fc !important;
 }

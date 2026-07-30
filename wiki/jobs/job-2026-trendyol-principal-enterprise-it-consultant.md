@@ -36,7 +36,7 @@
 ## Strategic Match Analysis  
 > Evaluated Candidate Profiles in Wiki:  
 - **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 85%** (Key overlap: [[it-consultancy]], [[agile]])
-- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 95%** (Key overlap: [[it-consultancy]], [[scrum]], [[agile]])
+- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 95%** (Key overlap: [[scrum]], [[agile]], [[it-consultancy]])
 - **[[ilknur-nina-ulug]]** (İlknur Nina Uluğ): **Strategic Match Score 75%** (Key overlap: [[agile]])
 - **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 85%** (Key overlap: [[it-consultancy]], [[agile]])
 

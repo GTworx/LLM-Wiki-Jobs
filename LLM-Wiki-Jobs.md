@@ -53,7 +53,7 @@ wiki/                -- Markdown pages maintained by the AI
 
 To visually separate entities in the Obsidian knowledge graph, node color groups are configured as follows:
 
-* 🌸 **Candidate Nodes (`wiki/candidates/`)**: **Pink** (`#FF69B4`)
+* 🟣 **Candidate Nodes (`wiki/candidates/`)**: **Lila** (`#C084FC`)
 * 🟠 **Country Nodes (`wiki/countries/`)**: **Orange** (`#FF9800`)
 * 🔵 **Job Nodes (`wiki/jobs/`)**: **Blue** (`#2196F3`)
 * 🟡 **Skill & Tool Nodes (`wiki/skills/`)**: **Yellow** (`#FFEB3B`)

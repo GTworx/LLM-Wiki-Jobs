@@ -36,7 +36,7 @@
 
 ## Strategic Match Analysis  
 > Evaluated Candidate Profiles in Wiki:  
-- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 85%** (Key overlap: [[cicd]], [[rest-apis]])
+- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 85%** (Key overlap: [[rest-apis]], [[cicd]])
 
 ## Related Pages  
 - [[spotify]]  

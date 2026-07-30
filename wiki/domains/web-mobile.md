@@ -13,13 +13,13 @@ Focuses on native mobile clients, cross-platform app engines, real-time media st
 
 ## Key Demanded Skills & Tools  
 - [[flutter]]
-- [[swift]]
-- [[react]]
-- [[rest-apis]]
-- [[cicd]]
 - [[github-actions]]
 - [[react-native]]
+- [[rest-apis]]
+- [[graphql]]
+- [[cicd]]
 - [[swiftui]]
+- [[react]]
 
 ## Key Employers in Wiki  
 - [[spotify]]

@@ -35,9 +35,9 @@
 
 ## Strategic Match Analysis  
 > Evaluated Candidate Profiles in Wiki:  
-- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[it-consultancy]], [[sap-fiori]], [[rest-apis]])
-- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 98%** (Key overlap: [[iam]], [[it-consultancy]], [[sap-fiori]])
-- **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 95%** (Key overlap: [[iam]], [[it-consultancy]], [[secops]])
+- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[sap-s4hana]], [[sap-btp]], [[rest-apis]])
+- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 98%** (Key overlap: [[sap-s4hana]], [[iam]], [[secops]])
+- **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 95%** (Key overlap: [[secops]], [[iam]], [[it-consultancy]])
 
 ## Related Pages  
 - [[deloitte-turkey]]  

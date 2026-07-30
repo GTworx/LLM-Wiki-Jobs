@@ -12,14 +12,14 @@ Focuses on core enterprise resource planning, business process automation, ABAP 
 - [[job-2026-deloitte-turkey-sap-s4hana-lead-consultant]] - Senior SAP S/4HANA & Integration Consultant at [[deloitte-turkey]] ([[turkey]])
 
 ## Key Demanded Skills & Tools  
-- [[iam]]
-- [[it-consultancy]]
-- [[sap-fiori]]
-- [[rest-apis]]
-- [[secops]]
-- [[abap]]
 - [[sap-s4hana]]
 - [[sap-btp]]
+- [[iam]]
+- [[odata-services]]
+- [[secops]]
+- [[rest-apis]]
+- [[abap]]
+- [[it-consultancy]]
 
 ## Key Employers in Wiki  
 - [[deloitte-turkey]]

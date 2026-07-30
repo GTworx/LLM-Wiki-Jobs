@@ -12,13 +12,13 @@ Encompasses enterprise software design, microservices, high-concurrency REST/Gra
 - [[job-2026-getir-fullstack-systems-architect]] - Senior Full-Stack Systems Architect at [[getir]] ([[turkey]])
 
 ## Key Demanded Skills & Tools  
-- [[react]]
-- [[nodejs]]
-- [[rest-apis]]
-- [[aws]]
+- [[nextjs]]
 - [[postgresql]]
+- [[aws]]
+- [[rest-apis]]
+- [[docker]]
+- [[graphql]]
 - [[redis]]
-- [[typescript]]
 - [[cicd]]
 
 ## Key Employers in Wiki  

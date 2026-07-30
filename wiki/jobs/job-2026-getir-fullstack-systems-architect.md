@@ -35,8 +35,8 @@
 
 ## Strategic Match Analysis  
 > Evaluated Candidate Profiles in Wiki:  
-- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[cicd]], [[aws]], [[rest-apis]])
-- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 85%** (Key overlap: [[rest-apis]], [[postgresql]])
+- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[rest-apis]], [[cicd]], [[docker]])
+- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 85%** (Key overlap: [[postgresql]], [[rest-apis]])
 
 ## Related Pages  
 - [[getir]]  

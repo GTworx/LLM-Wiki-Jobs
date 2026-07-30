@@ -24,13 +24,13 @@ Coach, SAP Technology and AI Evangelist / Professional with over 25 years of exp
 - Specializes in local LLM integration for SAP enterprise security.
 
 ## Matched Job Listings in Wiki  
-- [[job-2026-deloitte-turkey-sap-s4hana-lead-consultant]] (Senior SAP S/4HANA & Integration Consultant at [[deloitte-turkey]]) - **Match Score: 98%** (Matching Skills: [[it-consultancy]], [[sap-fiori]], [[rest-apis]], [[abap]])
-- [[job-2026-ericsson-lead-devops-platform-engineer]] (Lead DevOps & Platform Infrastructure Engineer at [[ericsson]]) - **Match Score: 98%** (Matching Skills: [[kubernetes]], [[aws]], [[cicd]], [[prometheus]])
-- [[job-2026-getir-fullstack-systems-architect]] (Senior Full-Stack Systems Architect at [[getir]]) - **Match Score: 98%** (Matching Skills: [[cicd]], [[aws]], [[rest-apis]], [[docker]])
-- [[job-2026-klarna-staff-agentic-ai-engineer]] (Staff Agentic AI Engineer at [[klarna]]) - **Match Score: 98%** (Matching Skills: [[vector-databases]], [[kubernetes]], [[aws]], [[langgraph]])
-- [[job-2026-tele2-cloud-secops-security-engineer]] (Senior Cloud SecOps & Security Engineer at [[tele2]]) - **Match Score: 95%** (Matching Skills: [[aws]], [[python]], [[docker]])
+- [[job-2026-deloitte-turkey-sap-s4hana-lead-consultant]] (Senior SAP S/4HANA & Integration Consultant at [[deloitte-turkey]]) - **Match Score: 98%** (Matching Skills: [[sap-s4hana]], [[sap-btp]], [[rest-apis]], [[abap]])
+- [[job-2026-ericsson-lead-devops-platform-engineer]] (Lead DevOps & Platform Infrastructure Engineer at [[ericsson]]) - **Match Score: 98%** (Matching Skills: [[kubernetes]], [[aws]], [[docker]], [[datadog]])
+- [[job-2026-getir-fullstack-systems-architect]] (Senior Full-Stack Systems Architect at [[getir]]) - **Match Score: 98%** (Matching Skills: [[rest-apis]], [[cicd]], [[docker]], [[aws]])
+- [[job-2026-klarna-staff-agentic-ai-engineer]] (Staff Agentic AI Engineer at [[klarna]]) - **Match Score: 98%** (Matching Skills: [[kubernetes]], [[langgraph]], [[aws]], [[docker]])
+- [[job-2026-tele2-cloud-secops-security-engineer]] (Senior Cloud SecOps & Security Engineer at [[tele2]]) - **Match Score: 95%** (Matching Skills: [[python]], [[docker]], [[aws]])
 - [[job-2026-trendyol-principal-enterprise-it-consultant]] (Principal Enterprise IT & Strategy Consultant at [[trendyol]]) - **Match Score: 85%** (Matching Skills: [[it-consultancy]], [[agile]])
-- [[job-2026-spotify-senior-ios-mobile-engineer]] (Senior iOS & Cross-Platform Mobile Engineer at [[spotify]]) - **Match Score: 85%** (Matching Skills: [[cicd]], [[rest-apis]])
+- [[job-2026-spotify-senior-ios-mobile-engineer]] (Senior iOS & Cross-Platform Mobile Engineer at [[spotify]]) - **Match Score: 85%** (Matching Skills: [[rest-apis]], [[cicd]])
 - [[job-2026-insider-creative-tech-seo-engineer]] (Technical SEO & Creative Tech Engineer at [[insider]]) - **Match Score: 75%** (Matching Skills: [[python]])
 
 ## Related Country Nodes  

@@ -24,7 +24,7 @@ Eurasian tech center specializing in E-Commerce, SAP ERP Consulting, Enterprise 
 - [[job-2026-insider-creative-tech-seo-engineer]] - Technical SEO & Creative Tech Engineer at [[insider]] (Istanbul, Turkey (Hybrid / Remote))
 
 ## Top Employers in Turkey  
+- [[deloitte-turkey]]
 - [[insider]]
 - [[trendyol]]
 - [[getir]]
-- [[deloitte-turkey]]

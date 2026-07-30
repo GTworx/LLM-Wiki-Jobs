@@ -24,8 +24,8 @@ Experienced Cyber Security & Software Business Development Specialist with an M.
 - Certified in Jr. Penetration Testing & SOC Level 1 (TryHackMe), ISO/IEC 27001 Security Officer, SIEM Alert Rule Dev & EDR (Picus), and IBM Data Analysis with Python.
 
 ## Matched Job Listings in Wiki  
-- [[job-2026-tele2-cloud-secops-security-engineer]] (Senior Cloud SecOps & Security Engineer at [[tele2]]) - **Match Score: 98%** (Matching Skills: [[iam]], [[penetration-testing]], [[secops]], [[python]])
-- [[job-2026-deloitte-turkey-sap-s4hana-lead-consultant]] (Senior SAP S/4HANA & Integration Consultant at [[deloitte-turkey]]) - **Match Score: 95%** (Matching Skills: [[iam]], [[it-consultancy]], [[secops]])
+- [[job-2026-tele2-cloud-secops-security-engineer]] (Senior Cloud SecOps & Security Engineer at [[tele2]]) - **Match Score: 98%** (Matching Skills: [[secops]], [[iam]], [[python]], [[penetration-testing]])
+- [[job-2026-deloitte-turkey-sap-s4hana-lead-consultant]] (Senior SAP S/4HANA & Integration Consultant at [[deloitte-turkey]]) - **Match Score: 95%** (Matching Skills: [[secops]], [[iam]], [[it-consultancy]])
 - [[job-2026-trendyol-principal-enterprise-it-consultant]] (Principal Enterprise IT & Strategy Consultant at [[trendyol]]) - **Match Score: 85%** (Matching Skills: [[it-consultancy]], [[agile]])
 - [[job-2026-ericsson-lead-devops-platform-engineer]] (Lead DevOps & Platform Infrastructure Engineer at [[ericsson]]) - **Match Score: 75%** (Matching Skills: [[python]])
 - [[job-2026-insider-creative-tech-seo-engineer]] (Technical SEO & Creative Tech Engineer at [[insider]]) - **Match Score: 75%** (Matching Skills: [[python]])

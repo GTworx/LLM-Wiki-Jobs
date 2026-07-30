@@ -12,9 +12,9 @@ Covers digital transformation advisory, Agile organizational design, enterprise 
 - [[job-2026-trendyol-principal-enterprise-it-consultant]] - Principal Enterprise IT & Strategy Consultant at [[trendyol]] ([[turkey]])
 
 ## Key Demanded Skills & Tools  
-- [[it-consultancy]]
-- [[scrum]]
 - [[safe]]
+- [[scrum]]
+- [[it-consultancy]]
 - [[agile]]
 
 ## Key Employers in Wiki  

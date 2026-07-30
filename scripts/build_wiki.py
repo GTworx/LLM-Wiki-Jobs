@@ -815,7 +815,7 @@ Welcome to the personal knowledge base and automated job market intelligence sys
 
 ---
 
-## Candidate Profiles Directory 🌸
+## Candidate Profiles Directory 🟣
 {cand_links}
 
 ---
@@ -856,7 +856,7 @@ Welcome to the personal knowledge base and automated job market intelligence sys
 ---
 
 ## Graph View Color Legend
-- 🌸 **Candidate Nodes (`wiki/candidates/`)**: Pink (`#FF69B4`)
+- 🟣 **Candidate Nodes (`wiki/candidates/`)**: Lila (`#C084FC`)
 - 🟠 **Country Nodes (`wiki/countries/`)**: Orange (`#FF9800`)
 - 🔵 **Job Nodes (`wiki/jobs/`)**: Blue (`#2196F3`)
 - 🟡 **Skill & Tool Nodes (`wiki/skills/`)**: Yellow (`#FFEB3B`)
@@ -889,7 +889,7 @@ def append_to_log(postings, candidates):
 - **Geographic Filtering**: Filtered for Sweden and Turkey.
 - **Source Postings Processed**: {len(postings)} raw markdown files from `raw/postings/`.
 - **Job Pages Updated**: Cross-linked candidate match evaluations under `wiki/jobs/`.
-- **Obsidian Graph View Styling**: Applied Pink for Candidates (`#FF69B4`), Orange for Countries (`#FF9800`), Blue for Jobs (`#2196F3`), and Yellow for Skills (`#FFEB3B`).
+- **Obsidian Graph View Styling**: Applied Lila for Candidates (`#C084FC`), Orange for Countries (`#FF9800`), Blue for Jobs (`#2196F3`), and Yellow for Skills (`#FFEB3B`).
 """
     with open(log_file, "w", encoding="utf-8") as f:
         f.write(existing_log.strip() + "\n" + new_entry.strip() + "\n")

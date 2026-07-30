@@ -13,13 +13,13 @@ Covers automated infrastructure provisioning, container orchestration, telemetry
 
 ## Key Demanded Skills & Tools  
 - [[kubernetes]]
-- [[grafana]]
-- [[aws]]
-- [[cicd]]
-- [[github-actions]]
 - [[terraform]]
-- [[prometheus]]
+- [[aws]]
+- [[github-actions]]
+- [[docker]]
+- [[grafana]]
 - [[datadog]]
+- [[cicd]]
 
 ## Key Employers in Wiki  
 - [[ericsson]]

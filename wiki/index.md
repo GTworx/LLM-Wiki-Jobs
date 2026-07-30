@@ -12,7 +12,7 @@ Welcome to the personal knowledge base and automated job market intelligence sys
 
 ---
 
-## Candidate Profiles Directory 🌸
+## Candidate Profiles Directory 🟣
 - [[gokhan-tenekecioglu]] - **Gökhan Tenekecioğlu** (Coach, SAP Technology & AI Evangelist / Basis Architect) - Target: [[sweden]], [[turkey]]
 - [[mehmet-eyyup-gulgun]] - **Mehmet Eyyüp Gülgün** (Senior SAP BASIS Consultant & System Architect) - Target: [[turkey]]
 - [[ilknur-nina-ulug]] - **İlknur Nina Uluğ** (Creative Tech & Digital Media Specialist / AI Integration Consultant) - Target: [[sweden]], [[turkey]]
@@ -137,7 +137,7 @@ Welcome to the personal knowledge base and automated job market intelligence sys
 ---
 
 ## Graph View Color Legend
-- 🌸 **Candidate Nodes (`wiki/candidates/`)**: Pink (`#FF69B4`)
+- 🟣 **Candidate Nodes (`wiki/candidates/`)**: Lila (`#C084FC`)
 - 🟠 **Country Nodes (`wiki/countries/`)**: Orange (`#FF9800`)
 - 🔵 **Job Nodes (`wiki/jobs/`)**: Blue (`#2196F3`)
 - 🟡 **Skill & Tool Nodes (`wiki/skills/`)**: Yellow (`#FFEB3B`)
