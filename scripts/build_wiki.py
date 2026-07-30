@@ -1,4 +1,5 @@
 import os
+import sys
 import re
 import glob
 import datetime
@@ -384,7 +385,30 @@ def parse_candidates():
         ]
     })
 
+    # Candidate 4: Oya Paktaş
+    candidates.append({
+        "slug": "oya-paktas",
+        "name": "Oya Paktaş",
+        "role": "Cyber Security Business Development Manager & Global Channel Lead",
+        "location": "Ankara, Turkey",
+        "countries": ["turkey", "sweden"],
+        "email": "oyapaktas06@gmail.com",
+        "phone": "+90 (544) 303-15 67",
+        "linkedin": "https://medium.com/@oyapaktas",
+        "experience": "10+ Years Experience",
+        "summary": "Experienced Cyber Security & Software Business Development Specialist with an M.Sc. in Cyber Security (Ahmet Yesevi Univ., GPA 3.90). Specializes in global channel management, B2B technology sales strategy, distributor network expansion, penetration testing (TryHackMe Jr. Pentester), and Security Operations (SOC Level 1 / SIEM / EDR). Former Global Channel Manager at SECHARD Cyber Security (200+ global client meetings) and Global Sales Manager at SECROMIX.",
+        "skills": ["secops", "penetration-testing", "iam", "iso27001", "soc2", "python", "it-consultancy", "agile"],
+        "highlights": [
+            "Global Channel Manager at SECHARD Cyber Security: Organized 200+ global customer meetings in one year, established strategic international distributor & reseller partnerships.",
+            "Master's Degree (M.Sc.) in Cyber Security from Ahmet Yesevi University (GPA: 3.90/4.00, 2020-2022); B.A. in Business Administration from Anadolu University.",
+            "Global Sales Manager at SECROMIX Cyber Security driving international sales expansion in South Africa & EMEA regions.",
+            "Founder & Business Development Consultant at Fementech providing global B2B strategy, market analysis, and sales optimization for tech firms.",
+            "Certified in Jr. Penetration Testing & SOC Level 1 (TryHackMe), ISO/IEC 27001 Security Officer, SIEM Alert Rule Dev & EDR (Picus), and IBM Data Analysis with Python."
+        ]
+    })
+
     return candidates
+
 
 def generate_candidate_pages(candidates, postings):
     for cand in candidates:
@@ -902,8 +926,19 @@ def main():
     
     append_to_log(postings, candidates)
     print("Appended ingestion audit record to wiki/log.md.")
+
+    # Auto-update job-matching-dashboard export JSON after each digestion
+    try:
+        import subprocess
+        dashboard_export_script = os.path.join(WORKSPACE_DIR, "skills", "job-matching-dashboard", "export_data.py")
+        if os.path.exists(dashboard_export_script):
+            subprocess.run([sys.executable, dashboard_export_script], check=True)
+            print("Auto-updated job-matching-dashboard dataset (jobs_data.json).")
+    except Exception as e:
+        print(f"Warning: Could not auto-update dashboard dataset: {e}")
     
     print("Ingestion and wiki build completed successfully!")
 
 if __name__ == "__main__":
     main()
+

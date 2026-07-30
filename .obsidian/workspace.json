@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/jobs/job-2026-crowdstrike-senior-secops-engineer.md",
+                "file": "wiki/candidates/oya-paktas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "job-2026-crowdstrike-senior-secops-engineer"
+              "title": "oya-paktas"
             }
           }
         ]
@@ -182,6 +182,11 @@
   },
   "active": "57330f05d4d03b8d",
   "lastOpenFiles": [
+    "wiki/candidates/oya-paktas.md",
+    "raw/resume/Oya Paktaş CV. 2025.txt",
+    "raw/resume/Oya Paktaş CV. 2025.pdf",
+    "LLM-Wiki-Jobs.md",
+    "wiki/jobs/job-2026-crowdstrike-senior-secops-engineer.md",
     "skills/job-matching-dashboard/SKILL.md",
     "skills/job-matching-dashboard/serve.py",
     "skills/job-matching-dashboard/index.html",
@@ -189,9 +194,7 @@
     "skills/job-matching-dashboard/export_data.py",
     "skills/job-matching-dashboard",
     "skills",
-    "LLM-Wiki-Jobs.md",
     "wiki/jobs/job-2026-datadog-lead-devops-platform-engineer.md",
-    "wiki/jobs/job-2026-crowdstrike-senior-secops-engineer.md",
     "wiki/jobs/job-2026-canva-creative-tech-seo-engineer.md",
     "wiki/domains/cyber-security.md",
     "SESSION_LOG.md",
@@ -213,10 +216,7 @@
     "wiki/jobs/job-2026-deloitte-turkey-sap-s4hana-lead-consultant.md",
     "wiki/jobs/job-2026-trendyol-principal-enterprise-it-consultant.md",
     "wiki/jobs/job-2026-tele2-cloud-secops-security-engineer.md",
-    "wiki/candidates/mehmet-eyyup-gulgun.md",
     "wiki/candidates",
-    "raw/resume/MEHMET EYYUP GULGUN.txt",
-    "raw/resume/CV_GökhanTenekecioglu.txt",
-    "scripts/read_cvs.py"
+    "raw/resume/MEHMET EYYUP GULGUN.txt"
   ]
 }

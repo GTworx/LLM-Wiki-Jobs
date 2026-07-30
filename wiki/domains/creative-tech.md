@@ -12,14 +12,14 @@ Combines web engineering, automated media rendering, Core Web Vitals optimizatio
 - [[job-2026-insider-creative-tech-seo-engineer]] - Technical SEO & Creative Tech Engineer at [[insider]] ([[turkey]])
 
 ## Key Demanded Skills & Tools  
-- [[react]]
-- [[nextjs]]
-- [[technical-seo]]
-- [[nodejs]]
 - [[marketing-analytics]]
-- [[typescript]]
-- [[python]]
 - [[webgl]]
+- [[react]]
+- [[technical-seo]]
+- [[typescript]]
+- [[nextjs]]
+- [[nodejs]]
+- [[python]]
 
 ## Key Employers in Wiki  
 - [[insider]]

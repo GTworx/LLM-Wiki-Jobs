@@ -13,13 +13,13 @@ Encompasses enterprise software design, microservices, high-concurrency REST/Gra
 
 ## Key Demanded Skills & Tools  
 - [[react]]
-- [[cicd]]
-- [[nextjs]]
-- [[aws]]
 - [[nodejs]]
-- [[typescript]]
-- [[graphql]]
+- [[rest-apis]]
+- [[aws]]
 - [[postgresql]]
+- [[redis]]
+- [[typescript]]
+- [[cicd]]
 
 ## Key Employers in Wiki  
 - [[getir]]

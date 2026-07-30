@@ -12,14 +12,14 @@ Covers automated infrastructure provisioning, container orchestration, telemetry
 - [[job-2026-ericsson-lead-devops-platform-engineer]] - Lead DevOps & Platform Infrastructure Engineer at [[ericsson]] ([[sweden]])
 
 ## Key Demanded Skills & Tools  
-- [[cicd]]
-- [[datadog]]
-- [[aws]]
 - [[kubernetes]]
-- [[prometheus]]
 - [[grafana]]
+- [[aws]]
+- [[cicd]]
+- [[github-actions]]
 - [[terraform]]
-- [[docker]]
+- [[prometheus]]
+- [[datadog]]
 
 ## Key Employers in Wiki  
 - [[ericsson]]

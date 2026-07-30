@@ -54,3 +54,24 @@ Append-only record of all ingest operations, entity extractions, and wiki modifi
 - **Source Postings Processed**: 8 raw markdown files from `raw/postings/`.
 - **Job Pages Updated**: Cross-linked candidate match evaluations under `wiki/jobs/`.
 - **Obsidian Graph View Styling**: Applied Pink for Candidates (`#FF69B4`), Orange for Countries (`#FF9800`), Blue for Jobs (`#2196F3`), and Yellow for Skills (`#FFEB3B`).
+## [2026-07-30 12:20:46] - Candidate Ingestion & Graph Building Run
+- **Candidates Processed**: Ingested 4 CV profiles from `raw/resume/` (`gokhan-tenekecioglu`, `mehmet-eyyup-gulgun`, `ilknur-nina-ulug`, `oya-paktas`).
+- **Candidate Nodes Generated**: Created 4 pages under `wiki/candidates/`.
+- **Geographic Filtering**: Filtered for Sweden and Turkey.
+- **Source Postings Processed**: 8 raw markdown files from `raw/postings/`.
+- **Job Pages Updated**: Cross-linked candidate match evaluations under `wiki/jobs/`.
+- **Obsidian Graph View Styling**: Applied Pink for Candidates (`#FF69B4`), Orange for Countries (`#FF9800`), Blue for Jobs (`#2196F3`), and Yellow for Skills (`#FFEB3B`).
+## [2026-07-30 12:32:31] - Candidate Ingestion & Graph Building Run
+- **Candidates Processed**: Ingested 4 CV profiles from `raw/resume/` (`gokhan-tenekecioglu`, `mehmet-eyyup-gulgun`, `ilknur-nina-ulug`, `oya-paktas`).
+- **Candidate Nodes Generated**: Created 4 pages under `wiki/candidates/`.
+- **Geographic Filtering**: Filtered for Sweden and Turkey.
+- **Source Postings Processed**: 8 raw markdown files from `raw/postings/`.
+- **Job Pages Updated**: Cross-linked candidate match evaluations under `wiki/jobs/`.
+- **Obsidian Graph View Styling**: Applied Pink for Candidates (`#FF69B4`), Orange for Countries (`#FF9800`), Blue for Jobs (`#2196F3`), and Yellow for Skills (`#FFEB3B`).
+## [2026-07-30 12:32:47] - Candidate Ingestion & Graph Building Run
+- **Candidates Processed**: Ingested 4 CV profiles from `raw/resume/` (`gokhan-tenekecioglu`, `mehmet-eyyup-gulgun`, `ilknur-nina-ulug`, `oya-paktas`).
+- **Candidate Nodes Generated**: Created 4 pages under `wiki/candidates/`.
+- **Geographic Filtering**: Filtered for Sweden and Turkey.
+- **Source Postings Processed**: 8 raw markdown files from `raw/postings/`.
+- **Job Pages Updated**: Cross-linked candidate match evaluations under `wiki/jobs/`.
+- **Obsidian Graph View Styling**: Applied Pink for Candidates (`#FF69B4`), Orange for Countries (`#FF9800`), Blue for Jobs (`#2196F3`), and Yellow for Skills (`#FFEB3B`).

@@ -12,8 +12,8 @@ Tele2 is a featured employer tracked in [[sweden]].
 - [[job-2026-tele2-cloud-secops-security-engineer]] - Senior Cloud SecOps & Security Engineer (Stockholm, Sweden (Hybrid / Remote))
 
 ## Primary Tech Stack  
-- **Skills**: [[secops]], [[python]], [[iam]], [[penetration-testing]]  
-- **Tools & Platforms**: [[aws]], [[github-actions]], [[docker]], [[terraform]]  
+- **Skills**: [[iam]], [[penetration-testing]], [[secops]], [[python]]  
+- **Tools & Platforms**: [[github-actions]], [[aws]], [[terraform]], [[docker]]  
 
 ## Related Domains  
 - [[cyber-security]]

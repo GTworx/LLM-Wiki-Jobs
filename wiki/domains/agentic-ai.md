@@ -12,14 +12,14 @@ Focuses on building multi-agent systems, LLM orchestration, vector search pipeli
 - [[job-2026-klarna-staff-agentic-ai-engineer]] - Staff Agentic AI Engineer at [[klarna]] ([[sweden]])
 
 ## Key Demanded Skills & Tools  
-- [[cicd]]
 - [[vector-databases]]
-- [[langchain]]
-- [[aws]]
-- [[pytorch]]
 - [[kubernetes]]
+- [[aws]]
 - [[langgraph]]
-- [[docker]]
+- [[cicd]]
+- [[langchain]]
+- [[pytorch]]
+- [[openai-api]]
 
 ## Key Employers in Wiki  
 - [[klarna]]

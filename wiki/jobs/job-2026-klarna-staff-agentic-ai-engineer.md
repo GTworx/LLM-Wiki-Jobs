@@ -35,8 +35,9 @@
 
 ## Strategic Match Analysis  
 > Evaluated Candidate Profiles in Wiki:  
-- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[cicd]], [[vector-databases]], [[langchain]])
+- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[vector-databases]], [[kubernetes]], [[aws]])
 - **[[ilknur-nina-ulug]]** (İlknur Nina Uluğ): **Strategic Match Score 75%** (Key overlap: [[python]])
+- **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 75%** (Key overlap: [[python]])
 
 ## Related Pages  
 - [[klarna]]  

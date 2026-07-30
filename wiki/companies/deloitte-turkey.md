@@ -12,7 +12,7 @@ Deloitte Turkey is a featured employer tracked in [[turkey]].
 - [[job-2026-deloitte-turkey-sap-s4hana-lead-consultant]] - Senior SAP S/4HANA & Integration Consultant (Istanbul, Turkey (Hybrid))
 
 ## Primary Tech Stack  
-- **Skills**: [[sap-s4hana]], [[iam]], [[odata-services]], [[it-consultancy]], [[rest-apis]], [[abap]]  
+- **Skills**: [[iam]], [[it-consultancy]], [[sap-fiori]], [[rest-apis]], [[secops]], [[abap]]  
 - **Tools & Platforms**: [[sap-btp]]  
 
 ## Related Domains  

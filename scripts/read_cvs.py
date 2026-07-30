@@ -1,6 +1,9 @@
 import os
+import sys
 import docx
 import pypdf
+
+sys.stdout.reconfigure(encoding='utf-8')
 
 def extract_docx(file_path):
     doc = docx.Document(file_path)

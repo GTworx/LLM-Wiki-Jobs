@@ -14,6 +14,7 @@ Iterative approach to project management and software development that helps tea
 - [[gokhan-tenekecioglu]] - Gökhan Tenekecioğlu
 - [[mehmet-eyyup-gulgun]] - Mehmet Eyyüp Gülgün
 - [[ilknur-nina-ulug]] - İlknur Nina Uluğ
+- [[oya-paktas]] - Oya Paktaş
 
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  

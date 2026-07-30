@@ -77,5 +77,5 @@ uv run python scripts/build_wiki.py
 5. **Rebuild Index & Append Log**: Rebuilds `wiki/index.md` demand ranking table and appends audit logs to `wiki/log.md`.
 
 Most Frequwnt Used prompts:
-ingest newly added resumes and update the wiki
 ingest and build the wiki
+ingest newly added resumes and update the wiki

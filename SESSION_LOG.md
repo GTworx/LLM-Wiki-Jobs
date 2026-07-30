@@ -112,3 +112,13 @@ uv run --with python-docx --with pypdf python scripts/build_wiki.py
 2. **Candidate Profile Node**: Created candidate wiki page `wiki/candidates/ilknur-nina-ulug.md` for **İlknur Nina Uluğ** (Creative Tech & Digital Media Specialist / AI Integration Consultant).
 3. **Skill Entity Expansion**: Added metadata and generated atomic skill nodes for 13 candidate skills including `gemini`, `claude`, `notebooklm`, `seo`, `digital-marketing`, `instagram-growth`, `adobe-creative-suite`, `final-cut-pro`, `capcut`, `ux-design`, `prompt-engineering`, `genai`, and `sap-joule`.
 4. **Wiki & Cross-Link Rebuild**: Rebuilt `wiki/index.md` (3 candidates, 60 skill nodes) and logged entry in `wiki/log.md`.
+
+---
+
+## 📝 Session Update: Ingesting Newly Added Resumes (2026-07-30)
+
+1. **CV Extraction**: Processed `Oya Paktaş CV. 2025.pdf` using `scripts/read_cvs.py` and generated `raw/resume/Oya Paktaş CV. 2025.txt`. Fixed encoding output stream handling in `read_cvs.py`.
+2. **Candidate Profile Node**: Created candidate wiki page `wiki/candidates/oya-paktas.md` for **Oya Paktaş** (Cyber Security Business Development Manager & Global Channel Lead).
+3. **Skill Entity & Match Scoring**: Mapped technical & business skills (`secops`, `penetration-testing`, `iam`, `iso27001`, `soc2`, `python`, `it-consultancy`, `agile`) to active job postings in Sweden and Turkey (98% match with Tele2 Cloud SecOps, 95% match with Deloitte SAP Lead, 85% match with Trendyol Enterprise IT).
+4. **Wiki Knowledge Base Rebuild**: Rebuilt global table of contents at `wiki/index.md` (4 ingested candidates, 60 skill nodes), updated `wiki/log.md`, and re-exported JSON data for the interactive dashboard (`jobs_data.json`).
+

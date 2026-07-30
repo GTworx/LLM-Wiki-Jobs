@@ -24,10 +24,10 @@ Experienced IT Professional & SAP BASIS Administrator specializing in SAP S/4HAN
 - Developed AI case scenario module for healthcare intensive care training.
 
 ## Matched Job Listings in Wiki  
-- [[job-2026-deloitte-turkey-sap-s4hana-lead-consultant]] (Senior SAP S/4HANA & Integration Consultant at [[deloitte-turkey]]) - **Match Score: 98%** (Matching Skills: [[sap-s4hana]], [[iam]], [[it-consultancy]], [[rest-apis]])
-- [[job-2026-trendyol-principal-enterprise-it-consultant]] (Principal Enterprise IT & Strategy Consultant at [[trendyol]]) - **Match Score: 95%** (Matching Skills: [[scrum]], [[agile]], [[it-consultancy]])
-- [[job-2026-getir-fullstack-systems-architect]] (Senior Full-Stack Systems Architect at [[getir]]) - **Match Score: 85%** (Matching Skills: [[postgresql]], [[rest-apis]])
-- [[job-2026-tele2-cloud-secops-security-engineer]] (Senior Cloud SecOps & Security Engineer at [[tele2]]) - **Match Score: 80%** (Matching Skills: [[secops]], [[python]], [[iam]])
+- [[job-2026-deloitte-turkey-sap-s4hana-lead-consultant]] (Senior SAP S/4HANA & Integration Consultant at [[deloitte-turkey]]) - **Match Score: 98%** (Matching Skills: [[iam]], [[it-consultancy]], [[sap-fiori]], [[rest-apis]])
+- [[job-2026-trendyol-principal-enterprise-it-consultant]] (Principal Enterprise IT & Strategy Consultant at [[trendyol]]) - **Match Score: 95%** (Matching Skills: [[it-consultancy]], [[scrum]], [[agile]])
+- [[job-2026-getir-fullstack-systems-architect]] (Senior Full-Stack Systems Architect at [[getir]]) - **Match Score: 85%** (Matching Skills: [[rest-apis]], [[postgresql]])
+- [[job-2026-tele2-cloud-secops-security-engineer]] (Senior Cloud SecOps & Security Engineer at [[tele2]]) - **Match Score: 80%** (Matching Skills: [[iam]], [[secops]], [[python]])
 - [[job-2026-insider-creative-tech-seo-engineer]] (Technical SEO & Creative Tech Engineer at [[insider]]) - **Match Score: 75%** (Matching Skills: [[python]])
 
 ## Related Country Nodes  

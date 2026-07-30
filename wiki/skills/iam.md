@@ -12,6 +12,7 @@ Identity and Access Management framework ensuring appropriate access to enterpri
 
 ## Candidates Possessing This Skill  
 - [[mehmet-eyyup-gulgun]] - Mehmet Eyyüp Gülgün
+- [[oya-paktas]] - Oya Paktaş
 
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  

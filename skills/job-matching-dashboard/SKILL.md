@@ -16,7 +16,8 @@ This skill provides an interactive web-based dashboard and automated skill-match
    - **Country Selection**: Dropdown menu (`Sweden`, `Turkey`, `USA`, `Global`, `All Countries`).
    - **City Selection**: Multiple choice checkboxes (`Stockholm`, `Istanbul`, `Austin`, `Remote`, etc.).
    - **Job Tag & Skill Filtering**: Multi-select chip pills for technical tags (`cyber-security`, `secops`, `iam`, `python`, `sap-s4hana`, `aws`, `agentic-ai`, etc.).
-   - **Candidate CV Upload**: Drag-and-drop file uploader (`.pdf`, `.docx`, `.txt`) and direct text area with candidate preset quick-select buttons.
+   - **Candidate Selection Dropdown Box**: `<select id="candidate-select">` dynamically populated with all digested candidate profiles after every digestion run.
+   - **Candidate CV Upload**: Drag-and-drop file uploader (`.pdf`, `.docx`, `.txt`) and direct text area with quick preset buttons.
 
 2. **Right Pane (Matched Job Cards & 5-Star Rating)**:
    - **5-Star Relevance Rating**: Ratings range from 1 to 5 stars (`★★★★★` max rating) based on candidate skill overlap and domain alignment.

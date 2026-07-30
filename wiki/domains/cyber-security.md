@@ -13,13 +13,13 @@ Dedicated to cloud infrastructure security, Zero Trust access, vulnerability aud
 
 ## Key Demanded Skills & Tools  
 - [[iam]]
-- [[aws]]
 - [[penetration-testing]]
+- [[aws]]
+- [[github-actions]]
 - [[terraform]]
-- [[docker]]
 - [[secops]]
 - [[python]]
-- [[github-actions]]
+- [[docker]]
 
 ## Key Employers in Wiki  
 - [[tele2]]

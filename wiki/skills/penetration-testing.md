@@ -11,7 +11,7 @@
 Authorized simulated cyberattack on a computer system performed to evaluate system security.
 
 ## Candidates Possessing This Skill  
-- *No candidates tagged with this skill yet.*
+- [[oya-paktas]] - Oya Paktaş
 
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  
