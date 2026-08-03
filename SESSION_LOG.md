@@ -1,8 +1,8 @@
 # LLM Wiki Session Log: Ingestion, Geographic Filtering & Candidate Parsing
 
-**Date & Time**: 2026-07-24 21:38 - 22:12 CEST  
+**Date & Time**: 2026-07-24 21:38 - 2026-08-03 17:21 CEST  
 **Project**: LLM-Wiki-Jobs  
-**Specification**: [LLM-Wiki-Jobs.md](file:///C:/Users/GokTen/Documents/Github/LLM-Wiki-Jobs/LLM-Wiki-Jobs.md)  
+**Specification**: [LLM-Wiki-Jobs.md](file:///C:/Users/GokTen/Documents/Github/LLM-Wiki-Jobs/LLM-Wiki-Jobs.md) | [prompts/job-to-candidate-matching.md](file:///C:/Users/GokTen/Documents/Github/LLM-Wiki-Jobs/prompts/job-to-candidate-matching.md)  
 **System Pattern**: Andrej Karpathy LLM Wiki Architecture  
 
 ---
@@ -122,3 +122,29 @@ uv run --with python-docx --with pypdf python scripts/build_wiki.py
 3. **Skill Entity & Match Scoring**: Mapped technical & business skills (`secops`, `penetration-testing`, `iam`, `iso27001`, `soc2`, `python`, `it-consultancy`, `agile`) to active job postings in Sweden and Turkey (98% match with Tele2 Cloud SecOps, 95% match with Deloitte SAP Lead, 85% match with Trendyol Enterprise IT).
 4. **Wiki Knowledge Base Rebuild**: Rebuilt global table of contents at `wiki/index.md` (4 ingested candidates, 60 skill nodes), updated `wiki/log.md`, and re-exported JSON data for the interactive dashboard (`jobs_data.json`).
 
+---
+
+## 📝 Session Update: Building Job-to-Candidate Matching Engine Skill (2026-08-03)
+
+**Prompt Specification**: [prompts/job-to-candidate-matching.md](file:///C:/Users/GokTen/Documents/Github/LLM-Wiki-Jobs/prompts/job-to-candidate-matching.md)  
+**Created Skill Folders**: [skills/job-to-candidate-matching/](file:///C:/Users/GokTen/Documents/Github/LLM-Wiki-Jobs/skills/job-to-candidate-matching) & [skills/job-matching-dashboard/](file:///C:/Users/GokTen/Documents/Github/LLM-Wiki-Jobs/skills/job-matching-dashboard)
+
+### Key Achievements & Deliverables:
+1. **Skill Documentation (`SKILL.md`)**:
+   - Detailed specification of the HR Talent Acquisition & CV Matching Engine skill in [skills/job-to-candidate-matching/SKILL.md](file:///C:/Users/GokTen/Documents/Github/LLM-Wiki-Jobs/skills/job-to-candidate-matching/SKILL.md) and [skills/job-matching-dashboard/SKILL.md](file:///C:/Users/GokTen/Documents/Github/LLM-Wiki-Jobs/skills/job-matching-dashboard/SKILL.md).
+   - Documented evaluation formulas, sub-score dimensions ($S_s, S_e, S_{ed}, S_d$), dynamic criteria weights ($W_s, W_e, W_{ed}, W_d$), star ratings, and JSON payload schema.
+
+2. **Data Export & Metadata Parsing (`export_data.py`)**:
+   - Enriched `export_data.py` to extract candidate details (`first_name`, `last_name`, `email`, `experience_years`, `education`, `certifications`, `role_specialty`, `summary`, `tags`, `raw_text`) and job announcement fields (`title`, `company`, `domain`, `country`, `city`, `location`, `experience_years_required`, `compensation`, `tags`, `responsibilities`, `summary`, `raw_text`).
+   - Synced output to `jobs_data.json` (15 jobs, 4 candidates).
+
+3. **Interactive Web Dashboard (`index.html`)**:
+   - **Target Job Announcement Selector**: Evaluate candidate pool against any wiki job posting or input a custom job description.
+   - **Dynamic Criteria Weight Sliders ($W$)**: Interactive range sliders ($W_s, W_e, W_{ed}, W_d$) that recalculate composite fit scores ($C$) and re-rank candidates in real time.
+   - **Presets**: Quick-set weighting presets ("Balanced", "Skills-Heavy", "Seniority/Exp", "Domain-Heavy").
+   - **Candidate Evaluation Cards**: Displays 1-5 star ratings, composite score (0-100%), progress bars for granular sub-scores ($S_s, S_e, S_{ed}, S_d$), 1-2 sentence executive fit summary, key skill matches (`✓`), and identified gaps (`⚠`).
+   - **Export Tools**: JSON payload generator matching the exact schema from `prompts/job-to-candidate-matching.md`, and clean CSV exporter.
+   - **Action Hooks**: Interactive "Send Invitation" and "Send Interview Request" API simulation modals with candidate ID and email dispatch.
+
+4. **Local HTTP Server (`serve.py`)**:
+   - Fixed Windows stdout UTF-8 encoding configuration and tested server execution at `http://localhost:8080/index.html`.
