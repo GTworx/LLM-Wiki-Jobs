@@ -12,6 +12,7 @@ Agile framework for managing complex software and product development using incr
 
 ## Candidates Possessing This Skill  
 - [[mehmet-eyyup-gulgun]] - Mehmet Eyyüp Gülgün
+- [[garima-agrawal]] - Garima Agrawal
 
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  

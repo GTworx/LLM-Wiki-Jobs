@@ -12,7 +12,7 @@ Trendyol is a featured employer tracked in [[turkey]].
 - [[job-2026-trendyol-principal-enterprise-it-consultant]] - Principal Enterprise IT & Strategy Consultant (Istanbul, Turkey (Hybrid))
 
 ## Primary Tech Stack  
-- **Skills**: [[safe]], [[scrum]], [[it-consultancy]], [[agile]]  
+- **Skills**: [[safe]], [[agile]], [[scrum]], [[it-consultancy]]  
 - **Tools & Platforms**:   
 
 ## Related Domains  

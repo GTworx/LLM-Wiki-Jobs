@@ -1,0 +1,97 @@
+Garima Agrawal 
+AI and Data professionale 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CONTACT 
+ +49 160 3438987 
+Garima.agw01@gmail.com 
+Leipzig, Germany 
+linkedin.com/in/garima-agrawal-
+291a78185/ 
+https://garimaagw01.wixsite.com
+/garima_portfolio  
+ 
+ 
+ 
+EDUCATION 
+MSc in Big data and AI 
+SRH Leipzig University, 
+Germany 
+2025 – 2027 
+Diploma in Computer 
+Science 
+NIIT institute, Ajmer India 
+2008-2011 
+Collage 
+DAV collage, Ajmer India 
+05/2005 - 06/2008 
+High School 
+Gov sec school, Ajmer 
+India 
+07/2003 to 04/2005 
+ 
+ 
+CORE SKILLS 
+Python (Pandas, NumPy, Scikit-learn), 
+SQL (PostgreSQL), Machine Learning, 
+Deep Learning, NLP, Generative AI, 
+Retrieval-Augmented Generation (RAG), 
+Data Analysis, Data Pipelines, Data 
+Visualization, Anomaly Detection, 
+Agile/Scrum, Stakeholder 
+Communication 
+ 
+Language English 
+(Fluent) German 
+(A2, (Working 
+towards B1) 
+Hindi (Native) 
+SUMMARY 
+Data and AI professional with 10 years of experience in financial 
+services and data-driven technology solutions. Experienced in 
+Python, SQL, machine learning, and AI automation systems including 
+RAG-based LLM applications. Built data pipelines, anomaly detection 
+models, and analytics dashboards supporting large-scale financial 
+datasets. Currently pursuing MSc in Big Data and Artificial 
+Intelligence in Germany while seeking full-time roles in Data Science, 
+Data Analytics, or AI Automation across Europe. 
+ 
+ 
+ 
+PROFESSIONAL EXPERIENCE 
+AI / Data Science Intern 
+Xynaptics, Sweden | June, 2026 – Present(Sep, 2026) 
+• Developing an AI-driven Enneagram application using vibe 
+coding and AI-assisted development tools. 
+• Designing and implementing application features through 
+iterative prompting, rapid prototyping, testing, and 
+refinement. 
+Manager 
+Motilal Oswal Financial Services Ltd,  Mumbai, India, 2017–2025 
+● Developed an AI investor chatbot using RAG, PGVector, and 
+OpenAI LLMs, enabling automated responses across 
+1,000+ investor documents and reducing manual support 
+queries by 35 percent. 
+● Automated NAV calculation and exception monitoring 
+using Python and SQL, reducing manual processing time by 
+60 percent and improving reporting accuracy for daily 
+portfolio valuations. 
+● Analyzed 5M+ financial transactions using Python (Pandas, 
+NumPy) to identify anomalies and support portfolio 
+performance analysis. 
+● Built AI driven reporting dashboards analyzing portfolio 
+performance across 50+ assets, reducing report 
+preparation time by 50 percent. 
+Consultant 
+Jain V & Co, Mumbai, India 2016-2017 
+Consultant 
+ICICI Prudential AMC LTD, Mumbai, India 2015-2016 
+ 
+ 

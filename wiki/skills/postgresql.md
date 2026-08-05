@@ -12,6 +12,7 @@ Advanced open-source relational database management system known for reliability
 
 ## Candidates Possessing This Skill  
 - [[mehmet-eyyup-gulgun]] - Mehmet Eyyüp Gülgün
+- [[garima-agrawal]] - Garima Agrawal
 
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  

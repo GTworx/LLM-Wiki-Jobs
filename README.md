@@ -21,6 +21,7 @@ The knowledge base tracks candidate profile nodes under `wiki/candidates/`, cros
 2. **[Mehmet Eyyüp Gülgün](file:///C:/Users/gokha/Documents/GITHUB/LLM-Wiki-Jobs/wiki/candidates/mehmet-eyyup-gulgun.md)** (`mehmet-eyyup-gulgun.md`): Senior SAP BASIS Consultant & System Architect (12+ Yrs Exp) — *Target: Turkey*
 3. **[İlknur Nina Uluğ](file:///C:/Users/gokha/Documents/GITHUB/LLM-Wiki-Jobs/wiki/candidates/ilknur-nina-ulug.md)** (`ilknur-nina-ulug.md`): Creative Tech & Digital Media Specialist / AI Integration Consultant (10+ Yrs Exp) — *Target: Sweden & Turkey*
 4. **[Oya Paktaş](file:///C:/Users/gokha/Documents/GITHUB/LLM-Wiki-Jobs/wiki/candidates/oya-paktas.md)** (`oya-paktas.md`): Cyber Security Business Development Manager & Global Channel Lead (10+ Yrs Exp) — *Target: Turkey & Sweden*
+5. **[Garima Agrawal](file:///C:/Users/gokha/Documents/GITHUB/LLM-Wiki-Jobs/wiki/candidates/garima-agrawal.md)** (`garima-agrawal.md`): AI & Data Science Specialist / Data Analyst (10+ Yrs Exp) — *Target: Sweden & Turkey / Europe*
 
 ---
 

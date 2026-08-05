@@ -39,6 +39,7 @@
 - **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 75%** (Key overlap: [[python]])
 - **[[ilknur-nina-ulug]]** (İlknur Nina Uluğ): **Strategic Match Score 75%** (Key overlap: [[python]])
 - **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 75%** (Key overlap: [[python]])
+- **[[garima-agrawal]]** (Garima Agrawal): **Strategic Match Score 75%** (Key overlap: [[python]])
 
 ## Related Pages  
 - [[insider]]  

@@ -12,6 +12,7 @@ Art and science of crafting structured prompts, instructions, and context to opt
 
 ## Candidates Possessing This Skill  
 - [[ilknur-nina-ulug]] - İlknur Nina Uluğ
+- [[garima-agrawal]] - Garima Agrawal
 
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  

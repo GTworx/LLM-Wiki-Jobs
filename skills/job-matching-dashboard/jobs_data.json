@@ -172,7 +172,7 @@
         "Conduct architecture review workshops with enterprise IT leads.",
         "Enforce IAM policies and SAP security compliance."
       ],
-      "raw_text": "# Senior SAP S/4HANA & Integration Consultant at Deloitte Turkey\n\n#job\n\n**Summary**: Senior tech position at Deloitte Turkey focusing on Enterprise Systems & ERP Architecture. Role based in [[turkey]].\n\n**Metadata**:  \n- **Company**: [[deloitte-turkey]]  \n- **Domain**: [[enterprise-systems]]  \n- **Country**: [[turkey]]  \n- **Experience Level**: Senior  \n- **Location / Setup**: Istanbul, Turkey (Hybrid)  \n- **Source File**: (source: postings/2026-07-24_linkedin_deloitte-turkey_sap-s4hana-lead-consultant.md)  \n- **Posting Date**: 2026-07-24  \n- **Application Status**: Interested  \n\n---\n\n## Key Requirements & Extracted Tags\n\n* **Required Skills**: [[abap]], [[iam]], [[it-consultancy]], [[odata-services]], [[rest-apis]], [[sap-fiori]], [[sap-s4hana]], [[secops]]  \n* **Tools & Platforms**: [[sap-btp]]  \n* **Certifications**: None required  \n* **Domain Focus**: [[enterprise-systems]]  \n* **Target Country**: [[turkey]]  \n\n## Key Responsibilities  \n- Lead technical implementation of SAP S/4HANA modules, ABAP extensions, and SAP Fiori interfaces.\n- Design enterprise integration flows using SAP BTP (Business Technology Platform) and OData services.\n- Conduct architecture review workshops with enterprise IT leads.\n- Enforce IAM policies and SAP security compliance.\n\n## Compensation & Benefits  \n- TRY 1,400,000 - TRY 1,800,000 + Performance Bonus\n\n## Strategic Match Analysis  \n> Evaluated Candidate Profiles in Wiki:  \n- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[sap-s4hana]], [[sap-btp]], [[rest-apis]])\n- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 98%** (Key overlap: [[sap-s4hana]], [[iam]], [[secops]])\n- **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 95%** (Key overlap: [[secops]], [[iam]], [[it-consultancy]])\n\n## Related Pages  \n- [[deloitte-turkey]]  \n- [[enterprise-systems]]  \n- [[turkey]]  \n- [[abap]]\n- [[iam]]\n- [[it-consultancy]]\n"
+      "raw_text": "# Senior SAP S/4HANA & Integration Consultant at Deloitte Turkey\n\n#job\n\n**Summary**: Senior tech position at Deloitte Turkey focusing on Enterprise Systems & ERP Architecture. Role based in [[turkey]].\n\n**Metadata**:  \n- **Company**: [[deloitte-turkey]]  \n- **Domain**: [[enterprise-systems]]  \n- **Country**: [[turkey]]  \n- **Experience Level**: Senior  \n- **Location / Setup**: Istanbul, Turkey (Hybrid)  \n- **Source File**: (source: postings/2026-07-24_linkedin_deloitte-turkey_sap-s4hana-lead-consultant.md)  \n- **Posting Date**: 2026-07-24  \n- **Application Status**: Interested  \n\n---\n\n## Key Requirements & Extracted Tags\n\n* **Required Skills**: [[abap]], [[iam]], [[it-consultancy]], [[odata-services]], [[rest-apis]], [[sap-fiori]], [[sap-s4hana]], [[secops]]  \n* **Tools & Platforms**: [[sap-btp]]  \n* **Certifications**: None required  \n* **Domain Focus**: [[enterprise-systems]]  \n* **Target Country**: [[turkey]]  \n\n## Key Responsibilities  \n- Lead technical implementation of SAP S/4HANA modules, ABAP extensions, and SAP Fiori interfaces.\n- Design enterprise integration flows using SAP BTP (Business Technology Platform) and OData services.\n- Conduct architecture review workshops with enterprise IT leads.\n- Enforce IAM policies and SAP security compliance.\n\n## Compensation & Benefits  \n- TRY 1,400,000 - TRY 1,800,000 + Performance Bonus\n\n## Strategic Match Analysis  \n> Evaluated Candidate Profiles in Wiki:  \n- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[sap-s4hana]], [[sap-btp]], [[abap]])\n- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 98%** (Key overlap: [[sap-s4hana]], [[abap]], [[iam]])\n- **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 95%** (Key overlap: [[iam]], [[secops]], [[it-consultancy]])\n- **[[garima-agrawal]]** (Garima Agrawal): **Strategic Match Score 75%** (Key overlap: [[rest-apis]])\n\n## Related Pages  \n- [[deloitte-turkey]]  \n- [[enterprise-systems]]  \n- [[turkey]]  \n- [[abap]]\n- [[iam]]\n- [[it-consultancy]]\n"
     },
     {
       "id": "job-2026-ericsson-lead-devops-platform-engineer",
@@ -206,7 +206,7 @@
         "Implement observability dashboards with Prometheus, Grafana, and Datadog.",
         "Drive zero-downtime microservice deployments and SRE incident response workflows."
       ],
-      "raw_text": "# Lead DevOps & Platform Infrastructure Engineer at Ericsson\n\n#job\n\n**Summary**: Senior tech position at Ericsson focusing on Cloud Infrastructure & Platform Engineering. Role based in [[sweden]].\n\n**Metadata**:  \n- **Company**: [[ericsson]]  \n- **Domain**: [[cloud-infrastructure]]  \n- **Country**: [[sweden]]  \n- **Experience Level**: Lead / Principal  \n- **Location / Setup**: Stockholm, Sweden (Hybrid)  \n- **Source File**: (source: postings/2026-07-24_linkedin_ericsson_lead-devops-platform-engineer.md)  \n- **Posting Date**: 2026-07-24  \n- **Application Status**: Interested  \n\n---\n\n## Key Requirements & Extracted Tags\n\n* **Required Skills**: [[python]]  \n* **Tools & Platforms**: [[aws]], [[cicd]], [[datadog]], [[docker]], [[github-actions]], [[grafana]], [[kubernetes]], [[prometheus]], [[terraform]]  \n* **Certifications**: [[aws-saa]]  \n* **Domain Focus**: [[cloud-infrastructure]]  \n* **Target Country**: [[sweden]]  \n\n## Key Responsibilities  \n- Architect high-availability Kubernetes clusters (EKS/OpenShift) using Terraform and Ansible.\n- Automate CI/CD pipelines using GitHub Actions, Docker, and Helm charts.\n- Implement observability dashboards with Prometheus, Grafana, and Datadog.\n- Drive zero-downtime microservice deployments and SRE incident response workflows.\n\n## Compensation & Benefits  \n- SEK 900,000 - SEK 1,150,000\n\n## Strategic Match Analysis  \n> Evaluated Candidate Profiles in Wiki:  \n- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[kubernetes]], [[aws]], [[docker]])\n- **[[ilknur-nina-ulug]]** (İlknur Nina Uluğ): **Strategic Match Score 75%** (Key overlap: [[python]])\n- **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 75%** (Key overlap: [[python]])\n\n## Related Pages  \n- [[ericsson]]  \n- [[cloud-infrastructure]]  \n- [[sweden]]  \n- [[python]]\n"
+      "raw_text": "# Lead DevOps & Platform Infrastructure Engineer at Ericsson\n\n#job\n\n**Summary**: Senior tech position at Ericsson focusing on Cloud Infrastructure & Platform Engineering. Role based in [[sweden]].\n\n**Metadata**:  \n- **Company**: [[ericsson]]  \n- **Domain**: [[cloud-infrastructure]]  \n- **Country**: [[sweden]]  \n- **Experience Level**: Lead / Principal  \n- **Location / Setup**: Stockholm, Sweden (Hybrid)  \n- **Source File**: (source: postings/2026-07-24_linkedin_ericsson_lead-devops-platform-engineer.md)  \n- **Posting Date**: 2026-07-24  \n- **Application Status**: Interested  \n\n---\n\n## Key Requirements & Extracted Tags\n\n* **Required Skills**: [[python]]  \n* **Tools & Platforms**: [[aws]], [[cicd]], [[datadog]], [[docker]], [[github-actions]], [[grafana]], [[kubernetes]], [[prometheus]], [[terraform]]  \n* **Certifications**: [[aws-saa]]  \n* **Domain Focus**: [[cloud-infrastructure]]  \n* **Target Country**: [[sweden]]  \n\n## Key Responsibilities  \n- Architect high-availability Kubernetes clusters (EKS/OpenShift) using Terraform and Ansible.\n- Automate CI/CD pipelines using GitHub Actions, Docker, and Helm charts.\n- Implement observability dashboards with Prometheus, Grafana, and Datadog.\n- Drive zero-downtime microservice deployments and SRE incident response workflows.\n\n## Compensation & Benefits  \n- SEK 900,000 - SEK 1,150,000\n\n## Strategic Match Analysis  \n> Evaluated Candidate Profiles in Wiki:  \n- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[kubernetes]], [[aws]], [[python]])\n- **[[ilknur-nina-ulug]]** (İlknur Nina Uluğ): **Strategic Match Score 75%** (Key overlap: [[python]])\n- **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 75%** (Key overlap: [[python]])\n- **[[garima-agrawal]]** (Garima Agrawal): **Strategic Match Score 85%** (Key overlap: [[datadog]], [[python]])\n\n## Related Pages  \n- [[ericsson]]  \n- [[cloud-infrastructure]]  \n- [[sweden]]  \n- [[python]]\n"
     },
     {
       "id": "job-2026-getir-fullstack-systems-architect",
@@ -240,7 +240,7 @@
         "Optimize distributed databases using PostgreSQL and Redis caching.",
         "Drive micro-frontend design patterns and automated CI/CD releases."
       ],
-      "raw_text": "# Senior Full-Stack Systems Architect at Getir\n\n#job\n\n**Summary**: Senior tech position at Getir focusing on Software Development & Systems Architecture. Role based in [[turkey]].\n\n**Metadata**:  \n- **Company**: [[getir]]  \n- **Domain**: [[software-development]]  \n- **Country**: [[turkey]]  \n- **Experience Level**: Senior  \n- **Location / Setup**: Istanbul, Turkey (Hybrid)  \n- **Source File**: (source: postings/2026-07-24_linkedin_getir_fullstack-systems-architect.md)  \n- **Posting Date**: 2026-07-24  \n- **Application Status**: Interested  \n\n---\n\n## Key Requirements & Extracted Tags\n\n* **Required Skills**: [[graphql]], [[nextjs]], [[nodejs]], [[react]], [[rest-apis]], [[typescript]]  \n* **Tools & Platforms**: [[aws]], [[cicd]], [[docker]], [[postgresql]], [[redis]]  \n* **Certifications**: None required  \n* **Domain Focus**: [[software-development]]  \n* **Target Country**: [[turkey]]  \n\n## Key Responsibilities  \n- Architect high-performance web applications using React, Next.js, TypeScript, and Node.js.\n- Design low-latency REST and GraphQL APIs serving millions of real-time orders.\n- Optimize distributed databases using PostgreSQL and Redis caching.\n- Drive micro-frontend design patterns and automated CI/CD releases.\n\n## Compensation & Benefits  \n- TRY 1,200,000 - TRY 1,600,000 + Stock Options\n\n## Strategic Match Analysis  \n> Evaluated Candidate Profiles in Wiki:  \n- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[rest-apis]], [[cicd]], [[docker]])\n- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 85%** (Key overlap: [[postgresql]], [[rest-apis]])\n\n## Related Pages  \n- [[getir]]  \n- [[software-development]]  \n- [[turkey]]  \n- [[graphql]]\n- [[nextjs]]\n- [[nodejs]]\n"
+      "raw_text": "# Senior Full-Stack Systems Architect at Getir\n\n#job\n\n**Summary**: Senior tech position at Getir focusing on Software Development & Systems Architecture. Role based in [[turkey]].\n\n**Metadata**:  \n- **Company**: [[getir]]  \n- **Domain**: [[software-development]]  \n- **Country**: [[turkey]]  \n- **Experience Level**: Senior  \n- **Location / Setup**: Istanbul, Turkey (Hybrid)  \n- **Source File**: (source: postings/2026-07-24_linkedin_getir_fullstack-systems-architect.md)  \n- **Posting Date**: 2026-07-24  \n- **Application Status**: Interested  \n\n---\n\n## Key Requirements & Extracted Tags\n\n* **Required Skills**: [[graphql]], [[nextjs]], [[nodejs]], [[react]], [[rest-apis]], [[typescript]]  \n* **Tools & Platforms**: [[aws]], [[cicd]], [[docker]], [[postgresql]], [[redis]]  \n* **Certifications**: None required  \n* **Domain Focus**: [[software-development]]  \n* **Target Country**: [[turkey]]  \n\n## Key Responsibilities  \n- Architect high-performance web applications using React, Next.js, TypeScript, and Node.js.\n- Design low-latency REST and GraphQL APIs serving millions of real-time orders.\n- Optimize distributed databases using PostgreSQL and Redis caching.\n- Drive micro-frontend design patterns and automated CI/CD releases.\n\n## Compensation & Benefits  \n- TRY 1,200,000 - TRY 1,600,000 + Stock Options\n\n## Strategic Match Analysis  \n> Evaluated Candidate Profiles in Wiki:  \n- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[cicd]], [[rest-apis]], [[aws]])\n- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 85%** (Key overlap: [[rest-apis]], [[postgresql]])\n- **[[garima-agrawal]]** (Garima Agrawal): **Strategic Match Score 85%** (Key overlap: [[rest-apis]], [[postgresql]])\n\n## Related Pages  \n- [[getir]]  \n- [[software-development]]  \n- [[turkey]]  \n- [[graphql]]\n- [[nextjs]]\n- [[nodejs]]\n"
     },
     {
       "id": "job-2026-insider-creative-tech-seo-engineer",
@@ -271,7 +271,7 @@
         "Implement Marketing Analytics pipelines using Python, Next.js, and Google Tag Manager.",
         "Partner with UI/UX Design Engine teams to create dynamic web animations and responsive UI components."
       ],
-      "raw_text": "# Technical SEO & Creative Tech Engineer at Insider\n\n#job\n\n**Summary**: Senior tech position at Insider focusing on Creative Tech & Marketing Engineering. Role based in [[turkey]].\n\n**Metadata**:  \n- **Company**: [[insider]]  \n- **Domain**: [[creative-tech]]  \n- **Country**: [[turkey]]  \n- **Experience Level**: Mid-Senior  \n- **Location / Setup**: Istanbul, Turkey (Hybrid / Remote)  \n- **Source File**: (source: postings/2026-07-24_linkedin_insider_creative-tech-seo-engineer.md)  \n- **Posting Date**: 2026-07-24  \n- **Application Status**: Interested  \n\n---\n\n## Key Requirements & Extracted Tags\n\n* **Required Skills**: [[marketing-analytics]], [[nextjs]], [[nodejs]], [[python]], [[react]], [[technical-seo]], [[typescript]], [[webgl]]  \n* **Tools & Platforms**: None extracted  \n* **Certifications**: None required  \n* **Domain Focus**: [[creative-tech]]  \n* **Target Country**: [[turkey]]  \n\n## Key Responsibilities  \n- Architect high-traffic web pages optimized for Technical SEO, Core Web Vitals, and accessibility.\n- Build automated dynamic rendering engines using WebGL, HTML5 Canvas, and Node.js.\n- Implement Marketing Analytics pipelines using Python, Next.js, and Google Tag Manager.\n- Partner with UI/UX Design Engine teams to create dynamic web animations and responsive UI components.\n\n## Compensation & Benefits  \n- TRY 1,100,000 - TRY 1,450,000 + Stock Options\n\n## Strategic Match Analysis  \n> Evaluated Candidate Profiles in Wiki:  \n- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 75%** (Key overlap: [[python]])\n- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 75%** (Key overlap: [[python]])\n- **[[ilknur-nina-ulug]]** (İlknur Nina Uluğ): **Strategic Match Score 75%** (Key overlap: [[python]])\n- **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 75%** (Key overlap: [[python]])\n\n## Related Pages  \n- [[insider]]  \n- [[creative-tech]]  \n- [[turkey]]  \n- [[marketing-analytics]]\n- [[nextjs]]\n- [[nodejs]]\n"
+      "raw_text": "# Technical SEO & Creative Tech Engineer at Insider\n\n#job\n\n**Summary**: Senior tech position at Insider focusing on Creative Tech & Marketing Engineering. Role based in [[turkey]].\n\n**Metadata**:  \n- **Company**: [[insider]]  \n- **Domain**: [[creative-tech]]  \n- **Country**: [[turkey]]  \n- **Experience Level**: Mid-Senior  \n- **Location / Setup**: Istanbul, Turkey (Hybrid / Remote)  \n- **Source File**: (source: postings/2026-07-24_linkedin_insider_creative-tech-seo-engineer.md)  \n- **Posting Date**: 2026-07-24  \n- **Application Status**: Interested  \n\n---\n\n## Key Requirements & Extracted Tags\n\n* **Required Skills**: [[marketing-analytics]], [[nextjs]], [[nodejs]], [[python]], [[react]], [[technical-seo]], [[typescript]], [[webgl]]  \n* **Tools & Platforms**: None extracted  \n* **Certifications**: None required  \n* **Domain Focus**: [[creative-tech]]  \n* **Target Country**: [[turkey]]  \n\n## Key Responsibilities  \n- Architect high-traffic web pages optimized for Technical SEO, Core Web Vitals, and accessibility.\n- Build automated dynamic rendering engines using WebGL, HTML5 Canvas, and Node.js.\n- Implement Marketing Analytics pipelines using Python, Next.js, and Google Tag Manager.\n- Partner with UI/UX Design Engine teams to create dynamic web animations and responsive UI components.\n\n## Compensation & Benefits  \n- TRY 1,100,000 - TRY 1,450,000 + Stock Options\n\n## Strategic Match Analysis  \n> Evaluated Candidate Profiles in Wiki:  \n- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 75%** (Key overlap: [[python]])\n- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 75%** (Key overlap: [[python]])\n- **[[ilknur-nina-ulug]]** (İlknur Nina Uluğ): **Strategic Match Score 75%** (Key overlap: [[python]])\n- **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 75%** (Key overlap: [[python]])\n- **[[garima-agrawal]]** (Garima Agrawal): **Strategic Match Score 75%** (Key overlap: [[python]])\n\n## Related Pages  \n- [[insider]]  \n- [[creative-tech]]  \n- [[turkey]]  \n- [[marketing-analytics]]\n- [[nextjs]]\n- [[nodejs]]\n"
     },
     {
       "id": "job-2026-klarna-staff-agentic-ai-engineer",
@@ -304,7 +304,7 @@
         "Implement MLOps and LLM Ops metrics for tracking model performance, latency, and tool execution accuracy.",
         "Partner with cloud platform teams to deploy models via Docker and Kubernetes on AWS."
       ],
-      "raw_text": "# Staff Agentic AI Engineer at Klarna\n\n#job\n\n**Summary**: Senior tech position at Klarna focusing on Agentic AI & Data Engineering. Role based in [[sweden]].\n\n**Metadata**:  \n- **Company**: [[klarna]]  \n- **Domain**: [[agentic-ai]]  \n- **Country**: [[sweden]]  \n- **Experience Level**: Staff / Principal  \n- **Location / Setup**: Stockholm, Sweden (Hybrid / Remote)  \n- **Source File**: (source: postings/2026-07-24_linkedin_klarna_staff-agentic-ai-engineer.md)  \n- **Posting Date**: 2026-07-24  \n- **Application Status**: Interested  \n\n---\n\n## Key Requirements & Extracted Tags\n\n* **Required Skills**: [[langchain]], [[langgraph]], [[openai-api]], [[python]], [[pytorch]]  \n* **Tools & Platforms**: [[aws]], [[cicd]], [[docker]], [[kubernetes]], [[vector-databases]]  \n* **Certifications**: None required  \n* **Domain Focus**: [[agentic-ai]]  \n* **Target Country**: [[sweden]]  \n\n## Key Responsibilities  \n- Architect multi-agent execution graphs using LangGraph, LangChain, and Python agentic frameworks.\n- Build robust tool-calling pipelines, RAG retrieval using Vector Databases (Pinecone, Qdrant), and OpenAI API integrations.\n- Implement MLOps and LLM Ops metrics for tracking model performance, latency, and tool execution accuracy.\n- Partner with cloud platform teams to deploy models via Docker and Kubernetes on AWS.\n\n## Compensation & Benefits  \n- SEK 1,100,000 - SEK 1,400,000 + Equity\n\n## Strategic Match Analysis  \n> Evaluated Candidate Profiles in Wiki:  \n- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[kubernetes]], [[langgraph]], [[aws]])\n- **[[ilknur-nina-ulug]]** (İlknur Nina Uluğ): **Strategic Match Score 75%** (Key overlap: [[python]])\n- **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 75%** (Key overlap: [[python]])\n\n## Related Pages  \n- [[klarna]]  \n- [[agentic-ai]]  \n- [[sweden]]  \n- [[langchain]]\n- [[langgraph]]\n- [[openai-api]]\n"
+      "raw_text": "# Staff Agentic AI Engineer at Klarna\n\n#job\n\n**Summary**: Senior tech position at Klarna focusing on Agentic AI & Data Engineering. Role based in [[sweden]].\n\n**Metadata**:  \n- **Company**: [[klarna]]  \n- **Domain**: [[agentic-ai]]  \n- **Country**: [[sweden]]  \n- **Experience Level**: Staff / Principal  \n- **Location / Setup**: Stockholm, Sweden (Hybrid / Remote)  \n- **Source File**: (source: postings/2026-07-24_linkedin_klarna_staff-agentic-ai-engineer.md)  \n- **Posting Date**: 2026-07-24  \n- **Application Status**: Interested  \n\n---\n\n## Key Requirements & Extracted Tags\n\n* **Required Skills**: [[langchain]], [[langgraph]], [[openai-api]], [[python]], [[pytorch]]  \n* **Tools & Platforms**: [[aws]], [[cicd]], [[docker]], [[kubernetes]], [[vector-databases]]  \n* **Certifications**: None required  \n* **Domain Focus**: [[agentic-ai]]  \n* **Target Country**: [[sweden]]  \n\n## Key Responsibilities  \n- Architect multi-agent execution graphs using LangGraph, LangChain, and Python agentic frameworks.\n- Build robust tool-calling pipelines, RAG retrieval using Vector Databases (Pinecone, Qdrant), and OpenAI API integrations.\n- Implement MLOps and LLM Ops metrics for tracking model performance, latency, and tool execution accuracy.\n- Partner with cloud platform teams to deploy models via Docker and Kubernetes on AWS.\n\n## Compensation & Benefits  \n- SEK 1,100,000 - SEK 1,400,000 + Equity\n\n## Strategic Match Analysis  \n> Evaluated Candidate Profiles in Wiki:  \n- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 98%** (Key overlap: [[langchain]], [[kubernetes]], [[aws]])\n- **[[ilknur-nina-ulug]]** (İlknur Nina Uluğ): **Strategic Match Score 75%** (Key overlap: [[python]])\n- **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 75%** (Key overlap: [[python]])\n- **[[garima-agrawal]]** (Garima Agrawal): **Strategic Match Score 95%** (Key overlap: [[vector-databases]], [[python]], [[openai-api]])\n\n## Related Pages  \n- [[klarna]]  \n- [[agentic-ai]]  \n- [[sweden]]  \n- [[langchain]]\n- [[langgraph]]\n- [[openai-api]]\n"
     },
     {
       "id": "job-2026-openai-agentic-ai-engineer",
@@ -372,7 +372,7 @@
         "Collaborate with backend teams to integrate GraphQL and REST APIs.",
         "Mentor junior engineers and enforce modular mobile architecture standards."
       ],
-      "raw_text": "# Senior iOS & Cross-Platform Mobile Engineer at Spotify\n\n#job\n\n**Summary**: Senior tech position at Spotify focusing on Web & Mobile Engineering. Role based in [[sweden]].\n\n**Metadata**:  \n- **Company**: [[spotify]]  \n- **Domain**: [[web-mobile]]  \n- **Country**: [[sweden]]  \n- **Experience Level**: Senior  \n- **Location / Setup**: Stockholm, Sweden (Hybrid)  \n- **Source File**: (source: postings/2026-07-24_linkedin_spotify_senior-ios-mobile-engineer.md)  \n- **Posting Date**: 2026-07-24  \n- **Application Status**: Interested  \n\n---\n\n## Key Requirements & Extracted Tags\n\n* **Required Skills**: [[flutter]], [[graphql]], [[react]], [[react-native]], [[rest-apis]], [[swift]], [[swiftui]]  \n* **Tools & Platforms**: [[cicd]], [[github-actions]]  \n* **Certifications**: None required  \n* **Domain Focus**: [[web-mobile]]  \n* **Target Country**: [[sweden]]  \n\n## Key Responsibilities  \n- Architect native iOS features using Swift, SwiftUI, and Combine/Async-Await.\n- Maintain and expand cross-platform mobile components using Flutter and React Native.\n- Optimize app launch performance, memory usage, and background audio synchronization.\n- Collaborate with backend teams to integrate GraphQL and REST APIs.\n- Mentor junior engineers and enforce modular mobile architecture standards.\n\n## Compensation & Benefits  \n- SEK 950,000 - SEK 1,200,000 + Stock Options\n\n## Strategic Match Analysis  \n> Evaluated Candidate Profiles in Wiki:  \n- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 85%** (Key overlap: [[rest-apis]], [[cicd]])\n\n## Related Pages  \n- [[spotify]]  \n- [[web-mobile]]  \n- [[sweden]]  \n- [[flutter]]\n- [[graphql]]\n- [[react]]\n"
+      "raw_text": "# Senior iOS & Cross-Platform Mobile Engineer at Spotify\n\n#job\n\n**Summary**: Senior tech position at Spotify focusing on Web & Mobile Engineering. Role based in [[sweden]].\n\n**Metadata**:  \n- **Company**: [[spotify]]  \n- **Domain**: [[web-mobile]]  \n- **Country**: [[sweden]]  \n- **Experience Level**: Senior  \n- **Location / Setup**: Stockholm, Sweden (Hybrid)  \n- **Source File**: (source: postings/2026-07-24_linkedin_spotify_senior-ios-mobile-engineer.md)  \n- **Posting Date**: 2026-07-24  \n- **Application Status**: Interested  \n\n---\n\n## Key Requirements & Extracted Tags\n\n* **Required Skills**: [[flutter]], [[graphql]], [[react]], [[react-native]], [[rest-apis]], [[swift]], [[swiftui]]  \n* **Tools & Platforms**: [[cicd]], [[github-actions]]  \n* **Certifications**: None required  \n* **Domain Focus**: [[web-mobile]]  \n* **Target Country**: [[sweden]]  \n\n## Key Responsibilities  \n- Architect native iOS features using Swift, SwiftUI, and Combine/Async-Await.\n- Maintain and expand cross-platform mobile components using Flutter and React Native.\n- Optimize app launch performance, memory usage, and background audio synchronization.\n- Collaborate with backend teams to integrate GraphQL and REST APIs.\n- Mentor junior engineers and enforce modular mobile architecture standards.\n\n## Compensation & Benefits  \n- SEK 950,000 - SEK 1,200,000 + Stock Options\n\n## Strategic Match Analysis  \n> Evaluated Candidate Profiles in Wiki:  \n- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 85%** (Key overlap: [[rest-apis]], [[cicd]])\n- **[[garima-agrawal]]** (Garima Agrawal): **Strategic Match Score 75%** (Key overlap: [[rest-apis]])\n\n## Related Pages  \n- [[spotify]]  \n- [[web-mobile]]  \n- [[sweden]]  \n- [[flutter]]\n- [[graphql]]\n- [[react]]\n"
     },
     {
       "id": "job-2026-stripe-fullstack-systems-architect",
@@ -439,7 +439,7 @@
         "Automate Security Operations (SecOps) detection scripts using Python and GitHub Actions.",
         "Ensure strict ISO27001 and SOC2 compliance across cloud infrastructure."
       ],
-      "raw_text": "# Senior Cloud SecOps & Security Engineer at Tele2\n\n#job\n\n**Summary**: Senior tech position at Tele2 focusing on Cyber Security & Information Assurance. Role based in [[sweden]].\n\n**Metadata**:  \n- **Company**: [[tele2]]  \n- **Domain**: [[cyber-security]]  \n- **Country**: [[sweden]]  \n- **Experience Level**: Senior  \n- **Location / Setup**: Stockholm, Sweden (Hybrid / Remote)  \n- **Source File**: (source: postings/2026-07-24_glassdoor_tele2_cloud-secops-security-engineer.md)  \n- **Posting Date**: 2026-07-24  \n- **Application Status**: Interested  \n\n---\n\n## Key Requirements & Extracted Tags\n\n* **Required Skills**: [[iam]], [[penetration-testing]], [[python]], [[secops]]  \n* **Tools & Platforms**: [[aws]], [[docker]], [[github-actions]], [[terraform]]  \n* **Certifications**: [[cissp]], [[iso27001]], [[soc2]]  \n* **Domain Focus**: [[cyber-security]]  \n* **Target Country**: [[sweden]]  \n\n## Key Responsibilities  \n- Execute cloud penetration testing, security vulnerability assessments, and OWASP audits.\n- Manage IAM access governance, OAuth2 Zero Trust access controls, and AWS GuardDuty.\n- Automate Security Operations (SecOps) detection scripts using Python and GitHub Actions.\n- Ensure strict ISO27001 and SOC2 compliance across cloud infrastructure.\n\n## Compensation & Benefits  \n- SEK 850,000 - SEK 1,050,000\n\n## Strategic Match Analysis  \n> Evaluated Candidate Profiles in Wiki:  \n- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 95%** (Key overlap: [[python]], [[docker]], [[aws]])\n- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 80%** (Key overlap: [[secops]], [[iam]], [[python]])\n- **[[ilknur-nina-ulug]]** (İlknur Nina Uluğ): **Strategic Match Score 75%** (Key overlap: [[python]])\n- **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 98%** (Key overlap: [[secops]], [[iam]], [[python]])\n\n## Related Pages  \n- [[tele2]]  \n- [[cyber-security]]  \n- [[sweden]]  \n- [[iam]]\n- [[penetration-testing]]\n- [[python]]\n"
+      "raw_text": "# Senior Cloud SecOps & Security Engineer at Tele2\n\n#job\n\n**Summary**: Senior tech position at Tele2 focusing on Cyber Security & Information Assurance. Role based in [[sweden]].\n\n**Metadata**:  \n- **Company**: [[tele2]]  \n- **Domain**: [[cyber-security]]  \n- **Country**: [[sweden]]  \n- **Experience Level**: Senior  \n- **Location / Setup**: Stockholm, Sweden (Hybrid / Remote)  \n- **Source File**: (source: postings/2026-07-24_glassdoor_tele2_cloud-secops-security-engineer.md)  \n- **Posting Date**: 2026-07-24  \n- **Application Status**: Interested  \n\n---\n\n## Key Requirements & Extracted Tags\n\n* **Required Skills**: [[iam]], [[penetration-testing]], [[python]], [[secops]]  \n* **Tools & Platforms**: [[aws]], [[docker]], [[github-actions]], [[terraform]]  \n* **Certifications**: [[cissp]], [[iso27001]], [[soc2]]  \n* **Domain Focus**: [[cyber-security]]  \n* **Target Country**: [[sweden]]  \n\n## Key Responsibilities  \n- Execute cloud penetration testing, security vulnerability assessments, and OWASP audits.\n- Manage IAM access governance, OAuth2 Zero Trust access controls, and AWS GuardDuty.\n- Automate Security Operations (SecOps) detection scripts using Python and GitHub Actions.\n- Ensure strict ISO27001 and SOC2 compliance across cloud infrastructure.\n\n## Compensation & Benefits  \n- SEK 850,000 - SEK 1,050,000\n\n## Strategic Match Analysis  \n> Evaluated Candidate Profiles in Wiki:  \n- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 95%** (Key overlap: [[python]], [[aws]], [[docker]])\n- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 80%** (Key overlap: [[python]], [[iam]], [[secops]])\n- **[[ilknur-nina-ulug]]** (İlknur Nina Uluğ): **Strategic Match Score 75%** (Key overlap: [[python]])\n- **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 98%** (Key overlap: [[penetration-testing]], [[iam]], [[secops]])\n- **[[garima-agrawal]]** (Garima Agrawal): **Strategic Match Score 75%** (Key overlap: [[python]])\n\n## Related Pages  \n- [[tele2]]  \n- [[cyber-security]]  \n- [[sweden]]  \n- [[iam]]\n- [[penetration-testing]]\n- [[python]]\n"
     },
     {
       "id": "job-2026-thoughtworks-enterprise-it-consultant",
@@ -498,10 +498,53 @@
         "Lead enterprise architectural audits and tech stack evaluations across cloud and ERP systems.",
         "Mentor engineering managers and product owners on modern IT management."
       ],
-      "raw_text": "# Principal Enterprise IT & Strategy Consultant at Trendyol\n\n#job\n\n**Summary**: Senior tech position at Trendyol focusing on Management, IT Consultancy & Strategy. Role based in [[turkey]].\n\n**Metadata**:  \n- **Company**: [[trendyol]]  \n- **Domain**: [[management-strategy]]  \n- **Country**: [[turkey]]  \n- **Experience Level**: Principal / Director  \n- **Location / Setup**: Istanbul, Turkey (Hybrid)  \n- **Source File**: (source: postings/2026-07-24_glassdoor_trendyol_principal-enterprise-it-consultant.md)  \n- **Posting Date**: 2026-07-24  \n- **Application Status**: Interested  \n\n---\n\n## Key Requirements & Extracted Tags\n\n* **Required Skills**: [[agile]], [[it-consultancy]], [[safe]], [[scrum]]  \n* **Tools & Platforms**: None extracted  \n* **Certifications**: [[pmp]]  \n* **Domain Focus**: [[management-strategy]]  \n* **Target Country**: [[turkey]]  \n\n## Key Responsibilities  \n- Define long-term enterprise technology roadmaps and cloud transformation blueprints.\n- Drive organizational transformation using Agile, Scrum, and SAFe methodologies.\n- Lead enterprise architectural audits and tech stack evaluations across cloud and ERP systems.\n- Mentor engineering managers and product owners on modern IT management.\n\n## Compensation & Benefits  \n- TRY 1,500,000 - TRY 2,000,000 + Stock Bonus\n\n## Strategic Match Analysis  \n> Evaluated Candidate Profiles in Wiki:  \n- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 85%** (Key overlap: [[it-consultancy]], [[agile]])\n- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 95%** (Key overlap: [[scrum]], [[agile]], [[it-consultancy]])\n- **[[ilknur-nina-ulug]]** (İlknur Nina Uluğ): **Strategic Match Score 75%** (Key overlap: [[agile]])\n- **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 85%** (Key overlap: [[it-consultancy]], [[agile]])\n\n## Related Pages  \n- [[trendyol]]  \n- [[management-strategy]]  \n- [[turkey]]  \n- [[agile]]\n- [[it-consultancy]]\n- [[safe]]\n"
+      "raw_text": "# Principal Enterprise IT & Strategy Consultant at Trendyol\n\n#job\n\n**Summary**: Senior tech position at Trendyol focusing on Management, IT Consultancy & Strategy. Role based in [[turkey]].\n\n**Metadata**:  \n- **Company**: [[trendyol]]  \n- **Domain**: [[management-strategy]]  \n- **Country**: [[turkey]]  \n- **Experience Level**: Principal / Director  \n- **Location / Setup**: Istanbul, Turkey (Hybrid)  \n- **Source File**: (source: postings/2026-07-24_glassdoor_trendyol_principal-enterprise-it-consultant.md)  \n- **Posting Date**: 2026-07-24  \n- **Application Status**: Interested  \n\n---\n\n## Key Requirements & Extracted Tags\n\n* **Required Skills**: [[agile]], [[it-consultancy]], [[safe]], [[scrum]]  \n* **Tools & Platforms**: None extracted  \n* **Certifications**: [[pmp]]  \n* **Domain Focus**: [[management-strategy]]  \n* **Target Country**: [[turkey]]  \n\n## Key Responsibilities  \n- Define long-term enterprise technology roadmaps and cloud transformation blueprints.\n- Drive organizational transformation using Agile, Scrum, and SAFe methodologies.\n- Lead enterprise architectural audits and tech stack evaluations across cloud and ERP systems.\n- Mentor engineering managers and product owners on modern IT management.\n\n## Compensation & Benefits  \n- TRY 1,500,000 - TRY 2,000,000 + Stock Bonus\n\n## Strategic Match Analysis  \n> Evaluated Candidate Profiles in Wiki:  \n- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 85%** (Key overlap: [[agile]], [[it-consultancy]])\n- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 95%** (Key overlap: [[agile]], [[scrum]], [[it-consultancy]])\n- **[[ilknur-nina-ulug]]** (İlknur Nina Uluğ): **Strategic Match Score 75%** (Key overlap: [[agile]])\n- **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 85%** (Key overlap: [[agile]], [[it-consultancy]])\n- **[[garima-agrawal]]** (Garima Agrawal): **Strategic Match Score 85%** (Key overlap: [[agile]], [[scrum]])\n\n## Related Pages  \n- [[trendyol]]  \n- [[management-strategy]]  \n- [[turkey]]  \n- [[agile]]\n- [[it-consultancy]]\n- [[safe]]\n"
     }
   ],
   "candidates": [
+    {
+      "id": "garima-agrawal",
+      "name": "Garima Agrawal",
+      "first_name": "Garima",
+      "last_name": "Agrawal",
+      "email": "Garima.agw01@gmail.com",
+      "role_specialty": "AI & Data Science Specialist / Data Analyst",
+      "experience_years": 10,
+      "education": "Bachelor's Degree",
+      "certifications": [],
+      "summary": "Data and AI professional with 10 years of experience in financial services and data-driven technology solutions. Experienced in Python, SQL, machine learning, and AI automation systems including RAG-based LLM applications. Built data pipelines, anomaly detection models, and analytics dashboards supporting large-scale financial datasets. Currently pursuing MSc in Big Data and Artificial Intelligence at SRH Leipzig University, Germany.",
+      "tags": [
+        "getir",
+        "ericsson",
+        "job-2026-insider-creative-tech-seo-engineer",
+        "tele2",
+        "job-2026-deloitte-turkey-sap-s4hana-lead-consultant",
+        "insider",
+        "job-2026-spotify-senior-ios-mobile-engineer",
+        "postgresql",
+        "scrum",
+        "rest-apis",
+        "job-2026-ericsson-lead-devops-platform-engineer",
+        "sweden",
+        "spotify",
+        "genai",
+        "job-2026-getir-fullstack-systems-architect",
+        "openai-api",
+        "klarna",
+        "python",
+        "trendyol",
+        "turkey",
+        "prompt-engineering",
+        "job-2026-klarna-staff-agentic-ai-engineer",
+        "job-2026-tele2-cloud-secops-security-engineer",
+        "vector-databases",
+        "job-2026-trendyol-principal-enterprise-it-consultant",
+        "agile",
+        "deloitte-turkey",
+        "datadog"
+      ],
+      "raw_text": "# Garima Agrawal\n\n#candidate\n\n**Role / Specialty**: AI & Data Science Specialist / Data Analyst  \n**Current Location**: Leipzig, Germany (Target: Sweden, Turkey & Europe)  \n**Target Markets**: [[sweden]], [[turkey]]  \n**Experience Level**: 10+ Years Experience  \n**Contact**: Garima.agw01@gmail.com | +49 160 3438987  \n\n---\n\n## Executive Summary  \nData and AI professional with 10 years of experience in financial services and data-driven technology solutions. Experienced in Python, SQL, machine learning, and AI automation systems including RAG-based LLM applications. Built data pipelines, anomaly detection models, and analytics dashboards supporting large-scale financial datasets. Currently pursuing MSc in Big Data and Artificial Intelligence at SRH Leipzig University, Germany.\n\n## Key Technical Skills & Entities  \n[[python]], [[postgresql]], [[openai-api]], [[vector-databases]], [[genai]], [[prompt-engineering]], [[agile]], [[scrum]], [[rest-apis]], [[datadog]]\n\n## Career Highlights & Key Projects  \n- AI / Data Science Intern at Xynaptics (Sweden): Developing an AI-driven Enneagram application using vibe coding and AI-assisted development tools.\n- Manager at Motilal Oswal Financial Services Ltd (India, 2017-2025): Developed an AI investor chatbot using RAG, PGVector, and OpenAI LLMs, enabling automated responses across 1,000+ investor documents and reducing manual support queries by 35%.\n- Automated NAV calculation and exception monitoring using Python and SQL, reducing manual processing time by 60% and improving reporting accuracy for daily portfolio valuations.\n- Analyzed 5M+ financial transactions using Python (Pandas, NumPy) to identify anomalies and support portfolio performance analysis.\n- Currently pursuing MSc in Big Data and Artificial Intelligence at SRH Leipzig University, Germany (2025-2027).\n\n## Matched Job Listings in Wiki  \n- [[job-2026-klarna-staff-agentic-ai-engineer]] (Staff Agentic AI Engineer at [[klarna]]) - **Match Score: 95%** (Matching Skills: [[vector-databases]], [[python]], [[openai-api]])\n- [[job-2026-trendyol-principal-enterprise-it-consultant]] (Principal Enterprise IT & Strategy Consultant at [[trendyol]]) - **Match Score: 85%** (Matching Skills: [[agile]], [[scrum]])\n- [[job-2026-ericsson-lead-devops-platform-engineer]] (Lead DevOps & Platform Infrastructure Engineer at [[ericsson]]) - **Match Score: 85%** (Matching Skills: [[datadog]], [[python]])\n- [[job-2026-getir-fullstack-systems-architect]] (Senior Full-Stack Systems Architect at [[getir]]) - **Match Score: 85%** (Matching Skills: [[rest-apis]], [[postgresql]])\n- [[job-2026-tele2-cloud-secops-security-engineer]] (Senior Cloud SecOps & Security Engineer at [[tele2]]) - **Match Score: 75%** (Matching Skills: [[python]])\n- [[job-2026-deloitte-turkey-sap-s4hana-lead-consultant]] (Senior SAP S/4HANA & Integration Consultant at [[deloitte-turkey]]) - **Match Score: 75%** (Matching Skills: [[rest-apis]])\n- [[job-2026-insider-creative-tech-seo-engineer]] (Technical SEO & Creative Tech Engineer at [[insider]]) - **Match Score: 75%** (Matching Skills: [[python]])\n- [[job-2026-spotify-senior-ios-mobile-engineer]] (Senior iOS & Cross-Platform Mobile Engineer at [[spotify]]) - **Match Score: 75%** (Matching Skills: [[rest-apis]])\n\n## Related Country Nodes  \n- [[sweden]]\n- [[turkey]]\n"
+    },
     {
       "id": "gokhan-tenekecioglu",
       "name": "Gökhan Tenekecioğlu",
@@ -516,44 +559,44 @@
       ],
       "summary": "Coach, SAP Technology and AI Evangelist / Professional with over 25 years of experience in SAP Platform Leadership, SAP S/4HANA & RISE Migrations, Basis Architecture, and Disaster Recovery. Creator of GNDLF (AI-based SAP Basis Assistant, gndlf.io), Xynaptics.com (Voice AI), and ST03.net (SAP Performance Data). Completed Data Science, MLOps, AI/LLM, Data Engineering, and AWS Bootcamps.",
       "tags": [
-        "prometheus",
-        "job-2026-tele2-cloud-secops-security-engineer",
-        "openai-api",
-        "deloitte-turkey",
-        "insider",
-        "tele2",
-        "vector-databases",
-        "docker",
-        "sap-s4hana",
-        "sap-btp",
-        "job-2026-ericsson-lead-devops-platform-engineer",
-        "it-consultancy",
-        "python",
-        "job-2026-deloitte-turkey-sap-s4hana-lead-consultant",
         "cicd",
-        "job-2026-spotify-senior-ios-mobile-engineer",
         "getir",
-        "job-2026-insider-creative-tech-seo-engineer",
         "ericsson",
-        "langgraph",
-        "langchain",
+        "job-2026-insider-creative-tech-seo-engineer",
+        "tele2",
+        "job-2026-deloitte-turkey-sap-s4hana-lead-consultant",
+        "sap-btp",
+        "insider",
+        "job-2026-spotify-senior-ios-mobile-engineer",
         "sap-fiori",
-        "aws",
-        "kubernetes",
-        "trendyol",
-        "turkey",
-        "spotify",
         "abap",
         "rest-apis",
+        "job-2026-ericsson-lead-devops-platform-engineer",
         "sweden",
-        "datadog",
+        "it-consultancy",
+        "spotify",
+        "langchain",
         "job-2026-getir-fullstack-systems-architect",
+        "openai-api",
+        "klarna",
+        "python",
+        "trendyol",
+        "turkey",
+        "job-2026-klarna-staff-agentic-ai-engineer",
+        "docker",
+        "langgraph",
+        "job-2026-tele2-cloud-secops-security-engineer",
+        "vector-databases",
+        "aws",
         "job-2026-trendyol-principal-enterprise-it-consultant",
         "agile",
-        "klarna",
-        "job-2026-klarna-staff-agentic-ai-engineer"
+        "prometheus",
+        "kubernetes",
+        "deloitte-turkey",
+        "sap-s4hana",
+        "datadog"
       ],
-      "raw_text": "# Gökhan Tenekecioğlu\n\n#candidate\n\n**Role / Specialty**: Coach, SAP Technology & AI Evangelist / Basis Architect  \n**Current Location**: Solna, Sweden (Stockholm) & Turkey  \n**Target Markets**: [[sweden]], [[turkey]]  \n**Experience Level**: 25+ Years Experience  \n**Contact**: gokhan.tenekecioglu@gmail.com | +46 708 200 866  \n\n---\n\n## Executive Summary  \nCoach, SAP Technology and AI Evangelist / Professional with over 25 years of experience in SAP Platform Leadership, SAP S/4HANA & RISE Migrations, Basis Architecture, and Disaster Recovery. Creator of GNDLF (AI-based SAP Basis Assistant, gndlf.io), Xynaptics.com (Voice AI), and ST03.net (SAP Performance Data). Completed Data Science, MLOps, AI/LLM, Data Engineering, and AWS Bootcamps.\n\n## Key Technical Skills & Entities  \n[[sap-s4hana]], [[abap]], [[sap-fiori]], [[sap-btp]], [[python]], [[langchain]], [[langgraph]], [[openai-api]], [[vector-databases]], [[aws]], [[docker]], [[kubernetes]], [[cicd]], [[agile]], [[it-consultancy]], [[rest-apis]], [[datadog]], [[prometheus]]\n\n## Career Highlights & Key Projects  \n- 25+ years leading enterprise SAP Migrations, Greenfield deployments, and S/4HANA transformations.\n- Creator of GNDLF (gndlf.io), an AI-based open-source SAP Basis Automation Assistant.\n- Founder/Creator of Xynaptics.com (Voice AI) and ST03.net (SAP Performance Analytics).\n- Completed Bootcamps in Data Science, MLOps, AI/LLM (Autumn 2025), Data Engineering, and AWS.\n- Specializes in local LLM integration for SAP enterprise security.\n\n## Matched Job Listings in Wiki  \n- [[job-2026-deloitte-turkey-sap-s4hana-lead-consultant]] (Senior SAP S/4HANA & Integration Consultant at [[deloitte-turkey]]) - **Match Score: 98%** (Matching Skills: [[sap-s4hana]], [[sap-btp]], [[rest-apis]], [[abap]])\n- [[job-2026-ericsson-lead-devops-platform-engineer]] (Lead DevOps & Platform Infrastructure Engineer at [[ericsson]]) - **Match Score: 98%** (Matching Skills: [[kubernetes]], [[aws]], [[docker]], [[datadog]])\n- [[job-2026-getir-fullstack-systems-architect]] (Senior Full-Stack Systems Architect at [[getir]]) - **Match Score: 98%** (Matching Skills: [[rest-apis]], [[cicd]], [[docker]], [[aws]])\n- [[job-2026-klarna-staff-agentic-ai-engineer]] (Staff Agentic AI Engineer at [[klarna]]) - **Match Score: 98%** (Matching Skills: [[kubernetes]], [[langgraph]], [[aws]], [[docker]])\n- [[job-2026-tele2-cloud-secops-security-engineer]] (Senior Cloud SecOps & Security Engineer at [[tele2]]) - **Match Score: 95%** (Matching Skills: [[python]], [[docker]], [[aws]])\n- [[job-2026-trendyol-principal-enterprise-it-consultant]] (Principal Enterprise IT & Strategy Consultant at [[trendyol]]) - **Match Score: 85%** (Matching Skills: [[it-consultancy]], [[agile]])\n- [[job-2026-spotify-senior-ios-mobile-engineer]] (Senior iOS & Cross-Platform Mobile Engineer at [[spotify]]) - **Match Score: 85%** (Matching Skills: [[rest-apis]], [[cicd]])\n- [[job-2026-insider-creative-tech-seo-engineer]] (Technical SEO & Creative Tech Engineer at [[insider]]) - **Match Score: 75%** (Matching Skills: [[python]])\n\n## Related Country Nodes  \n- [[sweden]]\n- [[turkey]]\n"
+      "raw_text": "# Gökhan Tenekecioğlu\n\n#candidate\n\n**Role / Specialty**: Coach, SAP Technology & AI Evangelist / Basis Architect  \n**Current Location**: Solna, Sweden (Stockholm) & Turkey  \n**Target Markets**: [[sweden]], [[turkey]]  \n**Experience Level**: 25+ Years Experience  \n**Contact**: gokhan.tenekecioglu@gmail.com | +46 708 200 866  \n\n---\n\n## Executive Summary  \nCoach, SAP Technology and AI Evangelist / Professional with over 25 years of experience in SAP Platform Leadership, SAP S/4HANA & RISE Migrations, Basis Architecture, and Disaster Recovery. Creator of GNDLF (AI-based SAP Basis Assistant, gndlf.io), Xynaptics.com (Voice AI), and ST03.net (SAP Performance Data). Completed Data Science, MLOps, AI/LLM, Data Engineering, and AWS Bootcamps.\n\n## Key Technical Skills & Entities  \n[[sap-s4hana]], [[abap]], [[sap-fiori]], [[sap-btp]], [[python]], [[langchain]], [[langgraph]], [[openai-api]], [[vector-databases]], [[aws]], [[docker]], [[kubernetes]], [[cicd]], [[agile]], [[it-consultancy]], [[rest-apis]], [[datadog]], [[prometheus]]\n\n## Career Highlights & Key Projects  \n- 25+ years leading enterprise SAP Migrations, Greenfield deployments, and S/4HANA transformations.\n- Creator of GNDLF (gndlf.io), an AI-based open-source SAP Basis Automation Assistant.\n- Founder/Creator of Xynaptics.com (Voice AI) and ST03.net (SAP Performance Analytics).\n- Completed Bootcamps in Data Science, MLOps, AI/LLM (Autumn 2025), Data Engineering, and AWS.\n- Specializes in local LLM integration for SAP enterprise security.\n\n## Matched Job Listings in Wiki  \n- [[job-2026-deloitte-turkey-sap-s4hana-lead-consultant]] (Senior SAP S/4HANA & Integration Consultant at [[deloitte-turkey]]) - **Match Score: 98%** (Matching Skills: [[sap-s4hana]], [[sap-btp]], [[abap]], [[it-consultancy]])\n- [[job-2026-ericsson-lead-devops-platform-engineer]] (Lead DevOps & Platform Infrastructure Engineer at [[ericsson]]) - **Match Score: 98%** (Matching Skills: [[kubernetes]], [[aws]], [[python]], [[docker]])\n- [[job-2026-getir-fullstack-systems-architect]] (Senior Full-Stack Systems Architect at [[getir]]) - **Match Score: 98%** (Matching Skills: [[cicd]], [[rest-apis]], [[aws]], [[docker]])\n- [[job-2026-klarna-staff-agentic-ai-engineer]] (Staff Agentic AI Engineer at [[klarna]]) - **Match Score: 98%** (Matching Skills: [[langchain]], [[kubernetes]], [[aws]], [[openai-api]])\n- [[job-2026-tele2-cloud-secops-security-engineer]] (Senior Cloud SecOps & Security Engineer at [[tele2]]) - **Match Score: 95%** (Matching Skills: [[python]], [[aws]], [[docker]])\n- [[job-2026-trendyol-principal-enterprise-it-consultant]] (Principal Enterprise IT & Strategy Consultant at [[trendyol]]) - **Match Score: 85%** (Matching Skills: [[agile]], [[it-consultancy]])\n- [[job-2026-spotify-senior-ios-mobile-engineer]] (Senior iOS & Cross-Platform Mobile Engineer at [[spotify]]) - **Match Score: 85%** (Matching Skills: [[rest-apis]], [[cicd]])\n- [[job-2026-insider-creative-tech-seo-engineer]] (Technical SEO & Creative Tech Engineer at [[insider]]) - **Match Score: 75%** (Matching Skills: [[python]])\n\n## Related Country Nodes  \n- [[sweden]]\n- [[turkey]]\n"
     },
     {
       "id": "ilknur-nina-ulug",
@@ -569,33 +612,33 @@
       ],
       "summary": "Tech-savvy Media & Technology Specialist with an M.Sc. in Informatics focused on digital transformation, AI integration, prompt engineering, digital literacy, multimedia production, video editing, and technical SEO. Freelance AI & Digital Media Consultant at Sooezy Academy.",
       "tags": [
-        "job-2026-tele2-cloud-secops-security-engineer",
+        "ericsson",
+        "job-2026-insider-creative-tech-seo-engineer",
+        "tele2",
+        "ux-design",
+        "insider",
+        "job-2026-ericsson-lead-devops-platform-engineer",
+        "final-cut-pro",
+        "sweden",
         "genai",
         "gemini",
-        "seo",
-        "insider",
-        "tele2",
-        "final-cut-pro",
-        "sap-joule",
+        "adobe-creative-suite",
         "digital-marketing",
-        "notebooklm",
-        "job-2026-ericsson-lead-devops-platform-engineer",
+        "klarna",
         "python",
-        "job-2026-insider-creative-tech-seo-engineer",
-        "instagram-growth",
-        "claude",
-        "ux-design",
-        "ericsson",
         "capcut",
+        "instagram-growth",
         "trendyol",
         "turkey",
-        "sweden",
-        "adobe-creative-suite",
         "prompt-engineering",
+        "notebooklm",
+        "job-2026-klarna-staff-agentic-ai-engineer",
+        "job-2026-tele2-cloud-secops-security-engineer",
+        "claude",
         "job-2026-trendyol-principal-enterprise-it-consultant",
         "agile",
-        "klarna",
-        "job-2026-klarna-staff-agentic-ai-engineer"
+        "seo",
+        "sap-joule"
       ],
       "raw_text": "# İlknur Nina Uluğ\n\n#candidate\n\n**Role / Specialty**: Creative Tech & Digital Media Specialist / AI Integration Consultant  \n**Current Location**: Tumba, Sweden (Stockholm) & Turkey  \n**Target Markets**: [[sweden]], [[turkey]]  \n**Experience Level**: 10+ Years Experience  \n**Contact**: ilknur.ninaa@gmail.com | N/A  \n\n---\n\n## Executive Summary  \nTech-savvy Media & Technology Specialist with an M.Sc. in Informatics focused on digital transformation, AI integration, prompt engineering, digital literacy, multimedia production, video editing, and technical SEO. Freelance AI & Digital Media Consultant at Sooezy Academy.\n\n## Key Technical Skills & Entities  \n[[python]], [[gemini]], [[claude]], [[notebooklm]], [[seo]], [[digital-marketing]], [[instagram-growth]], [[adobe-creative-suite]], [[final-cut-pro]], [[capcut]], [[ux-design]], [[prompt-engineering]], [[genai]], [[agile]], [[sap-joule]]\n\n## Career Highlights & Key Projects  \n- Freelance AI & Digital Media Consultant at Sooezy Academy (Stockholm) automating workflows with GenAI (Gemini, Claude, NotebookLM) and building MVPs with Lovable & VS Code.\n- M.Sc. in Informatics (High Honor) from Marmara University focusing on digital transformation, UX, and social media analytics; completed PhD studies (paused).\n- Experienced Digital Transformation & Literacy Trainer for 150+ merchants (Üsküdar Municipality) and digital advertising trainer.\n- Hands-on video editor & photographer (Final Cut Pro, CapCut, Adobe Creative Suite) and SEO specialist boosting organic reader traffic.\n- Holds SAP Joule certification ('Discovering Joule with SAP Concur Solutions'), Swedish driving license (B), pursuing SFI Course D.\n\n## Matched Job Listings in Wiki  \n- [[job-2026-tele2-cloud-secops-security-engineer]] (Senior Cloud SecOps & Security Engineer at [[tele2]]) - **Match Score: 75%** (Matching Skills: [[python]])\n- [[job-2026-trendyol-principal-enterprise-it-consultant]] (Principal Enterprise IT & Strategy Consultant at [[trendyol]]) - **Match Score: 75%** (Matching Skills: [[agile]])\n- [[job-2026-ericsson-lead-devops-platform-engineer]] (Lead DevOps & Platform Infrastructure Engineer at [[ericsson]]) - **Match Score: 75%** (Matching Skills: [[python]])\n- [[job-2026-insider-creative-tech-seo-engineer]] (Technical SEO & Creative Tech Engineer at [[insider]]) - **Match Score: 75%** (Matching Skills: [[python]])\n- [[job-2026-klarna-staff-agentic-ai-engineer]] (Staff Agentic AI Engineer at [[klarna]]) - **Match Score: 75%** (Matching Skills: [[python]])\n\n## Related Country Nodes  \n- [[sweden]]\n- [[turkey]]\n"
     },
@@ -613,31 +656,31 @@
       ],
       "summary": "Experienced IT Professional & SAP BASIS Administrator specializing in SAP S/4HANA, NetWeaver, Fiori, Oracle Database Administration, IBM AIX / Solaris, SQL Server, and Python for AI projects. Former SAP BASIS Consultant at NTT DATA (Mercedes Daimler AG) and BAE Systems.",
       "tags": [
-        "job-2026-tele2-cloud-secops-security-engineer",
-        "iam",
-        "deloitte-turkey",
-        "insider",
-        "tele2",
-        "sap-s4hana",
-        "it-consultancy",
-        "python",
-        "job-2026-deloitte-turkey-sap-s4hana-lead-consultant",
         "getir",
         "job-2026-insider-creative-tech-seo-engineer",
+        "tele2",
+        "job-2026-deloitte-turkey-sap-s4hana-lead-consultant",
+        "insider",
         "postgresql",
-        "iso27001",
         "sap-fiori",
-        "scrum",
-        "trendyol",
-        "turkey",
         "abap",
         "rest-apis",
+        "scrum",
+        "it-consultancy",
         "job-2026-getir-fullstack-systems-architect",
+        "secops",
+        "python",
+        "trendyol",
+        "turkey",
+        "iso27001",
+        "job-2026-tele2-cloud-secops-security-engineer",
         "job-2026-trendyol-principal-enterprise-it-consultant",
         "agile",
-        "secops"
+        "iam",
+        "deloitte-turkey",
+        "sap-s4hana"
       ],
-      "raw_text": "# Mehmet Eyyüp Gülgün\n\n#candidate\n\n**Role / Specialty**: Senior SAP BASIS Consultant & System Architect  \n**Current Location**: Gaziantep, Turkey  \n**Target Markets**: [[turkey]]  \n**Experience Level**: 12+ Years Experience  \n**Contact**: megulgun@gmail.com | +90 (540) 401-02 03  \n\n---\n\n## Executive Summary  \nExperienced IT Professional & SAP BASIS Administrator specializing in SAP S/4HANA, NetWeaver, Fiori, Oracle Database Administration, IBM AIX / Solaris, SQL Server, and Python for AI projects. Former SAP BASIS Consultant at NTT DATA (Mercedes Daimler AG) and BAE Systems.\n\n## Key Technical Skills & Entities  \n[[sap-s4hana]], [[abap]], [[sap-fiori]], [[python]], [[postgresql]], [[rest-apis]], [[iam]], [[secops]], [[it-consultancy]], [[agile]], [[scrum]], [[iso27001]]\n\n## Career Highlights & Key Projects  \n- 12+ years expertise in SAP BASIS Administration, S/4HANA, NetWeaver, and Fiori deployment.\n- SAP BASIS Consultant for NTT DATA on the Mercedes Daimler AG project.\n- System Architect for BAE Systems ALIS F-35 project managing SAP network DMZ & IPsec VPNs.\n- Former IT Department Manager at ARNEH Clothing managing 14 enterprise branches.\n- Developed AI case scenario module for healthcare intensive care training.\n\n## Matched Job Listings in Wiki  \n- [[job-2026-deloitte-turkey-sap-s4hana-lead-consultant]] (Senior SAP S/4HANA & Integration Consultant at [[deloitte-turkey]]) - **Match Score: 98%** (Matching Skills: [[sap-s4hana]], [[iam]], [[secops]], [[rest-apis]])\n- [[job-2026-trendyol-principal-enterprise-it-consultant]] (Principal Enterprise IT & Strategy Consultant at [[trendyol]]) - **Match Score: 95%** (Matching Skills: [[scrum]], [[agile]], [[it-consultancy]])\n- [[job-2026-getir-fullstack-systems-architect]] (Senior Full-Stack Systems Architect at [[getir]]) - **Match Score: 85%** (Matching Skills: [[postgresql]], [[rest-apis]])\n- [[job-2026-tele2-cloud-secops-security-engineer]] (Senior Cloud SecOps & Security Engineer at [[tele2]]) - **Match Score: 80%** (Matching Skills: [[secops]], [[iam]], [[python]])\n- [[job-2026-insider-creative-tech-seo-engineer]] (Technical SEO & Creative Tech Engineer at [[insider]]) - **Match Score: 75%** (Matching Skills: [[python]])\n\n## Related Country Nodes  \n- [[turkey]]\n"
+      "raw_text": "# Mehmet Eyyüp Gülgün\n\n#candidate\n\n**Role / Specialty**: Senior SAP BASIS Consultant & System Architect  \n**Current Location**: Gaziantep, Turkey  \n**Target Markets**: [[turkey]]  \n**Experience Level**: 12+ Years Experience  \n**Contact**: megulgun@gmail.com | +90 (540) 401-02 03  \n\n---\n\n## Executive Summary  \nExperienced IT Professional & SAP BASIS Administrator specializing in SAP S/4HANA, NetWeaver, Fiori, Oracle Database Administration, IBM AIX / Solaris, SQL Server, and Python for AI projects. Former SAP BASIS Consultant at NTT DATA (Mercedes Daimler AG) and BAE Systems.\n\n## Key Technical Skills & Entities  \n[[sap-s4hana]], [[abap]], [[sap-fiori]], [[python]], [[postgresql]], [[rest-apis]], [[iam]], [[secops]], [[it-consultancy]], [[agile]], [[scrum]], [[iso27001]]\n\n## Career Highlights & Key Projects  \n- 12+ years expertise in SAP BASIS Administration, S/4HANA, NetWeaver, and Fiori deployment.\n- SAP BASIS Consultant for NTT DATA on the Mercedes Daimler AG project.\n- System Architect for BAE Systems ALIS F-35 project managing SAP network DMZ & IPsec VPNs.\n- Former IT Department Manager at ARNEH Clothing managing 14 enterprise branches.\n- Developed AI case scenario module for healthcare intensive care training.\n\n## Matched Job Listings in Wiki  \n- [[job-2026-deloitte-turkey-sap-s4hana-lead-consultant]] (Senior SAP S/4HANA & Integration Consultant at [[deloitte-turkey]]) - **Match Score: 98%** (Matching Skills: [[sap-s4hana]], [[abap]], [[iam]], [[it-consultancy]])\n- [[job-2026-trendyol-principal-enterprise-it-consultant]] (Principal Enterprise IT & Strategy Consultant at [[trendyol]]) - **Match Score: 95%** (Matching Skills: [[agile]], [[scrum]], [[it-consultancy]])\n- [[job-2026-getir-fullstack-systems-architect]] (Senior Full-Stack Systems Architect at [[getir]]) - **Match Score: 85%** (Matching Skills: [[rest-apis]], [[postgresql]])\n- [[job-2026-tele2-cloud-secops-security-engineer]] (Senior Cloud SecOps & Security Engineer at [[tele2]]) - **Match Score: 80%** (Matching Skills: [[python]], [[iam]], [[secops]])\n- [[job-2026-insider-creative-tech-seo-engineer]] (Technical SEO & Creative Tech Engineer at [[insider]]) - **Match Score: 75%** (Matching Skills: [[python]])\n\n## Related Country Nodes  \n- [[turkey]]\n"
     },
     {
       "id": "oya-paktas",
@@ -654,30 +697,30 @@
       ],
       "summary": "Experienced Cyber Security & Software Business Development Specialist with an M.Sc. in Cyber Security (Ahmet Yesevi Univ., GPA 3.90). Specializes in global channel management, B2B technology sales strategy, distributor network expansion, penetration testing (TryHackMe Jr. Pentester), and Security Operations (SOC Level 1 / SIEM / EDR). Former Global Channel Manager at SECHARD Cyber Security (200+ global client meetings) and Global Sales Manager at SECROMIX.",
       "tags": [
-        "job-2026-tele2-cloud-secops-security-engineer",
-        "iam",
-        "deloitte-turkey",
-        "insider",
-        "tele2",
-        "job-2026-ericsson-lead-devops-platform-engineer",
-        "it-consultancy",
-        "python",
-        "job-2026-deloitte-turkey-sap-s4hana-lead-consultant",
-        "job-2026-insider-creative-tech-seo-engineer",
-        "penetration-testing",
-        "soc2",
         "ericsson",
-        "iso27001",
+        "job-2026-insider-creative-tech-seo-engineer",
+        "tele2",
+        "job-2026-deloitte-turkey-sap-s4hana-lead-consultant",
+        "insider",
+        "job-2026-ericsson-lead-devops-platform-engineer",
+        "sweden",
+        "soc2",
+        "it-consultancy",
+        "secops",
+        "klarna",
+        "python",
         "trendyol",
         "turkey",
-        "sweden",
+        "job-2026-klarna-staff-agentic-ai-engineer",
+        "iso27001",
+        "job-2026-tele2-cloud-secops-security-engineer",
         "job-2026-trendyol-principal-enterprise-it-consultant",
         "agile",
-        "klarna",
-        "job-2026-klarna-staff-agentic-ai-engineer",
-        "secops"
+        "iam",
+        "penetration-testing",
+        "deloitte-turkey"
       ],
-      "raw_text": "# Oya Paktaş\n\n#candidate\n\n**Role / Specialty**: Cyber Security Business Development Manager & Global Channel Lead  \n**Current Location**: Ankara, Turkey  \n**Target Markets**: [[turkey]], [[sweden]]  \n**Experience Level**: 10+ Years Experience  \n**Contact**: oyapaktas06@gmail.com | +90 (544) 303-15 67  \n\n---\n\n## Executive Summary  \nExperienced Cyber Security & Software Business Development Specialist with an M.Sc. in Cyber Security (Ahmet Yesevi Univ., GPA 3.90). Specializes in global channel management, B2B technology sales strategy, distributor network expansion, penetration testing (TryHackMe Jr. Pentester), and Security Operations (SOC Level 1 / SIEM / EDR). Former Global Channel Manager at SECHARD Cyber Security (200+ global client meetings) and Global Sales Manager at SECROMIX.\n\n## Key Technical Skills & Entities  \n[[secops]], [[penetration-testing]], [[iam]], [[iso27001]], [[soc2]], [[python]], [[it-consultancy]], [[agile]]\n\n## Career Highlights & Key Projects  \n- Global Channel Manager at SECHARD Cyber Security: Organized 200+ global customer meetings in one year, established strategic international distributor & reseller partnerships.\n- Master's Degree (M.Sc.) in Cyber Security from Ahmet Yesevi University (GPA: 3.90/4.00, 2020-2022); B.A. in Business Administration from Anadolu University.\n- Global Sales Manager at SECROMIX Cyber Security driving international sales expansion in South Africa & EMEA regions.\n- Founder & Business Development Consultant at Fementech providing global B2B strategy, market analysis, and sales optimization for tech firms.\n- Certified in Jr. Penetration Testing & SOC Level 1 (TryHackMe), ISO/IEC 27001 Security Officer, SIEM Alert Rule Dev & EDR (Picus), and IBM Data Analysis with Python.\n\n## Matched Job Listings in Wiki  \n- [[job-2026-tele2-cloud-secops-security-engineer]] (Senior Cloud SecOps & Security Engineer at [[tele2]]) - **Match Score: 98%** (Matching Skills: [[secops]], [[iam]], [[python]], [[penetration-testing]])\n- [[job-2026-deloitte-turkey-sap-s4hana-lead-consultant]] (Senior SAP S/4HANA & Integration Consultant at [[deloitte-turkey]]) - **Match Score: 95%** (Matching Skills: [[secops]], [[iam]], [[it-consultancy]])\n- [[job-2026-trendyol-principal-enterprise-it-consultant]] (Principal Enterprise IT & Strategy Consultant at [[trendyol]]) - **Match Score: 85%** (Matching Skills: [[it-consultancy]], [[agile]])\n- [[job-2026-ericsson-lead-devops-platform-engineer]] (Lead DevOps & Platform Infrastructure Engineer at [[ericsson]]) - **Match Score: 75%** (Matching Skills: [[python]])\n- [[job-2026-insider-creative-tech-seo-engineer]] (Technical SEO & Creative Tech Engineer at [[insider]]) - **Match Score: 75%** (Matching Skills: [[python]])\n- [[job-2026-klarna-staff-agentic-ai-engineer]] (Staff Agentic AI Engineer at [[klarna]]) - **Match Score: 75%** (Matching Skills: [[python]])\n\n## Related Country Nodes  \n- [[turkey]]\n- [[sweden]]\n"
+      "raw_text": "# Oya Paktaş\n\n#candidate\n\n**Role / Specialty**: Cyber Security Business Development Manager & Global Channel Lead  \n**Current Location**: Ankara, Turkey  \n**Target Markets**: [[turkey]], [[sweden]]  \n**Experience Level**: 10+ Years Experience  \n**Contact**: oyapaktas06@gmail.com | +90 (544) 303-15 67  \n\n---\n\n## Executive Summary  \nExperienced Cyber Security & Software Business Development Specialist with an M.Sc. in Cyber Security (Ahmet Yesevi Univ., GPA 3.90). Specializes in global channel management, B2B technology sales strategy, distributor network expansion, penetration testing (TryHackMe Jr. Pentester), and Security Operations (SOC Level 1 / SIEM / EDR). Former Global Channel Manager at SECHARD Cyber Security (200+ global client meetings) and Global Sales Manager at SECROMIX.\n\n## Key Technical Skills & Entities  \n[[secops]], [[penetration-testing]], [[iam]], [[iso27001]], [[soc2]], [[python]], [[it-consultancy]], [[agile]]\n\n## Career Highlights & Key Projects  \n- Global Channel Manager at SECHARD Cyber Security: Organized 200+ global customer meetings in one year, established strategic international distributor & reseller partnerships.\n- Master's Degree (M.Sc.) in Cyber Security from Ahmet Yesevi University (GPA: 3.90/4.00, 2020-2022); B.A. in Business Administration from Anadolu University.\n- Global Sales Manager at SECROMIX Cyber Security driving international sales expansion in South Africa & EMEA regions.\n- Founder & Business Development Consultant at Fementech providing global B2B strategy, market analysis, and sales optimization for tech firms.\n- Certified in Jr. Penetration Testing & SOC Level 1 (TryHackMe), ISO/IEC 27001 Security Officer, SIEM Alert Rule Dev & EDR (Picus), and IBM Data Analysis with Python.\n\n## Matched Job Listings in Wiki  \n- [[job-2026-tele2-cloud-secops-security-engineer]] (Senior Cloud SecOps & Security Engineer at [[tele2]]) - **Match Score: 98%** (Matching Skills: [[penetration-testing]], [[iam]], [[secops]], [[python]])\n- [[job-2026-deloitte-turkey-sap-s4hana-lead-consultant]] (Senior SAP S/4HANA & Integration Consultant at [[deloitte-turkey]]) - **Match Score: 95%** (Matching Skills: [[iam]], [[secops]], [[it-consultancy]])\n- [[job-2026-trendyol-principal-enterprise-it-consultant]] (Principal Enterprise IT & Strategy Consultant at [[trendyol]]) - **Match Score: 85%** (Matching Skills: [[agile]], [[it-consultancy]])\n- [[job-2026-ericsson-lead-devops-platform-engineer]] (Lead DevOps & Platform Infrastructure Engineer at [[ericsson]]) - **Match Score: 75%** (Matching Skills: [[python]])\n- [[job-2026-insider-creative-tech-seo-engineer]] (Technical SEO & Creative Tech Engineer at [[insider]]) - **Match Score: 75%** (Matching Skills: [[python]])\n- [[job-2026-klarna-staff-agentic-ai-engineer]] (Staff Agentic AI Engineer at [[klarna]]) - **Match Score: 75%** (Matching Skills: [[python]])\n\n## Related Country Nodes  \n- [[turkey]]\n- [[sweden]]\n"
     }
   ]
 }

@@ -3,7 +3,7 @@
 Welcome to the personal knowledge base and automated job market intelligence system built per the Andrej Karpathy LLM Wiki pattern.
 
 ## System Statistics
-- **Ingested Candidates**: 4
+- **Ingested Candidates**: 5
 - **Target Countries**: 2 ([[sweden]], [[turkey]])
 - **Total Ingested Jobs**: 8
 - **Tracked Companies**: 8
@@ -17,6 +17,7 @@ Welcome to the personal knowledge base and automated job market intelligence sys
 - [[mehmet-eyyup-gulgun]] - **Mehmet Eyyüp Gülgün** (Senior SAP BASIS Consultant & System Architect) - Target: [[turkey]]
 - [[ilknur-nina-ulug]] - **İlknur Nina Uluğ** (Creative Tech & Digital Media Specialist / AI Integration Consultant) - Target: [[sweden]], [[turkey]]
 - [[oya-paktas]] - **Oya Paktaş** (Cyber Security Business Development Manager & Global Channel Lead) - Target: [[turkey]], [[sweden]]
+- [[garima-agrawal]] - **Garima Agrawal** (AI & Data Science Specialist / Data Analyst) - Target: [[sweden]], [[turkey]]
 
 ---
 

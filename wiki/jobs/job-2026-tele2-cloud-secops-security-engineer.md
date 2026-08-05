@@ -35,10 +35,11 @@
 
 ## Strategic Match Analysis  
 > Evaluated Candidate Profiles in Wiki:  
-- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 95%** (Key overlap: [[python]], [[docker]], [[aws]])
-- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 80%** (Key overlap: [[secops]], [[iam]], [[python]])
+- **[[gokhan-tenekecioglu]]** (Gökhan Tenekecioğlu): **Strategic Match Score 95%** (Key overlap: [[python]], [[aws]], [[docker]])
+- **[[mehmet-eyyup-gulgun]]** (Mehmet Eyyüp Gülgün): **Strategic Match Score 80%** (Key overlap: [[python]], [[iam]], [[secops]])
 - **[[ilknur-nina-ulug]]** (İlknur Nina Uluğ): **Strategic Match Score 75%** (Key overlap: [[python]])
-- **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 98%** (Key overlap: [[secops]], [[iam]], [[python]])
+- **[[oya-paktas]]** (Oya Paktaş): **Strategic Match Score 98%** (Key overlap: [[penetration-testing]], [[iam]], [[secops]])
+- **[[garima-agrawal]]** (Garima Agrawal): **Strategic Match Score 75%** (Key overlap: [[python]])
 
 ## Related Pages  
 - [[tele2]]  

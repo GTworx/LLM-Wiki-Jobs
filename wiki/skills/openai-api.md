@@ -12,6 +12,7 @@ API interface for integrating advanced language and vision models into autonomou
 
 ## Candidates Possessing This Skill  
 - [[gokhan-tenekecioglu]] - Gökhan Tenekecioğlu
+- [[garima-agrawal]] - Garima Agrawal
 
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  

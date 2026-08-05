@@ -12,6 +12,7 @@ Monitoring and security platform for cloud-scale applications, providing metrics
 
 ## Candidates Possessing This Skill  
 - [[gokhan-tenekecioglu]] - Gökhan Tenekecioğlu
+- [[garima-agrawal]] - Garima Agrawal
 
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  

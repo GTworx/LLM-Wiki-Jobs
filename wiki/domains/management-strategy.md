@@ -13,9 +13,9 @@ Covers digital transformation advisory, Agile organizational design, enterprise 
 
 ## Key Demanded Skills & Tools  
 - [[safe]]
+- [[agile]]
 - [[scrum]]
 - [[it-consultancy]]
-- [[agile]]
 
 ## Key Employers in Wiki  
 - [[trendyol]]

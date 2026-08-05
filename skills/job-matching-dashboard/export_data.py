@@ -74,7 +74,7 @@ def parse_job_file(file_path):
 
     # Skills extraction
     req_skills = re.findall(r'\[\[(.*?)\]\]', content)
-    excluded_tags = {company.lower(), domain.lower(), country_raw.lower(), "sweden", "turkey", "usa", "job", "gokhan-tenekecioglu", "mehmet-eyyup-gulgun", "ilknur-nina-ulug", "oya-paktas"}
+    excluded_tags = {company.lower(), domain.lower(), country_raw.lower(), "sweden", "turkey", "usa", "job", "gokhan-tenekecioglu", "mehmet-eyyup-gulgun", "ilknur-nina-ulug", "oya-paktas", "garima-agrawal"}
     unique_tags = []
     for tag in req_skills:
         if tag.lower() not in excluded_tags and tag not in unique_tags:

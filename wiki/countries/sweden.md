@@ -4,7 +4,7 @@
 
 **Country Code**: SE  
 **Active Wiki Postings**: 4  
-**Available Candidates**: 3  
+**Available Candidates**: 4  
 
 ---
 
@@ -15,6 +15,7 @@ Nordic tech hub focusing on Enterprise AI, FinTech, Telecom, and Mobile Engineer
 - [[gokhan-tenekecioglu]] - Gökhan Tenekecioğlu (Coach, SAP Technology & AI Evangelist / Basis Architect)
 - [[ilknur-nina-ulug]] - İlknur Nina Uluğ (Creative Tech & Digital Media Specialist / AI Integration Consultant)
 - [[oya-paktas]] - Oya Paktaş (Cyber Security Business Development Manager & Global Channel Lead)
+- [[garima-agrawal]] - Garima Agrawal (AI & Data Science Specialist / Data Analyst)
 
 ## Active Job Listings in Sweden  
 - [[job-2026-tele2-cloud-secops-security-engineer]] - Senior Cloud SecOps & Security Engineer at [[tele2]] (Stockholm, Sweden (Hybrid / Remote))
@@ -24,6 +25,6 @@ Nordic tech hub focusing on Enterprise AI, FinTech, Telecom, and Mobile Engineer
 
 ## Top Employers in Sweden  
 - [[spotify]]
-- [[klarna]]
 - [[tele2]]
 - [[ericsson]]
+- [[klarna]]

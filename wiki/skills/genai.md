@@ -12,6 +12,7 @@ Generative Artificial Intelligence applications across text, image, audio, and c
 
 ## Candidates Possessing This Skill  
 - [[ilknur-nina-ulug]] - İlknur Nina Uluğ
+- [[garima-agrawal]] - Garima Agrawal
 
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  

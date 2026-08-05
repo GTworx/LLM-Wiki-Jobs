@@ -407,7 +407,30 @@ def parse_candidates():
         ]
     })
 
+    # Candidate 5: Garima Agrawal
+    candidates.append({
+        "slug": "garima-agrawal",
+        "name": "Garima Agrawal",
+        "role": "AI & Data Science Specialist / Data Analyst",
+        "location": "Leipzig, Germany (Target: Sweden, Turkey & Europe)",
+        "countries": ["sweden", "turkey"],
+        "email": "Garima.agw01@gmail.com",
+        "phone": "+49 160 3438987",
+        "linkedin": "https://www.linkedin.com/in/garima-agrawal-291a78185/",
+        "experience": "10+ Years Experience",
+        "summary": "Data and AI professional with 10 years of experience in financial services and data-driven technology solutions. Experienced in Python, SQL, machine learning, and AI automation systems including RAG-based LLM applications. Built data pipelines, anomaly detection models, and analytics dashboards supporting large-scale financial datasets. Currently pursuing MSc in Big Data and Artificial Intelligence at SRH Leipzig University, Germany.",
+        "skills": ["python", "postgresql", "openai-api", "vector-databases", "genai", "prompt-engineering", "agile", "scrum", "rest-apis", "datadog"],
+        "highlights": [
+            "AI / Data Science Intern at Xynaptics (Sweden): Developing an AI-driven Enneagram application using vibe coding and AI-assisted development tools.",
+            "Manager at Motilal Oswal Financial Services Ltd (India, 2017-2025): Developed an AI investor chatbot using RAG, PGVector, and OpenAI LLMs, enabling automated responses across 1,000+ investor documents and reducing manual support queries by 35%.",
+            "Automated NAV calculation and exception monitoring using Python and SQL, reducing manual processing time by 60% and improving reporting accuracy for daily portfolio valuations.",
+            "Analyzed 5M+ financial transactions using Python (Pandas, NumPy) to identify anomalies and support portfolio performance analysis.",
+            "Currently pursuing MSc in Big Data and Artificial Intelligence at SRH Leipzig University, Germany (2025-2027)."
+        ]
+    })
+
     return candidates
+
 
 
 def generate_candidate_pages(candidates, postings):

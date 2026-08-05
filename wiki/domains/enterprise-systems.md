@@ -14,12 +14,12 @@ Focuses on core enterprise resource planning, business process automation, ABAP 
 ## Key Demanded Skills & Tools  
 - [[sap-s4hana]]
 - [[sap-btp]]
-- [[iam]]
-- [[odata-services]]
-- [[secops]]
-- [[rest-apis]]
 - [[abap]]
+- [[iam]]
 - [[it-consultancy]]
+- [[sap-fiori]]
+- [[secops]]
+- [[odata-services]]
 
 ## Key Employers in Wiki  
 - [[deloitte-turkey]]

@@ -12,6 +12,7 @@ High-dimensional vector index stores (e.g., Pinecone, Qdrant) enabling semantic 
 
 ## Candidates Possessing This Skill  
 - [[gokhan-tenekecioglu]] - Gökhan Tenekecioğlu
+- [[garima-agrawal]] - Garima Agrawal
 
 ## Required In Open Postings  
 List of job postings in the wiki requiring this skill:  
