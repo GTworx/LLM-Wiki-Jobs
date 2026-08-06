@@ -20,12 +20,22 @@ class QuietHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
 
 def main():
     os.chdir(DASHBOARD_DIR)
-    url = f"http://localhost:{PORT}/index.html"
+    
+    port = PORT
+    httpd = None
+    for try_port in range(PORT, PORT + 10):
+        try:
+            httpd = socketserver.TCPServer(("", try_port), QuietHTTPRequestHandler)
+            port = try_port
+            break
+        except OSError:
+            continue
+
+    url = f"http://localhost:{port}/index.html"
     print("==================================================")
     print("LLM Wiki Jobs Match & Recommendation Dashboard")
     print("==================================================")
     print(f"Dashboard URL: {url}")
-    print("Press Ctrl+C to stop the server.")
     
     # Open browser
     try:
@@ -33,11 +43,14 @@ def main():
     except Exception as e:
         print(f"Could not automatically open browser: {e}")
 
-    with socketserver.TCPServer(("", PORT), QuietHTTPRequestHandler) as httpd:
+    if httpd:
+        print("Press Ctrl+C to stop the server.")
         try:
             httpd.serve_forever()
         except KeyboardInterrupt:
             print("\nServer stopped.")
+    else:
+        print("Using existing running server instance.")
 
 if __name__ == "__main__":
     main()
